@@ -85,6 +85,12 @@ def text_model(train, test):
     m = Ridge(alpha=3.0).fit(sp.hstack([Xtr, F(train)]), train.y)
     return oof, m.predict(sp.hstack([Xte, F(test)])), (vec, m)
 
+BAN_WEIGHT, BAN_FLOOR = 1.0, None        # experiment knobs: extra training weight / minimum target for banned cards
+try:
+    import importlib.util as _u
+    _sp = _u.spec_from_file_location("ban_list", ROOT / "src/ban_list.py"); _bl = _u.module_from_spec(_sp); _sp.loader.exec_module(_bl)
+    BANNED = _bl.banned_ids()
+except Exception: BANNED = set()
 PARAMS = dict(objective="tweedie", tweedie_variance_power=1.3, learning_rate=0.03, num_leaves=31, min_data_in_leaf=40, feature_fraction=0.6,
               bagging_fraction=0.8, bagging_freq=1, lambda_l2=5.0, verbose=-1)
 def fit_predict(train, test, rounds=1500):
@@ -92,7 +98,11 @@ def fit_predict(train, test, rounds=1500):
     Xtr = pd.concat([train[FEATS].assign(text_score=oof), analog_feats(train, train)], axis=1)
     Xte = pd.concat([test[FEATS].assign(text_score=te_text), analog_feats(test, train)], axis=1)
     w = np.where(train.format == "standard", 2.0, 1.0)          # Standard is what we care most about
-    gbm = lgb.train(PARAMS, lgb.Dataset(Xtr, train.y, weight=w), rounds)
+    ban = train.oracle_id.isin(BANNED).values
+    w = w * np.where(ban, BAN_WEIGHT, 1.0)
+    y = train.y.values.copy()
+    if BAN_FLOOR is not None: y = np.where(ban, np.maximum(y, np.log1p(100 * BAN_FLOOR)), y)
+    gbm = lgb.train(PARAMS, lgb.Dataset(Xtr, y, weight=w), rounds)
     return gbm.predict(Xte), te_text, gbm, tm, Xte
 
 def report(name, test, pred, k=(25, 50, 100)):
