@@ -43,18 +43,45 @@ half.
 **Excluded on purpose**, because they leak whether a card turned out good: reprint count, EDHREC rank, price,
 and ban status.
 
-## How we know if it works (honest test)
+## How we know if it works (rolling backtest)
 
-The model trains **only on cards released before 2024**, then predicts 2024–2025 cards it has never seen. We
-compare those predictions with real play. Results are in `output/evaluation_temporal.csv`:
+For each year from 2018 to 2023 the model is retrained using **only what was known before that year**, then it
+predicts that year's new cards blind. That gives 6,119 Standard cards, 1,026 of which saw play and 494 of which
+became staples, each predicted without the model ever seeing its results (`src/07_backtest.py`).
 
-* **Spearman**: how well the predicted ranking matches the real ranking. 0 means random, 1 means perfect.
-* **hit@50**: of the 50 cards the model liked most, the share that actually reached at least 2% of decks.
-* **staples_in_top5pct**: of the cards that became real staples (10%+ of decks), the share the model ranked
-  in its top 5%.
+| Model's rank within its year | Saw play (2%+ of top decks) | Became a staple (10%+) |
+|---|---|---|
+| Top 2% | 69% | 46% |
+| 2-5% | 54% | 31% |
+| 5-10% | 44% | 26% |
+| 10-25% | 31% | 14% |
+| 25-50% | 20% | 9% |
+| Bottom 50% | 3.5% | 1.2% |
 
-It is compared against simple rules like "rarity only" and "rarity + mana value". If it can't beat those, it
-isn't learning anything.
+(For comparison, about 17% of all new cards see play and 8% become staples.)
+
+How well the ranking matches reality (Spearman correlation, 0 = random, 1 = perfect):
+
+| | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
+|---|---|---|---|---|---|---|
+| Model | 0.48 | 0.60 | 0.63 | 0.62 | 0.60 | 0.59 |
+| Baseline: rarity + mana value | 0.37 | 0.52 | 0.52 | 0.49 | 0.51 | 0.49 |
+
+Among rares and mythics only it scores 0.40, against 0.24 for the baseline. Pioneer: 0.53 vs 0.40. Modern: 0.41 vs 0.34.
+
+**Known blind spots:** expensive bombs (Atraxa, Sunfall and the Virtues were all underrated) and build-around or
+synergy cards (Lord Skitter, Subterranean Schooner).
+
+## Reading the ratings (`output/post_rotation_scores.csv`)
+
+* **tier**: the card's position in the pool, labeled with the backtest odds above. Start here.
+* **model_score**: the predicted % of top decks. It runs low, so compare it between cards and don't read it as
+  a literal percentage.
+* **current_std_play_pct**: actual Standard play right now. A high tier with no play means "sleeper or hidden
+  flaw: test it"; a low tier with high play means "synergy card, good in one deck".
+* **similar_past_cards**: the 3 closest earlier cards and how much they were played. Often the most useful column.
+* **top_reasons**: plain-English reasons, with the card's value and whether each one helped or hurt.
+* **reprint / is_land**: filters.
 
 ## Limits (please read)
 
