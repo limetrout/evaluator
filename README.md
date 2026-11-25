@@ -111,3 +111,58 @@ python src/06_score_pool.py         # score the post-rotation Standard pool (+ N
   percentile, current real Standard play, and the top reasons behind the score.
 * `output/holdout_standard_predictions.csv`: how the model did on cards it never saw.
 * `output/feature_importance.csv`: which card traits matter most.
+
+---
+
+# Synergy model (pairs of cards)
+
+**Question:** which cards make each other better? Can we predict that for cards that have never been played together?
+
+## What it measures
+**Lift**: how much more often two cards appear together in winning main decks than chance predicts. It only
+counts decks whose colors can cast both cards, so "two red cards in red decks" doesn't look like synergy
+(`src/09_pair_targets.py`). Each pair is measured over its first four quarters in Standard, Pioneer and Modern.
+A lift of 3 means "together three times more often than chance".
+
+Sanity check: the highest-lift Standard pairs since 2016 are Warriors tribal (Chief of the Edge, Mardu
+Woe-Reaper), Hardened Scales counters, Fleshbag Marauder + Merciless Executioner, and Goblin Piledriver Goblins.
+
+## How it predicts (`src/10_pair_model.py`)
+Every feature comes from the two printed cards, so the model can score pairs nobody has tried:
+* **role matches**: card A *provides* what card B *rewards* (tokens, +1/+1 counters, artifacts, enchantments,
+  cheap spells, self-mill, lifegain, mana creatures, extra lands, enter-the-battlefield creatures, death triggers,
+  legends, equipment/auras, energy, poison...)
+* **mentions**: B's text names A's creature type, card type, token type or keyword
+* **meaning similarity** from the language model, plus color overlap and mana curve
+
+## Forward-only test (no hindsight)
+For each year Y, the model trains only on co-occurrence seen **before** Y, then predicts pairs that only became
+possible in Y (at least one card is new). A **strong synergy** means at least 2× lift over 5 or more decks;
+23% of test pairs qualify.
+
+| Year | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |
+|---|---|---|---|---|---|---|
+| Ranking agreement: model | **0.30** | **0.18** | **0.27** | **0.27** | **0.31** | **0.31** |
+| Ranking agreement: similarity + color baseline | 0.19 | 0.12 | 0.13 | 0.16 | 0.14 | 0.12 |
+| Ranking agreement: hand-written role rules | 0.23 | 0.18 | 0.19 | 0.22 | 0.19 | 0.15 |
+| Model's top 2% that were strong synergies | **64%** | **52%** | **69%** | **74%** | **56%** | **65%** |
+
+The model beats both baselines every year, and its top picks are strong synergies about 2.8× as often as
+chance. Coverage is limited: it finds only about 19% of all strong synergies in its top 10%. Tried and rejected:
+"partner profiles" (does the new card resemble an old card's usual partners?), which made the top picks worse.
+
+## Output (`src/11_score_synergies.py`)
+* `output/synergy_pairs_post_rotation.csv`: the top predicted pairs among post-rotation Standard cards (out of
+  about 4 million scored), with status:
+  * **proven**: already played together in recent winning decks
+  * **hidden**: both cards are played, but almost never together
+  * **untested**: at least one card isn't being played
+* `output/synergy_highlights.csv`: curated lists (proven, hidden, untested, build-arounds). Each card appears at
+  most 3 times, both cards are tier C or better, and pairs are ranked by synergy plus playability.
+
+**Caveats:**
+* Lift measures "belongs in the same deck", not "wins games". Two weak cards can have a huge lift.
+* Artifact pairs are over-represented, because historical artifact decks had extreme lifts and the recent
+  Star Trek and Marvel sets are artifact-heavy.
+* Recent Standard data is still thin (about 600 decks since 2025), so "hidden" vs "untested" will sharpen as more
+  data downloads.

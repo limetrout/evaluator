@@ -1,0 +1,118 @@
+card_a,card_b,predicted_synergy,status,decks_together_recent,observed_lift,pair_value,weaker_card_pct,tier_a,tier_b,set_a,set_b,why,list
+Earth Kingdom Protectors,"Hakoda, Selfless Commander",3.62,proven,3,3.9,2.598,87.4,C,C,TLA,TLA,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+It'll Quench Ya!,Accumulate Wisdom,3.8,proven,20,12.2,2.582,83.2,B,C,TLA,TLA,similar text/strategy; one card names the other's type/token/keyword; shared creature type / mechanic,proven
+Mossborn Hydra,Tifa Lockhart,3.71,proven,5,5.0,2.579,84.6,C,C,FDN,FIN,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+South Pole Voyager,Earth Kingdom Protectors,3.5,proven,3,3.9,2.564,87.4,B,C,TLA,TLA,shared creature type / mechanic; similar text/strategy; one card names the other's type/token/keyword,proven
+Earth Kingdom Protectors,Earth King's Lieutenant,3.87,proven,3,3.9,2.487,75.6,C,C,TLA,TLA,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+Vibrance,Wistfulness,2.92,proven,4,4.8,2.486,94.2,A,B,ECL,ECL,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+Mossborn Hydra,Sazh's Chocobo,3.64,proven,21,9.3,2.454,77.4,C,C,FDN,FIN,similar text/strategy; +1/+1 counters → counter payoff; shared creature type / mechanic,proven
+It'll Quench Ya!,Combustion Technique,3.1,proven,20,12.2,2.38,83.2,B,C,TLA,TLA,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+South Pole Voyager,Great Divide Guide,2.67,proven,3,3.9,2.323,89.5,B,C,TLA,TLA,shared creature type / mechanic; similar text/strategy; one card names the other's type/token/keyword,proven
+Gran-Gran,Accumulate Wisdom,2.85,proven,22,11.0,2.294,83.2,C,C,TLA,TLA,several role matches; one card names the other's type/token/keyword; both reward the same thing,proven
+Perilous Snare,Pinnacle Starcage,2.91,proven,6,6.2,2.281,81.0,B+,C,DFT,EOE,shared creature type / mechanic; similar text/strategy; one card names the other's type/token/keyword,proven
+Accumulate Wisdom,Combustion Technique,2.78,proven,22,12.8,2.269,83.2,C,C,TLA,TLA,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+"Aang, Swift Savior // Aang and La, Ocean's Fury",Daydream,2.79,proven,4,4.6,2.258,82.1,B,C,TLA,SOS,+1/+1 counters → counter payoff; several role matches; ETB creature → blink/ETB doubler,proven
+Combustion Technique,Abandon Attachments,2.89,proven,22,10.8,2.217,77.0,C,C,TLA,TLA,one card names the other's type/token/keyword; shared creature type / mechanic; similar text/strategy,proven
+Wistfulness,Deceit,2.51,proven,5,4.5,2.209,85.8,B,C,ECL,ECL,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+Tifa Lockhart,Sazh's Chocobo,2.75,proven,5,4.6,2.174,77.4,C,C,FIN,FIN,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+Day of Judgment,Ultima,2.26,proven,5,3.4,2.148,88.7,B+,C,FDN,FIN,similar text/strategy; text_len_min; creature count,proven
+Jennifer Walters // The Sensational She-Hulk,"Surrak, Elusive Hunter",2.45,proven,12,7.5,2.148,83.5,B,C,MSH,TDM,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,proven
+Gran-Gran,Abandon Attachments,2.67,proven,22,9.1,2.139,77.0,C,C,TLA,TLA,several role matches; one card names the other's type/token/keyword; similar text/strategy,proven
+South Pole Voyager,"Aang, Swift Savior // Aang and La, Ocean's Fury",2.09,proven,3,3.8,2.119,92.0,B,B,TLA,TLA,shared creature type / mechanic; one card names the other's type/token/keyword; mv_diff,proven
+Burnout Bashtronaut,Shock,2.33,proven,8,5.6,2.118,84.9,C,C,DFT,SPM,curve; same colours; similar text/strategy,proven
+"Aang, Swift Savior // Aang and La, Ocean's Fury",Boiling Rock Rioter,2.6,proven,3,3.8,2.085,75.2,B,C,TLA,TLA,shared creature type / mechanic; similar text/strategy; one card names the other's type/token/keyword,proven
+Firebending Lesson,Consult the Star Charts,2.34,proven,5,2.3,2.082,82.1,B,C,TLA,EOE,similar text/strategy; one card names the other's type/token/keyword; shared creature type / mechanic,proven
+Jeskai Revelation,Together as One,2.26,proven,3,3.6,2.075,83.9,C,C,TDM,SOS,similar text/strategy; both reward the same thing; creature count,proven
+Boomerang Basics,It'll Quench Ya!,2.01,proven,8,3.1,2.065,91.1,B,B,TLA,TLA,shared creature type / mechanic; similar text/strategy; creature count,proven
+Earth King's Lieutenant,Boiling Rock Rioter,2.52,proven,3,3.9,2.053,75.2,C,C,TLA,TLA,shared creature type / mechanic; one card names the other's type/token/keyword; similar text/strategy,proven
+Perilous Snare,United Battlefront,1.98,proven,6,6.5,2.053,91.2,B+,B,DFT,TDM,rarity_min; same colours; similar text/strategy,proven
+Summon: Bahamut,Together as One,5.96,hidden,0,1.0,3.043,83.9,B,C,FIN,SOS,colors_union; both reward the same thing; same colours,hidden
+Anticausal Vestige,Summon: Bahamut,5.14,hidden,1,2.0,3.03,92.9,B+,B,EOE,FIN,colors_union; similar text/strategy; both reward the same thing,hidden
+"Ugin, Eye of the Storms",Summon: Bahamut,5.07,hidden,0,1.0,3.016,92.9,A,B,TDM,FIN,colors_union; both reward the same thing; same colours,hidden
+The Seriema,Weapons Manufacturing,6.16,hidden,0,1.0,2.973,77.0,C,C,EOE,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,hidden
+Soul-Guide Lantern,Weapons Manufacturing,5.89,hidden,0,1.0,2.928,77.0,B,C,FDN,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,hidden
+"Ugin, Eye of the Storms",Anticausal Vestige,4.47,hidden,0,1.0,2.925,95.2,A,B+,TDM,EOE,colors_union; same colours; both reward the same thing,hidden
+Stadium Headliner,Burnout Bashtronaut,4.43,hidden,0,0.9,2.791,86.8,B+,C,TDM,DFT,shared creature type / mechanic; similar text/strategy; curve,hidden
+Anticausal Vestige,Together as One,4.41,hidden,0,1.0,2.742,83.9,B+,C,EOE,SOS,colors_union; both reward the same thing; same colours,hidden
+Prismari Charm,Dreams of Laguna,3.65,hidden,0,1.0,2.728,95.5,A,B+,SOS,FIN,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,hidden
+Cori-Steel Cutter,Weapons Manufacturing,4.64,hidden,0,0.9,2.69,77.0,C,C,TDM,EOE,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,hidden
+Earth Kingdom Protectors,Resolute Reinforcements,4.08,hidden,0,1.0,2.639,82.1,C,C,TLA,FDN,shared creature type / mechanic; one card names the other's type/token/keyword; similar text/strategy,hidden
+Soul-Guide Lantern,"Haliya, Guided by Light",3.95,hidden,0,0.9,2.634,84.1,B,C,FDN,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,hidden
+Flitterwing Nuisance,"Kellan, Planar Trailblazer",3.42,hidden,0,1.0,2.626,93.0,B,B,ECL,FDN,similar text/strategy; shared creature type / mechanic; curve,hidden
+Dreams of Laguna,Daydream,3.88,hidden,0,1.0,2.588,82.1,B+,C,FIN,SOS,one card names the other's type/token/keyword; shared creature type / mechanic; both reward the same thing,hidden
+Dreams of Laguna,Esper Origins // Summon: Esper Maduin,3.5,hidden,0,0.9,2.574,88.1,B+,C,FIN,FIN,shared creature type / mechanic; similar text/strategy; one card names the other's type/token/keyword,hidden
+Nesting Bot,Pinnacle Starcage,3.85,hidden,0,0.9,2.563,81.0,C,C,DFT,EOE,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,hidden
+"Momo, Friendly Flier",Earth Kingdom Protectors,3.42,hidden,0,0.9,2.542,87.4,A,C,TLA,TLA,curve; shared creature type / mechanic; one card names the other's type/token/keyword,hidden
+The Wondrous Wasp,Flitterwing Nuisance,3.08,hidden,0,1.0,2.531,93.7,B+,B,MSH,ECL,several role matches; one card names the other's type/token/keyword; curve,hidden
+South Pole Voyager,"Kellan, Planar Trailblazer",3.1,hidden,0,1.0,2.525,93.0,B,B,TLA,FDN,shared creature type / mechanic; similar text/strategy; one card names the other's type/token/keyword,hidden
+Bulk Up,Daydream,3.63,hidden,0,1.0,2.52,82.1,C,C,FDN,SOS,similar text/strategy; one card names the other's type/token/keyword; shared creature type / mechanic,hidden
+Hexing Squelcher,Burnout Bashtronaut,3.34,hidden,2,2.6,2.508,86.8,A,C,ECL,DFT,shared creature type / mechanic; same colours; mv_diff,hidden
+"Haliya, Guided by Light",Brightglass Gearhulk,3.82,hidden,0,0.8,2.501,77.4,C,C,EOE,DFT,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,hidden
+Soul-Guide Lantern,Nesting Bot,3.21,hidden,0,1.0,2.48,87.7,B,C,FDN,DFT,shared creature type / mechanic; one card names the other's type/token/keyword; curve,hidden
+Jennifer Walters // The Sensational She-Hulk,"Cecil, Dark Knight // Cecil, Redeemed Paladin",3.12,hidden,0,0.6,2.458,87.9,B,C,MSH,FIN,shared creature type / mechanic; one card names the other's type/token/keyword; similar text/strategy,hidden
+Flamewake Phoenix,"Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",3.18,hidden,0,1.0,2.45,86.1,B,C,FDN,FIN,similar text/strategy; shared creature type / mechanic; both reward the same thing,hidden
+"Ugin, Eye of the Storms",Monument to Endurance,3.41,hidden,0,1.0,2.447,81.3,A,C,TDM,DFT,colors_union; same colours; colour overlap,hidden
+Flitterwing Nuisance,Burnout Bashtronaut,3.13,hidden,0,0.8,2.443,86.8,B,C,ECL,DFT,curve; several role matches; similar text/strategy,hidden
+Nesting Bot,Cori-Steel Cutter,3.34,hidden,0,0.9,2.429,81.5,C,C,DFT,TDM,shared creature type / mechanic; one card names the other's type/token/keyword; similar text/strategy,hidden
+Flashback,Impractical Joke,2.68,hidden,0,0.8,2.405,94.5,A,B,SOS,SOS,curve; several role matches; interaction_n,hidden
+Voice of Victory,Stadium Headliner,2.65,hidden,2,2.7,2.401,95.0,B+,B+,TDM,TDM,shared creature type / mechanic; one card names the other's type/token/keyword; similar text/strategy,hidden
+Great Gilded Boat,Ravenous Robots,10.53,untested,0,,3.581,81.8,C,C,HOB,TMT,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Synthesizer Labship,"Karn, Argent Defender",9.58,untested,0,,3.521,84.1,C,C,EOE,FRA,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,untested
+Marketback Walker,Synthesizer Labship,8.42,untested,0,,3.4,84.6,B+,C,DFT,EOE,artifacts → artifact payoff; one card names the other's type/token/keyword; curve,untested
+Soul-Guide Lantern,Synthesizer Labship,8.33,untested,0,1.0,3.389,84.6,B,C,FDN,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+"Tezzeret, Cruel Captain",Crystal Barricade,9.02,untested,0,,3.367,77.8,C,C,EOE,FDN,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Soul-Guide Lantern,"Tezzeret, Cruel Captain",7.77,untested,0,,3.358,87.2,B,C,FDN,EOE,artifacts → artifact payoff; several role matches; colors_union,untested
+Marketback Walker,Lt. Cmdr. Geordi La Forge,8.53,untested,0,,3.328,78.9,B+,C,DFT,TRK,artifacts → artifact payoff; +1/+1 counters → counter payoff; similar text/strategy,untested
+"Karn, Argent Defender",Ravenous Robots,8.07,untested,0,,3.316,81.8,C,C,FRA,TMT,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,untested
+"Tezzeret, Cruel Captain",Great Gilded Boat,7.81,untested,0,,3.308,83.5,C,C,EOE,HOB,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Marketback Walker,Voyager Glidecar,6.87,untested,0,,3.308,92.0,B+,B,DFT,DFT,+1/+1 counters → counter payoff; curve; several role matches,untested
+Ravenous Robots,Cori-Steel Cutter,7.85,untested,0,,3.283,81.5,C,C,TMT,TDM,one card names the other's type/token/keyword; artifacts → artifact payoff; similar text/strategy,untested
+Soul-Guide Lantern,Warmaker Gunship,7.67,untested,0,1.0,3.257,81.3,B,C,FDN,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+"Karn, Argent Defender",Warmaker Gunship,7.62,untested,0,,3.25,81.3,C,C,FRA,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Super-Adaptoid,Edge Rover,7.45,untested,0,,3.211,80.2,C,C,MSH,EOE,shared creature type / mechanic; one card names the other's type/token/keyword; similar text/strategy,untested
+Crystal Barricade,Weapons Manufacturing,7.64,untested,0,,3.188,77.0,C,C,FDN,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Abyssal Lotus,"Winter, Cursed Rider",6.5,untested,0,,3.17,86.5,C,C,NAU,DFT,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,untested
+Sorcerous Spyglass,"Lady Octopus, Inspired Inventor",7.08,untested,0,,3.131,78.2,B,C,FDN,SPM,artifacts → artifact payoff; one card names the other's type/token/keyword; similar text/strategy,untested
+Great Gilded Boat,Chrome Dome,7.0,untested,0,,3.125,78.6,C,C,HOB,TMT,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+"U.S.S. Discovery, at Black Alert",Lt. Cmdr. Geordi La Forge,6.81,untested,0,,3.102,78.9,B,C,TRK,TRK,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Technodrome,Weapons Manufacturing,6.91,untested,0,,3.088,77.0,C,C,TMT,EOE,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,untested
+Warmaker Gunship,Lt. Cmdr. Geordi La Forge,6.67,untested,0,,3.081,78.9,C,C,EOE,TRK,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Engineered Explosives,"Lady Octopus, Inspired Inventor",6.52,untested,0,,3.048,78.2,B,C,TRK,SPM,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Anticausal Vestige,Deep Space 9,5.06,untested,0,,3.021,93.3,B+,B,EOE,TRK,colors_union; both reward the same thing; similar text/strategy,untested
+"U.S.S. Discovery, at Black Alert",Weapons Manufacturing,6.42,untested,0,,3.015,77.0,B,C,TRK,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Gideon's Memorial,Hardlight Containment,4.82,untested,0,,3.011,95.9,B+,B+,FRA,EOE,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,untested
+"Chandra, Spark Hunter","U.S.S. Discovery, at Black Alert",4.98,untested,0,,2.985,92.0,A,B,DFT,TRK,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+"Chandra, Spark Hunter",Collation Trimatrix,4.64,untested,0,,2.984,96.7,A,B+,DFT,TRK,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,untested
+Deep Space 9,Summon: Bahamut,4.86,untested,0,,2.975,92.9,B,B,TRK,FIN,colors_union; cheap pair (curve); both reward the same thing,untested
+Gastal Thrillroller,"Winter, Cursed Rider",5.34,untested,0,,2.973,86.5,B,C,DFT,DFT,artifacts → artifact payoff; several role matches; both reward the same thing,untested
+Skyseer's Chariot,Voyager Glidecar,4.83,untested,0,,2.955,92.0,A,B,DFT,DFT,similar text/strategy; shared creature type / mechanic; one card names the other's type/token/keyword,untested
+"Chandra, Spark Hunter",Ring of Unity,13.17,untested,0,,3.343,51.0,A,D,DFT,NAU,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+"U.S.S. Discovery, at Black Alert",Ring of Unity,11.18,untested,0,,3.179,51.0,B,D,TRK,NAU,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Soul-Guide Lantern,Steelswarm Operator,10.01,untested,0,,2.996,46.2,B,F,FDN,EOE,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,build_around
+Marketback Walker,Aerial Doombot,9.86,untested,0,,2.807,34.6,B+,F,DFT,MSH,+1/+1 counters → counter payoff; similar text/strategy; curve,build_around
+"Chandra, Spark Hunter",Genji Glove,9.29,untested,0,,2.551,21.5,A,F,DFT,FIN,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Voyager Glidecar,"Shuri, Wakandan Inventor",8.16,untested,0,,2.567,31.2,B,F,DFT,MSH,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+"Krang, Utrom Warlord","Krang, Master Mind",8.11,untested,0,,3.096,66.8,B,D,TMT,TMT,artifacts → artifact payoff; similar text/strategy; one card names the other's type/token/keyword,build_around
+Featherbrained Filcher,Cargo Ship,8.02,untested,0,,3.055,64.9,B,D,TMT,FIN,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Marketback Walker,Judge Magister Gabranth,8.0,untested,0,,2.798,47.9,B+,F,DFT,FIN,several role matches; +1/+1 counters → counter payoff; artifacts → artifact payoff,build_around
+Sorcerous Spyglass,"Shuri, Wakandan Inventor",7.81,untested,0,,2.523,31.2,B,F,FDN,MSH,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,build_around
+Summon: Bahamut,The Ten Rings,7.77,untested,0,,2.744,46.2,B,F,FIN,MSH,colors_union; cheap pair (curve); both reward the same thing,build_around
+Engineered Explosives,Does Machines,7.76,untested,0,,2.939,59.3,B,D,TRK,TMT,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Borg Cube,Arc Reactor,7.74,untested,0,,2.879,55.5,B,D,TRK,MSH,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Voyager Glidecar,Isolinear Processor,7.68,untested,0,,2.826,52.5,B,D,DFT,TRK,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Summon: Bahamut,The Holodeck,7.61,untested,0,,3.092,70.8,B,D,FIN,TRK,colors_union; both reward the same thing; same colours,build_around
+Soul-Guide Lantern,"Pia, Determined Rebuilder",7.36,untested,0,,2.783,52.5,B,D,FDN,FRA,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Rust Harvester,Relentless Drednok,7.15,untested,0,,2.686,47.9,B,F,EOE,TRK,similar text/strategy; shared creature type / mechanic; both reward the same thing,build_around
+Lumen-Class Frigate,Does Machines,7.08,untested,0,,2.847,59.3,B,D,EOE,TMT,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+D-7 Battle Cruiser,Fateful Discovery,7.02,untested,0,,2.617,44.6,B,F,TRK,HOB,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Crystalline Entity,Craterclaw Colossus,6.88,untested,0,,2.837,60.6,B,D,TRK,FRA,artifacts → artifact payoff; one card names the other's type/token/keyword; both reward the same thing,build_around
+Engineered Explosives,Steelswarm Operator,6.83,untested,0,,2.615,46.2,B,F,TRK,EOE,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Hardlight Containment,Aerial Doombot,6.8,untested,0,,2.436,34.6,B+,F,EOE,MSH,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Sorcerous Spyglass,Valkyrie Aerial Unit,6.77,untested,0,,2.516,40.3,B,F,FDN,FIN,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,build_around
+Hardlight Containment,Command Subadjunct,6.75,untested,0,,3.005,73.0,B+,D,EOE,TRK,several role matches; artifacts → artifact payoff; curve,build_around
+Deep Space 9,Demonic Junker,6.64,untested,0,,2.85,63.8,B,D,TRK,DFT,artifacts → artifact payoff; one card names the other's type/token/keyword; both reward the same thing,build_around
+Gastal Thrillroller,Arc Reactor,6.59,untested,0,,2.719,55.5,B,D,DFT,MSH,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Skyseer's Chariot,Emissary Escort,6.58,untested,0,,2.995,74.1,A,D,DFT,EOE,artifacts → artifact payoff; one card names the other's type/token/keyword; several role matches,build_around
+Crystalline Entity,Radiant Lotus,6.54,untested,0,,2.546,44.6,B,F,TRK,DFT,artifacts → artifact payoff; colors_union; both reward the same thing,build_around
+Skyseer's Chariot,"Don & Raph, Hard Science",6.47,untested,0,,2.941,71.6,A,D,DFT,TMT,artifacts → artifact payoff; several role matches; one card names the other's type/token/keyword,build_around
+Borg Cube,"Krang, Master Mind",6.42,untested,0,,2.861,66.8,B,D,TRK,TMT,artifacts → artifact payoff; one card names the other's type/token/keyword; both reward the same thing,build_around

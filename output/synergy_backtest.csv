@@ -1,0 +1,7 @@
+year,test_pairs,strong_pairs,model_spearman,model_top2pct_strong,model_strong_in_top10pct,baseline_similarity+colour_spearman,baseline_similarity+colour_top2pct_strong,baseline_similarity+colour_strong_in_top10pct,baseline_role_rules_spearman,baseline_role_rules_top2pct_strong,baseline_role_rules_strong_in_top10pct
+2019,18420,4644,0.297,0.644,0.189,0.192,0.546,0.174,0.234,0.571,0.172
+2020,19860,4604,0.183,0.519,0.172,0.116,0.448,0.151,0.183,0.431,0.166
+2021,19233,3942,0.272,0.688,0.213,0.133,0.461,0.159,0.19,0.602,0.19
+2022,14819,3183,0.27,0.736,0.224,0.163,0.584,0.184,0.223,0.5,0.186
+2023,17000,4125,0.308,0.559,0.175,0.141,0.447,0.156,0.187,0.556,0.158
+2024,8345,2297,0.305,0.645,0.175,0.117,0.53,0.128,0.147,0.464,0.14
