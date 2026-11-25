@@ -1,0 +1,23 @@
+,default,huber,tweedie,bigger trees,slower
+standard_spearman,0.562,0.571,0.582,0.566,0.574
+standard_hit@25,0.52,0.52,0.44,0.56,0.48
+standard_hit@50,0.46,0.42,0.52,0.46,0.46
+standard_hit@100,0.44,0.41,0.49,0.44,0.44
+standard_spearman_rares,0.396,0.417,0.407,0.408,0.412
+standard_per_set_top10_hit,0.43,0.41,0.46,0.43,0.41
+standard_staples,91.0,91.0,91.0,91.0,91.0
+standard_staples_in_top5pct,0.25,0.22,0.29,0.22,0.23
+pioneer_spearman,0.467,0.475,0.48,0.473,0.472
+pioneer_hit@25,0.4,0.4,0.44,0.4,0.36
+pioneer_hit@50,0.32,0.26,0.4,0.38,0.34
+pioneer_hit@100,0.25,0.22,0.28,0.28,0.25
+pioneer_spearman_rares,0.327,0.326,0.346,0.326,0.32
+pioneer_staples,20.0,20.0,20.0,20.0,20.0
+pioneer_staples_in_top5pct,0.35,0.3,0.35,0.4,0.35
+modern_spearman,0.374,0.388,0.395,0.387,0.39
+modern_hit@25,0.4,0.44,0.2,0.36,0.44
+modern_hit@50,0.24,0.26,0.16,0.26,0.26
+modern_hit@100,0.17,0.21,0.21,0.18,0.19
+modern_spearman_rares,0.356,0.37,0.355,0.356,0.357
+modern_staples,14.0,14.0,14.0,14.0,14.0
+modern_staples_in_top5pct,0.43,0.29,0.43,0.43,0.29

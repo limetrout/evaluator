@@ -21,27 +21,44 @@ def norm(n):
     n = re.split(r"\s*//\s*|\s*/\s*", n)[0]
     return re.sub(r"[^a-z0-9]", "", n)
 
-rows, unmatched, events = [], collections.Counter(), []
-for f in sorted(RAW.glob("*.json")):
-    try: d = json.loads(f.read_text())
-    except Exception: continue
-    fmt = f.stem.split("-")[0]
-    date = str(d.get("starttime", ""))[:10] or re.search(r"(\d{4}-\d{2}-\d{2})", f.stem).group(1)
-    kind = "minor" if re.search(r"daily|prelim", f.stem) else "major"
-    rank = {s["loginid"]: int(s["rank"]) for s in d.get("standings") or [] if str(s.get("rank", "")).isdigit()}
-    events.append((f.stem, fmt, date, kind, len(d.get("decklists", []))))
-    for deck in d.get("decklists", []):
-        did = f"{f.stem}#{deck.get('loginid') or deck.get('player')}"
+def load_events():
+    """Yield (slug, date, standings{player->rank}, [(player, [(name, qty, is_side)])]) from both raw sources."""
+    for f in sorted((ROOT / "data/raw/mtgo_gh").glob("*.json")):          # GitHub mirror schema
+        try: d = json.loads(f.read_text())
+        except Exception: continue
+        rank = {s["Player"]: s.get("Rank") for s in d.get("Standings") or []}
+        decks = [(dk["Player"], [(c["CardName"], c["Count"], 0) for c in dk.get("Mainboard") or []] +
+                                [(c["CardName"], c["Count"], 1) for c in dk.get("Sideboard") or []]) for dk in d.get("Decks") or []]
+        yield f.stem, d["Tournament"]["Date"][:10], rank, decks
+    for f in sorted(RAW.glob("*.json")):                                     # mtgo.com embedded-JSON schema
+        try: d = json.loads(f.read_text())
+        except Exception: continue
+        names_ = {s["loginid"]: s.get("login_name") for s in d.get("standings") or []}
+        rank = {s.get("login_name"): int(s["rank"]) for s in d.get("standings") or [] if str(s.get("rank", "")).isdigit()}
+        decks = []
+        for dk in d.get("decklists", []):
+            cs = [(e.get("card_attributes", {}).get("card_name", ""), int(e.get("qty", 1)), int(side))
+                  for part, side in (("main_deck", 0), ("sideboard_deck", 1)) for e in dk.get(part, [])]
+            decks.append((dk.get("player") or names_.get(dk.get("loginid")), cs))
+        yield f.stem, str(d.get("starttime", ""))[:10] or re.search(r"(\d{4}-\d{2}-\d{2})", f.stem).group(1), rank, decks
+
+rows, unmatched, events, seen = [], collections.Counter(), [], set()
+for slug, date, rank, decks in load_events():
+    if slug in seen: continue
+    seen.add(slug); fmt = slug.split("-")[0]
+    kind = "minor" if re.search(r"daily|prelim", slug) else "major"
+    ranked = [p for p, _ in decks if isinstance(rank.get(p), int)]
+    events.append((slug, fmt, date, kind, min(len(decks), 32) if len(ranked) > 32 else len(decks)))
+    for player, cs in decks:
+        # "winning lists": when placements are known keep only the top 32 (matches what mtgo.com publishes now)
+        if len(ranked) > 32 and (not isinstance(rank.get(player), int) or rank[player] > 32): continue
         acc = collections.defaultdict(lambda: [0, 0])
-        for part, side in (("main_deck", 0), ("sideboard_deck", 1)):
-            for e in deck.get(part, []):
-                nm = e.get("card_attributes", {}).get("card_name") or e.get("card_name", "")
-                oid = names.get(norm(nm))
-                if oid is None: unmatched[nm] += int(e.get("qty", 1)); continue
-                acc[oid][side] += int(e.get("qty", 1))
-        r = rank.get(deck.get("loginid"))
-        for oid, (m, s) in acc.items():
-            rows.append((f.stem, did, fmt, date, kind, r, oid, m, s))
+        for nm, q, side in cs:
+            oid = names.get(norm(nm))
+            if oid is None: unmatched[nm] += q; continue
+            acc[oid][side] += q
+        for oid, (m, sd) in acc.items():
+            rows.append((slug, f"{slug}#{player}", fmt, date, kind, rank.get(player), oid, m, sd))
 
 decks = pd.DataFrame(rows, columns=["event", "deck", "format", "date", "kind", "rank", "oracle_id", "main", "side"])
 decks.to_parquet(PROC / "decks.parquet")
@@ -56,7 +73,7 @@ ndecks = decks.groupby(["format", "month"]).deck.nunique().rename("n")
 g = decks.assign(inc=np.where(decks.main > 0, 1.0, 0.5), copies=decks.main + decks.side).groupby(["format", "month", "oracle_id"]).agg(inc=("inc", "sum"), copies=("copies", "sum"))
 g = g.join(ndecks); g["rate"] = g.inc / g.n; g["avg_copies"] = g.copies / g.inc.clip(lower=1)
 g = g.reset_index(); g.to_parquet(PROC / "monthly_rates.parquet")
-months_by_fmt = {f: sorted(m for (ff, m), n in ndecks.items() if ff == f and n >= 30) for f in ndecks.index.levels[0]}
+months_by_fmt = {f: sorted(m for (ff, m), n in ndecks.items() if ff == f and n >= 64) for f in ndecks.index.levels[0]}
 
 # ---- eligibility + target per (card, format) --------------------------------------------------
 FORMAT_START = {"standard": "2016-01", "pioneer": "2019-11", "modern": "2016-01", "legacy": "2016-01", "pauper": "2016-01", "vintage": "2016-01"}
@@ -64,7 +81,7 @@ STD_TYPES = {"expansion", "core"}
 rate_lookup = g.set_index(["format", "oracle_id", "month"]).rate
 out = []
 for oid, c in cards.iterrows():
-    if not c.first_release or oid in basics: continue
+    if not isinstance(c.first_release, str) or oid in basics: continue
     rel = c.first_release[:7]
     for fmt, months in months_by_fmt.items():
         legal = c.get(f"legal_{fmt}")

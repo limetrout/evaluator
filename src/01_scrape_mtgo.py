@@ -32,7 +32,7 @@ def get(url, must=None):
 index = json.loads(INDEX.read_text()) if INDEX.exists() else {}
 today = datetime.date.today()
 months = [f"{y}/{m:02d}" for y in range(2016, today.year + 1) for m in range(1, 13) if (y, m) <= (today.year, today.month)]
-need = [k for k in months if k not in index or k == f"{today.year}/{today.month:02d}"]
+need = [k for k in months if k not in index]   # delete a month from the index file to re-fetch it
 
 def month(key):
     html = get(f"https://www.mtgo.com/decklists/{key}", must="/decklist/")
@@ -46,17 +46,33 @@ with ThreadPoolExecutor(WORKERS) as ex:
         index[key] = kept; INDEX.write_text(json.dumps(index, indent=0))
         print(key, len(kept), "kept", flush=True)
 
-todo = [s for k in sorted(index) for s in index[k] if (MAJOR.match(s) or MINOR.match(s)) and not (OUT / f"{s}.json").exists()]
-todo.sort(key=lambda s: bool(MINOR.match(s)))   # challenges / qualifiers first
+GH = ROOT / "data/raw/mtgo_gh"   # older events already fetched from the GitHub mirror (01b script)
+todo = [s for k in sorted(index) for s in index[k] if (MAJOR.match(s) or MINOR.match(s))
+        and not (OUT / f"{s}.json").exists() and not (GH / f"{s}.json").exists()
+        and re.search(r"\d{4}-\d{2}-\d{2}", s).group(0) >= "2024-06-20"]
+PRIO = {"standard": 0, "pioneer": 1, "modern": 2, "pauper": 3, "legacy": 4, "vintage": 5}
+# Round-robin by month so every month gets coverage early: 1st event of every month for Std/Pio/Mod,
+# then the 2nd, ... ; Pauper/Legacy/Vintage after that. Majors (challenges) before dailies/prelims.
+from collections import defaultdict
+seen = defaultdict(int); keyed = []
+fmt_of = lambda s: s.split("-")[0]; date_of = lambda s: re.search(r"\d{4}-\d{2}-\d{2}", s).group(0)
+for s_ in sorted(todo, key=lambda s: (bool(MINOR.match(s)), "challenge" not in s, date_of(s))):
+    k = (fmt_of(s_), date_of(s_)[:7]); r = seen[k]; seen[k] += 1
+    keyed.append(((PRIO[fmt_of(s_)] > 2, r, PRIO[fmt_of(s_)], date_of(s_)), s_))
+todo = [s_ for _, s_ in sorted(keyed)]
 print("events to download:", len(todo), flush=True)
 
-def event(slug):
-    html = get(f"https://www.mtgo.com/decklist/{slug}", must="decklists.data")
-    m = html and re.search(r'window\.MTGO\.decklists\.data\s*=\s*(\{.*?\});\s*\n', html, re.S)
-    if m: (OUT / f"{slug}.json").write_text(m.group(1))
-    return slug, bool(m)
-
-with ThreadPoolExecutor(WORKERS) as ex:
-    for i, (slug, ok) in enumerate(ex.map(event, todo)):
-        if i % 100 == 0: print(f"{i}/{len(todo)} {slug} {ok}", flush=True)
+# mtgo.com rate-limits bursts (serves an empty page): go one at a time, pause, back off when blocked
+S1 = requests.Session(); S1.headers["User-Agent"] = "Mozilla/5.0 (card-research; low-rate)"
+pause = 5
+for i, slug in enumerate(todo):
+    for attempt in range(6):
+        try: html = S1.get(f"https://www.mtgo.com/decklist/{slug}", timeout=90).text
+        except requests.RequestException: html = ""
+        m = re.search(r'window\.MTGO\.decklists\.data\s*=\s*(\{.*?\});\s*\n', html, re.S)
+        if m:
+            (OUT / f"{slug}.json").write_text(m.group(1)); time.sleep(pause); break
+        if "/decklist" not in html and len(html) > 1000 and attempt >= 2: break      # genuinely empty event page
+        time.sleep(60 * (attempt + 1))
+    if i % 25 == 0: print(f"{i}/{len(todo)} {slug}", flush=True)
 print("done", flush=True)
