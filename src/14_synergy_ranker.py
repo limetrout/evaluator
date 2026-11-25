@@ -61,6 +61,9 @@ META = ["focal", "cand", "format", "fy"]
 RANK_PARAMS = dict(objective="lambdarank", metric="ndcg", ndcg_eval_at=[10], learning_rate=0.05, num_leaves=63,
                    min_data_in_leaf=100, feature_fraction=0.7, bagging_fraction=0.8, bagging_freq=1, lambdarank_truncation_level=20,
                    verbose=-1, num_threads=4)
+if "--binary" in sys.argv:   # probability-of-strong-partner variant (scores comparable across focal cards)
+    RANK_PARAMS = dict(objective="binary", learning_rate=0.05, num_leaves=63, min_data_in_leaf=100, feature_fraction=0.7,
+                       bagging_fraction=0.8, bagging_freq=1, verbose=-1, num_threads=4)
 if __name__ == "__main__":
     data = {Yp: build_year(Yp) for Yp in YEARS}
     print("rows per year:", {k: len(v) for k, v in data.items()}, flush=True)
@@ -78,7 +81,10 @@ if __name__ == "__main__":
         te = data[Y]; lte = labels(te)
         feats = [c for c in te.columns if c not in META]
         grp = tr.groupby(["fy", "format", "focal"], sort=False).size().values
-        rk = lgb.train(RANK_PARAMS, lgb.Dataset(tr[feats], tr.lab, group=grp), 400)
+        if RANK_PARAMS["objective"] == "binary":
+            rk = lgb.train(RANK_PARAMS, lgb.Dataset(tr[feats], (tr.lab == 2).astype(int)), 400)
+        else:
+            rk = lgb.train(RANK_PARAMS, lgb.Dataset(tr[feats], tr.lab, group=grp), 400)
         # v1-style regression on co-occurring pairs (as before), for comparison
         trainp = M.aggregate(M.pq[M.pq.q < cut]); trainp = trainp[trainp.start < cut]
         Xv1 = M.build(trainp); v1 = lgb.train(M.PARAMS, lgb.Dataset(Xv1, trainp.y, weight=np.sqrt(trainp.support.values)), 600)
@@ -90,6 +96,6 @@ if __name__ == "__main__":
             rec, n = recall_at10(te, v, lte); r[f"{k}_recall@10"] = round(rec, 3)
         r["graded_cards"] = n
         res.append(r); print(r, flush=True)
-    R = pd.DataFrame(res).set_index("year"); R.to_csv(OUT / f"synergy_ranker_backtest_{'tags' if M.USE_TAGS else 'notags'}.csv")
+    R = pd.DataFrame(res).set_index("year"); R.to_csv(OUT / f"synergy_ranker_backtest_{'tags' if M.USE_TAGS else 'notags'}{'_binary' if '--binary' in sys.argv else ''}.csv")
     print(R.T.to_string()); print("mean:", R.mean().round(3).to_dict())
     imp = pd.Series(rk.feature_importance("gain"), index=feats).sort_values(ascending=False); print(imp.head(20))

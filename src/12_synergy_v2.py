@@ -27,7 +27,7 @@ decks = decks[decks.format.isin(["standard", "pioneer", "modern"]) & (decks.main
 TAGS = None
 tagfile = PROC / "card_tags.parquet"
 if tagfile.exists() and "--no-tags" not in sys.argv:
-    TAGS = pd.read_parquet(tagfile).set_index("oracle_id")
+    TAGS = pd.read_parquet(tagfile).set_index("oracle_id").drop(columns=["tribes"])
 
 def card_map(cut_date):
     d = decks[decks.date < cut_date]

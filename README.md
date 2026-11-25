@@ -166,3 +166,39 @@ chance. Coverage is limited: it finds only about 19% of all strong synergies in 
   Star Trek and Marvel sets are artifact-heavy.
 * Recent Standard data is still thin (about 600 decks since 2025), so "hidden" vs "untested" will sharpen as more
   data downloads.
+
+## Synergy model v3: per-card ranker (current best)
+
+The question you actually ask is "what goes with card X?", so v3 trains on exactly that. For each new card from past
+years, it ranks **every** card it could have been paired with in its format (`src/14_synergy_ranker.py`,
+LightGBM learning-to-rank). It uses the v1 features plus:
+* **Card map**: from past decks, cards that live in the same decks sit close together (PMI + SVD, 64 numbers
+  per card). Brand-new cards are placed on the map from their text by a text-to-map model.
+* **Claude role tags** for 6,790 cards (what each card provides and rewards, plus creature types), made with Claude
+  Code on the subscription plan with no API key (`output/card_tags.csv`, `tags_raw/`).
+* Each candidate's popularity in the previous year (known at the time).
+
+**Test: share of a new card's real strong partners that appear in its top 10.** Strictly forward; each year only
+uses earlier data.
+
+| | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | Avg |
+|---|---|---|---|---|---|---|---|
+| **v3 ranker** | **17.5%** | **16.9%** | **18.5%** | **21.5%** | **24.1%** | **22.8%** | **20.2%** |
+| v1 pair model | 12.9% | 12.1% | 13.4% | 14.6% | 13.8% | 12.2% | 13.2% |
+| Card map only | 14.7% | 11.2% | 12.2% | 14.0% | 11.4% | 15.6% | 13.2% |
+| Popularity only | 5.5% | 7.2% | 4.7% | 4.0% | 6.6% | 6.3% | 5.7% |
+
+**Extra check on 2025-26 Standard** (never used for training; card map from pre-2025 decks only, so new cards are
+placed purely from their text): 117 new cards, v3 ranker **26.6%**, probability model **27.8%**, card map alone
+25.3%, popularity alone 3.7%. Example: Badgermole Cub's blind top 10 contains 7 of its real partners (Llanowar
+Elves, Sazh's Chocobo, Ouroboroid, Earthbender Ascension, Bristly Bill, Bushwhack, Lumbering Worldwagon).
+
+**Tried and kept or dropped:**
+* Claude tags: a small gain (20.2% vs 19.9% without). Kept.
+* v1 + card map as a pair regression: better overall ranking, worse per-card. Dropped.
+* Probability variant: slightly lower per-card recall (18.8%), but its scores are comparable across cards, so it's
+  used for "strongest synergies in the whole pool" lists.
+* Two bugs were caught by checks and fixed: a leak in the 2025-26 check (the card map was built from all decks), and
+  lands appearing as partners.
+
+Saved models: `output/models/synergy_ranker.txt` and `synergy_prob.txt` (`src/15_final_synergy.py`).
