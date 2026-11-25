@@ -96,6 +96,19 @@ BIT = {"W": 1, "U": 2, "B": 4, "R": 8, "G": 16}
 CM = np.array([sum(BIT[c] for c in (cards.colors.get(o) if o in cards.index and cards.colors.get(o) is not None else []) if c in BIT) for o in feat.index])
 POP = np.array([bin(x).count("1") for x in range(32)])
 
+# ---- optional Claude role tags (see 13_build_tags.py); switch off with env USE_TAGS=0
+import os
+TAGF = PROC / "card_tags.parquet"
+USE_TAGS = TAGF.exists() and os.environ.get("USE_TAGS", "1") == "1"
+if USE_TAGS:
+    _t = pd.read_parquet(TAGF).set_index("oracle_id").reindex(feat.index)
+    TAG_CODES = [c[2:] for c in _t.columns if c.startswith("P_")]
+    TP = _t[[f"P_{c}" for c in TAG_CODES]].fillna(0).values.astype(np.int8)
+    TR = _t[[f"R_{c}" for c in TAG_CODES]].fillna(0).values.astype(np.int8)
+    HAS_TAG = _t["P_TOK"].notna().values
+    TRIBES = [set(x.split(",")) - {""} if isinstance(x, str) else set() for x in _t["tribes"].values]
+    SUBT = [{sing(w) for w in (TL[o].split("—")[1].lower().split() if "—" in TL[o] else [])} for o in feat.index]
+
 def pair_features(a_ids, b_ids, fmt=None, year=None):
     ia = np.array([idx[o] for o in a_ids]); ib = np.array([idx[o] for o in b_ids])
     X = {}
@@ -123,6 +136,14 @@ def pair_features(a_ids, b_ids, fmt=None, year=None):
     X["legend_n"] = F.legendary.values[ia] + F.legendary.values[ib]
     X["text_len_min"] = np.minimum(F.n_words.values[ia], F.n_words.values[ib])
     X["triggers_sum"] = F.n_triggered.values[ia] + F.n_triggered.values[ib]
+    if USE_TAGS:
+        ab = TP[ia] * TR[ib]; ba = TP[ib] * TR[ia]; mm = np.maximum(ab, ba)
+        for k, c in enumerate(TAG_CODES):
+            if mm[:, k].any() or True: X[f"tag_{c}"] = mm[:, k]
+        X["tag_total"] = mm.sum(1); X["tag_both_reward"] = (TR[ia] * TR[ib]).sum(1); X["tag_both_provide"] = (TP[ia] * TP[ib]).sum(1)
+        X["tag_tribe"] = np.array([len(TRIBES[i] & SUBT[j]) + len(TRIBES[j] & SUBT[i]) for i, j in zip(ia, ib)])
+        X["tag_shared_tribe_care"] = np.array([len(TRIBES[i] & TRIBES[j]) for i, j in zip(ia, ib)])
+        X["tag_n_tagged"] = HAS_TAG[ia].astype(int) + HAS_TAG[ib].astype(int)
     if fmt is not None:
         for f in ["standard", "pioneer", "modern"]: X[f"fmt_{f}"] = (np.asarray(fmt) == f).astype(int)
         X["year"] = np.asarray(year, dtype=float)
