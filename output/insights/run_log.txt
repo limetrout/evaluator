@@ -1,0 +1,155 @@
+pool: 3819 | non-land: 3592 | scored for synergy: 2473
+pairs: 2948064
+  scored 300000/2948064
+  scored 600000/2948064
+  scored 900000/2948064
+  scored 1200000/2948064
+  scored 1500000/2948064
+  scored 1800000/2948064
+  scored 2100000/2948064
+  scored 2400000/2948064
+  scored 2700000/2948064
+  scored 2948064/2948064
+
+Recent Standard decks: 2107 (2025+), 2026 decks: 955. Avg share of a 2026 deck's non-land cards that survive rotation: 70%
+
+TOP ROTATING (most-played 2026 cards that leave):
+                card  play_pct_2026  survives_rotation
+      Badgermole Cub           19.4              False
+     Sleight of Hand           19.1              False
+      Bitter Triumph           16.9              False
+Stormchaser's Talent           15.4              False
+       Eddymurk Crab           14.9              False
+  Slickshot Show-Off           12.7              False
+   Shoot the Sheriff           11.4              False
+     Deadly Cover-Up           11.0              False
+   Keen-Eyed Curator            9.7              False
+   Three Steps Ahead            8.8              False
+  Into the Flood Maw            8.5              False
+             Get Out            7.7              False
+
+TOP SURVIVING:
+                card  play_pct_2026  survives_rotation
+     Burst Lightning           28.4               True
+            Stock Up           25.2               True
+      Llanowar Elves           24.0               True
+                 Opt           19.4               True
+       Requiting Hex           19.4               True
+         Spell Snare           16.3               True
+    Boomerang Basics           15.6               True
+            Seam Rip           15.1               True
+ Winternight Stories           14.9               True
+        Spell Pierce           12.3               True
+    Icetill Explorer           12.1               True
+Mightform Harmonizer           12.0               True
+
+PACKAGES:
+colors  size                                                                  themes  avg_card_percentile  synergy_density  share_already_played                          status                                                                                                                                                                                                                               core_cards  package_score
+     W   117                    +1/+1 counters, lifegain, ETB effects | tribal: ally                 87.4             3.15                  0.35                        emerging Basri, Tomorrow's Champion; Arachne, Psionic Weaver; Jennifer Walters // The Sensational She-Hulk; Cosmogrand Zenith; Spectacular Spider-Man; Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal; Haliya, Guided by Light; Aunt May           2.75
+    UR    95                self-mill/graveyard, card draw, evasion | tribal: dragon                 85.6             3.15                  0.75 established (mostly played now)                                                                                                Winternight Stories; Tiger-Seal; It'll Quench Ya!; Prismari Charm; Traumatic Critique; Accumulate Wisdom; Abandon Attachments; Bounce Off           2.70
+     R   132 direct damage, noncreature spells, self-mill/graveyard | tribal: goblin                 87.3             2.72                  0.35                        emerging                                                                                                          Shock; Full Bore; Boltwave; Burst Lightning; Wild Ride; Stingcaster Mage; Gandalf, Goblins' Bane // Flameshape; Fleeting Effigy           2.37
+    UR    85                                    artifacts, other counters, tap/untap                 84.3             2.12                  0.21                        emerging                                                                              Krang, Utrom Warlord; Synthesizer Labship; Warmaker Gunship; Springleaf Drum; Emissary Escort; Soul-Guide Lantern; Lt. Cmdr. Geordi La Forge; Ring of Unity           1.79
+     G   107             lands/landfall, +1/+1 counters, big creatures | tribal: elf                 83.6             1.99                  0.36                        emerging                                                                           Llanowar Elves; Surrak, Elusive Hunter; Sazh's Chocobo; Tifa Lockhart; Snakeskin Veil; Mightform Harmonizer; Leatherhead, Swamp Stalker; Earthbender Ascension           1.66
+     U    74                       card draw, ETB effects, evasion | tribal: merfolk                 84.3             1.75                  0.15                  untested / new                                                                                                                              Spell Pierce; Opt; Spell Snare; Negate; Wisdom of Ages; Louisoix's Sacrifice; Annul; Jace, Reality Sculptor           1.48
+     B   164               lifegain, sacrifice, self-mill/graveyard | tribal: goblin                 86.0             1.71                  0.31                        emerging                                                                 Duress; Intimidation Tactics; Archenemy's Charm; Sunset Saboteur; Requiting Hex; Cecil, Dark Knight // Cecil, Redeemed Paladin; Nullpriest of Oblivion; Day of Black Sun           1.47
+   WUR    30                equipment/auras, artifacts, enchantments | tribal: dwarf                 79.4             1.71                  0.33                        emerging                                                                       Cloud, Midgar Mercenary; Dragonfire Blade; Leyline Axe; Skateboard; Thorin, Mountain-king; Gwyndala, the Progeny; Raubahn, Bull of Ala Mhigo; Dwalin, Weaponmaster           1.36
+     W    62                                ETB effects, big creatures, enchantments                 84.4             1.11                  0.21                        emerging                                                                    Day of Judgment; Restoration Seminar; Kindred Judgment; Ultima; Morningtide's Light; Aang's Iceberg; The Legend of Yangchen // Avatar Yangchen; Elspeth, Storm Slayer           0.94
+
+TOP PROVEN PAIRS (both tier C+):
+                  card_a                     card_b  strong_partner_prob  decks_together_now                                                                                                   why
+Earth Kingdom Protectors Hakoda, Selfless Commander                0.670                   5                                                                                          tribal: ally
+         Day of Judgment                     Ultima                0.631                  24                                                                                                      
+    Dwalin, Weaponmaster      Thorin, Mountain-king                0.619                  11         Dwalin, Weaponmaster gives equipment/auras -> Thorin, Mountain-king rewards it; tribal: dwarf
+      Glacial Dragonhunt                 Tiger-Seal                0.577                   3                                           Glacial Dragonhunt gives card draw -> Tiger-Seal rewards it
+      Glacial Dragonhunt        Winternight Stories                0.571                  45                                                                                                      
+        Impractical Joke                  Wild Ride                0.567                  12                                                                                                      
+           Tifa Lockhart             Mossborn Hydra                0.562                  11                                                                                                      
+        It'll Quench Ya!          Accumulate Wisdom                0.553                  71                                                                                                      
+                   Erode                     Ultima                0.546                   3                                                                                                      
+Earth Kingdom Protectors    Earth King's Lieutenant                0.542                   5 Earth Kingdom Protectors gives creatures entering -> Earth King's Lieutenant rewards it; tribal: ally
+  Surrak, Elusive Hunter Leatherhead, Swamp Stalker                0.539                  61                                                                                                      
+         Day of Judgment      Elspeth, Storm Slayer                0.537                  34                                                                                                      
+
+TOP HIDDEN PAIRS (both tier C+):
+                          card_a                                       card_b  strong_partner_prob  decks_together_now                                                                                                                                        why
+               Searslicer Goblin                          Fanatical Firebrand                0.656                   1                                                                                                                             tribal: goblin
+            Momo, Friendly Flier                   Hakoda, Selfless Commander                0.618                   0                                       Hakoda, Selfless Commander gives creatures entering -> Momo, Friendly Flier rewards it; tribal: ally
+                   Tifa Lockhart                       Surrak, Elusive Hunter                0.617                   0                                                                                                                                           
+                      Fire Magic                                    Wild Ride                0.604                   1                                                                                                                                           
+          Tomik, Izzet Sparkmage                                        Shock                0.602                   0                                                                        Shock gives instants/sorceries -> Tomik, Izzet Sparkmage rewards it
+          Spectacular Spider-Man Jennifer Walters // The Sensational She-Hulk                0.574                   1                                                                                                                                           
+Carnivorous Cultivator // Enroot            Emeritus of Abundance // Regrowth                0.567                   0                         Carnivorous Cultivator // Enroot gives lands/landfall -> Emeritus of Abundance // Regrowth rewards it; tribal: elf
+                  Prismari Charm                                   Tiger-Seal                0.563                   0                                                                                    Prismari Charm gives card draw -> Tiger-Seal rewards it
+           Weapons Manufacturing                             Warmaker Gunship                0.562                   2 Weapons Manufacturing gives artifacts -> Warmaker Gunship rewards it; Warmaker Gunship gives artifacts -> Weapons Manufacturing rewards it
+              Firebending Lesson                                    Wild Ride                0.558                   0                                                                                                                                           
+                Hexing Squelcher                                    Full Bore                0.557                   0                                                                                                                                           
+         Ugin, Eye of the Storms                              Together as One                0.544                   0                                                                                                                                           
+
+TOP UNTESTED PAIRS (both tier C+):
+                                                 card_a                                      card_b  strong_partner_prob  decks_together_now                                                                                                                                                                                                                             why
+                                   Krang, Utrom Warlord                          Crystalline Entity                0.704                   0                                                                                                                                                           Crystalline Entity gives artifacts -> Krang, Utrom Warlord rewards it
+                                      Traveling Chocobo Sidequest: Raise a Chocobo // Black Chocobo                0.689                   0                                                                                                                  Sidequest: Raise a Chocobo // Black Chocobo gives lands/landfall -> Traveling Chocobo rewards it; tribal: bird
+                                       Lyra Dawnbringer                         Giada, Font of Hope                0.682                   0                                                                                                                                                                                                                   tribal: angel
+                                Captain Jean-Luc Picard                       Captain James T. Kirk                0.675                   0                                                                                                                           Captain James T. Kirk gives creatures entering -> Captain Jean-Luc Picard rewards it; tribal: officer
+Trystan, Callous Cultivator // Trystan, Penitent Culler                       Marwyn, the Preserver                0.668                   0                                                                                              Marwyn, the Preserver gives graveyard recursion -> Trystan, Callous Cultivator // Trystan, Penitent Culler rewards it; tribal: elf
+                               Sulu, Space Swashbuckler                     Cloud, Midgar Mercenary                0.661                   0                                                                                                                                            Cloud, Midgar Mercenary gives equipment/auras -> Sulu, Space Swashbuckler rewards it
+                                  Lightstall Inquisitor                         Giada, Font of Hope                0.659                   0                                                                                                                                                                                                                   tribal: angel
+                                    Synthesizer Labship       Tony Stark // The Invincible Iron Man                0.656                   0                                       Synthesizer Labship gives artifacts -> Tony Stark // The Invincible Iron Man rewards it; Tony Stark // The Invincible Iron Man gives creatures entering -> Synthesizer Labship rewards it
+                                      Virulent Emissary                        Woodland Weavemaster                0.653                   0                                                       Virulent Emissary gives creatures entering -> Woodland Weavemaster rewards it; Woodland Weavemaster gives creatures entering -> Virulent Emissary rewards it; tribal: elf
+                                              Borg Cube                                Deep Space 9                0.650                   0                                                                                                             Borg Cube gives creatures entering -> Deep Space 9 rewards it; Deep Space 9 gives artifacts -> Borg Cube rewards it
+                                 Leonardo, Cutting Edge                         Aerith Gainsborough                0.648                   0 Leonardo, Cutting Edge gives +1/+1 counters -> Aerith Gainsborough rewards it; Leonardo, Cutting Edge gives lifegain -> Aerith Gainsborough rewards it; Aerith Gainsborough gives lifegain -> Leonardo, Cutting Edge rewards it
+                               Sulu, Space Swashbuckler                                   Zack Fair                0.646                   0                                                                                                                                                          Zack Fair gives equipment/auras -> Sulu, Space Swashbuckler rewards it
+
+SLEEPERS:
+                                                   name pool_set                                   tier  percentile                                                                                       similar_past_cards
+                               Spinneret and Spiderling      SPM A (top 2%: ~70% saw play, ~45% staple)        99.9                         Arasta of the Endless Web (0%); Ishkanah, Grafwidow (25%); Hoarding Recluse (0%)
+                                 Spectacular Spider-Man      SPM A (top 2%: ~70% saw play, ~45% staple)        99.9   Archangel Avacyn // Avacyn, the Purifier (37%); Ambush Paratrooper (0%); Kyodai, Soul of Kamigawa (0%)
+             Lindblum, Industrial Regency // Mage Siege      FIN A (top 2%: ~70% saw play, ~45% staple)        99.8 Restless Cottage (14%); Spikefield Hazard // Spikefield Cave (31%); Ondu Inversion // Ondu Skyruins (1%)
+                                      Summon: Brynhildr      FIN A (top 2%: ~70% saw play, ~45% staple)        99.7                    Showdown of the Skalds (16%); Fall of the Impostor (0%); Kardur's Vicious Return (0%)
+                                           Salt Vampire      TRK A (top 2%: ~70% saw play, ~45% staple)        99.6                                    Desperate Bloodseeker (0%); Blood Burglar (0%); Deep-Cavern Bat (42%)
+Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal      FIN A (top 2%: ~70% saw play, ~45% staple)        99.6                           Nylea, Keen-Eyed (1%); Tyvar, the Pummeler (6%); Klothys, God of Destiny (14%)
+                                       Hexing Squelcher      ECL A (top 2%: ~70% saw play, ~45% staple)        99.5                                  Rhythm of the Wild (1%); Prowling Serpopard (1%); Whirlwind Denial (2%)
+                                       MACO Strike Team      TRK A (top 2%: ~70% saw play, ~45% staple)        99.3                                        Hanweir Garrison (2%); Siege Veteran (11%); Perimeter Patrol (0%)
+                 Emeritus of Conflict // Lightning Bolt      SOS A (top 2%: ~70% saw play, ~45% staple)        99.3                             Rockslide Sorcerer (0%); Irencrag Pyromancer (6%); Thundering Sparkmage (0%)
+                                      Tragic Trajectory      EOE A (top 2%: ~70% saw play, ~45% staple)        99.2                                      Flaying Tendrils (6%); Glistening Deluge (9%); Mephitic Vapors (0%)
+              Emeritus of Truce // Swords to Plowshares      SOS A (top 2%: ~70% saw play, ~45% staple)        99.2                                      Sanctifier of Souls (0%); Basri's Acolyte (0%); Salvation Swan (0%)
+                                        Webstrike Elite      DFT A (top 2%: ~70% saw play, ~45% staple)        99.1                                                Kraul Whipcracker (0%); Wilt (20%); Sawblade Slinger (0%)
+                                         Sunpearl Kirin      TDM A (top 2%: ~70% saw play, ~45% staple)        99.1                                           Zephyr Sentinel (15%); Aether Channeler (1%); Loyal Gryff (0%)
+                                  Lightstall Inquisitor      EOE A (top 2%: ~70% saw play, ~45% staple)        99.1                                   Codespell Cleric (0%); Angel of Condemnation (0%); Emeria Captain (0%)
+                                     Anticausal Vestige      EOE A (top 2%: ~70% saw play, ~45% staple)        99.0               Thought-Knot Seer (16%); Cryptolith Fragment // Aurora of Emrakul (0%); World Breaker (8%)
+
+SYNERGY-DEPENDENT (low rating, high play):
+                 name pool_set                       tier  current_std_play_pct
+               Duress      FDN   D (top half: ~20% / ~9%)                  25.1
+         Spell Pierce      DFT   D (top half: ~20% / ~9%)                  17.7
+          Flashfreeze      FDN   D (top half: ~20% / ~9%)                  16.4
+             Stock Up      DFT   D (top half: ~20% / ~9%)                  16.2
+                  Opt      FDN   D (top half: ~20% / ~9%)                  14.6
+Earthbender Ascension      TLA   D (top half: ~20% / ~9%)                  13.2
+       Sazh's Chocobo      FIN   D (top half: ~20% / ~9%)                  13.2
+     Icetill Explorer      EOE   D (top half: ~20% / ~9%)                  13.2
+   Traumatic Critique      SOS   D (top half: ~20% / ~9%)                  10.8
+          Sunderflock      ECL   D (top half: ~20% / ~9%)                  10.4
+                Annul      EOE F (bottom half: ~3% / ~1%)                   9.3
+
+NEW SPOILERS:
+                     name pool_set                       tier  percentile
+  Goramou the Coral-Taken      NAU   B (top 10%: ~45% / ~25%)        93.6
+            Abyssal Lotus      NAU   C (top 25%: ~30% / ~14%)        83.8
+   Tecton, Malignant Ruin      NAU   C (top 25%: ~30% / ~14%)        82.7
+       Shimmering Citadel      NAU   C (top 25%: ~30% / ~14%)        81.0
+         Calmwater Mentor      NAU   D (top half: ~20% / ~9%)        71.6
+Salinae, the Ocean Mother      NAU   D (top half: ~20% / ~9%)        63.0
+            Ring of Unity      NAU F (bottom half: ~3% / ~1%)        38.2
+
+Goramou the Coral-Taken best partners: Ran and Shaw; Toph, Hardheaded Teacher; Lasyd Prowler; Ainok Wayfarer; Key to the Side-Door; Glacier Godmaw
+
+Abyssal Lotus best partners: Valkyrie Aerial Unit; Eye of Jace; Isolinear Processor; Yuriko, Hope from the Shadows; Elixir; Federation Probe
+
+Tecton, Malignant Ruin best partners: Dread Summons; Hour of Victory; Wolfbat; Broodheart Engine; In the Pale Moonlight; Deadly Plot
+
+Calmwater Mentor best partners: Night Nurse, Healer of Heroes; Leonin Skyhunter; Earth Kingdom Jailer; Mischievous Pup; Winnowing; Flock Impostor
+
+Salinae, the Ocean Mother best partners: Prime Speaker Zegana; Omega, Heartless Evolution; Ambling Stormshell; Ghalta the Unstoppable; V'Ger, the Intruder; Mm'menon, the Right Hand
+
+Ring of Unity best partners: Traxos, Scourge Eternal; Krang, Utrom Warlord; Isolinear Processor; Arc Reactor; Dawnsire, Sunstar Dreadnought; Springleaf Drum

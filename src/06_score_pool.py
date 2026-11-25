@@ -9,13 +9,18 @@ import importlib.util
 ROOT = pathlib.Path(__file__).resolve().parents[1]; PROC, OUT, RAW = ROOT / "data/processed", ROOT / "output", ROOT / "data/raw"
 spec = importlib.util.spec_from_file_location("train", ROOT / "src/05_train.py"); T = importlib.util.module_from_spec(spec); spec.loader.exec_module(T)
 
-POOL_SETS = ["fdn", "dft", "tdm", "fin", "eoe", "spm", "tla", "ecl", "tmt", "sos", "msh", "hob", "fra", "trk", "nau"]
-in_pool, set_of = set(), {}
+POOL_SETS = ["mdd", "fdn", "dft", "tdm", "fin", "eoe", "spm", "tla", "ecl", "tmt", "sos", "msh", "hob", "fra", "trk", "nau"]
+in_pool, set_of, other_set = set(), {}, {}
+FUT = PROC / "future_pool.csv"     # Scryfall f:future (post-rotation Standard), written by the insights step
 for l in gzip.open(RAW / "default_cards.jsonl.gz", "rt"):
     p = json.loads(l)
     if p["set"] in POOL_SETS and p.get("oracle_id") and not p.get("promo"):
         in_pool.add(p["oracle_id"]); set_of.setdefault(p["oracle_id"], p["set"].upper())
+    if p.get("oracle_id") and p.get("legalities", {}).get("future") == "legal" and not p.get("promo") and p["set"] != "om1":
+        other_set.setdefault(p["oracle_id"], p["set"].upper())
+for o, st in other_set.items(): set_of.setdefault(o, st)     # pool-set printing preferred, any other printing as fallback
 feat = pd.read_parquet(PROC / "features.parquet")
+if FUT.exists(): in_pool = set(pd.read_csv(FUT).oracle_id)
 pool = feat[feat.oracle_id.isin(in_pool) & ~feat.type_line.str.startswith("Basic")].copy()
 pool["format"] = "standard"; pool["window_start"] = "2027-02"; pool["target"] = 0.0; pool["ever_played"] = 0; pool["n_months"] = 0; pool["legacy_card"] = 0
 pool["release_year"] = pool.release_year.clip(lower=2024)   # treat as "current era" cards

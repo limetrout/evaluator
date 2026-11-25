@@ -1,0 +1,57 @@
+color_group,name,pool_set,tier,percentile,current_std_play_pct,similar_past_cards
+B,Salt Vampire,TRK,"A (top 2%: ~70% saw play, ~45% staple)",99.6,0.0,Desperate Bloodseeker (0%); Blood Burglar (0%); Deep-Cavern Bat (42%)
+B,Tragic Trajectory,EOE,"A (top 2%: ~70% saw play, ~45% staple)",99.2,0.2,Flaying Tendrils (6%); Glistening Deluge (9%); Mephitic Vapors (0%)
+B,"Gollum, Riddle Master",HOB,"A (top 2%: ~70% saw play, ~45% staple)",99.0,1.1,Gurgling Anointer (0%); Mage Hunter (0%); Vivi Ornitier (23%)
+B,Vraska's Final Mercy,FRA,"A (top 2%: ~70% saw play, ~45% staple)",98.9,0.3,Remorseless Punishment (0%); Jace's Triumph (0%); Molten Rebuke (0%)
+B,Momentum Breaker,DFT,"A (top 2%: ~70% saw play, ~45% staple)",98.5,0.0,Treacherous Blessing (9%); Ill-Gotten Inheritance (0%); Severed Strands (0%)
+B,Terminal Criticism,FRA,"A (top 2%: ~70% saw play, ~45% staple)",98.4,1.7,Noxious Grasp (25%); Extinguish the Light (0%); Vraska's Contempt (40%)
+B,Withering Curse,SOS,"A (top 2%: ~70% saw play, ~45% staple)",98.3,0.0,Malicious Malfunction (3%); Malicious Eclipse (8%); Flaying Tendrils (6%)
+B,The Last Ride,DFT,B+ (top 5%: ~55% / ~30%),97.7,0.0,Imperial Recovery Unit (0%); Bomat Bazaar Barge (0%); Eye of Vecna (1%)
+C,"Lindblum, Industrial Regency // Mage Siege",FIN,"A (top 2%: ~70% saw play, ~45% staple)",99.8,0.0,Restless Cottage (14%); Spikefield Hazard // Spikefield Cave (31%); Ondu Inversion // Ondu Skyruins (1%)
+C,Anticausal Vestige,EOE,"A (top 2%: ~70% saw play, ~45% staple)",99.0,0.0,Thought-Knot Seer (16%); Cryptolith Fragment // Aurora of Emrakul (0%); World Breaker (8%)
+C,Sire of Seven Deaths,FDN,"A (top 2%: ~70% saw play, ~45% staple)",98.7,0.0,Lone Rider // It That Rides as One (0%); Bramble Wurm (0%); Elder Gargaroth (26%)
+C,The Echoverse Fulcrum,FRA,B+ (top 5%: ~55% / ~30%),97.7,0.0,Karn's Sylex (1%); Lantern of the Lost (0%); Bag of Holding (0%)
+C,"Ugin, Eye of the Storms",TDM,B+ (top 5%: ~55% / ~30%),96.6,0.3,"Ugin, the Ineffable (11%); Ashiok, Nightmare Muse (9%); Jaya Ballard (0%)"
+C,Marketback Walker,DFT,B+ (top 5%: ~55% / ~30%),96.3,0.0,Walking Ballista (49%); Iron Apprentice (0%); Chamber Sentry (0%)
+C,"Zanarkand, Ancient Metropolis // Lasting Fayth",FIN,B+ (top 5%: ~55% / ~30%),95.2,0.0,Hall of Tagsin (0%); Herd Migration (20%); Ondu Inversion // Ondu Skyruins (1%)
+C,"Ishgard, the Holy See // Faith & Grief",FIN,B (top 10%: ~45% / ~25%),94.1,0.0,Bala Ged Recovery // Bala Ged Sanctuary (6%); Ondu Inversion // Ondu Skyruins (1%); Splendid Reclamation (0%)
+G,Carnivorous Cultivator // Enroot,FRA,"A (top 2%: ~70% saw play, ~45% staple)",99.6,3.5,"Aetherblade Agent // Gitaxian Mindstinger (0%); Oakhame Adversary (6%); Gonti, Lord of Luxury (15%)"
+G,MACO Strike Team,TRK,"A (top 2%: ~70% saw play, ~45% staple)",99.3,0.0,Hanweir Garrison (2%); Siege Veteran (11%); Perimeter Patrol (0%)
+G,Webstrike Elite,DFT,"A (top 2%: ~70% saw play, ~45% staple)",99.1,0.0,Kraul Whipcracker (0%); Wilt (20%); Sawblade Slinger (0%)
+G,Frenzied Baloth,EOE,"A (top 2%: ~70% saw play, ~45% staple)",98.7,0.0,Prowling Serpopard (1%); Rhythm of the Wild (1%); Cragplate Baloth (0%)
+G,Flourishing Grapple,FRA,B+ (top 5%: ~55% / ~30%),97.8,0.0,Master's Rebuke (7%); Cosmic Hunger (0%); Thwart the Enemy (0%)
+G,Party Dude,TMT,B+ (top 5%: ~55% / ~30%),97.3,0.2,Scavenger's Talent (1%); Ranger Class (33%); Hunter's Talent (8%)
+G,Emeritus of Abundance // Regrowth,SOS,B+ (top 5%: ~55% / ~30%),97.2,1.4,"Sylvan Advocate (41%); Silverflame Ritual (0%); Chulane, Teller of Tales (0%)"
+G,Test of Courage,TRK,B+ (top 5%: ~55% / ~30%),96.5,0.0,Return to Nature (6%); Wilt (20%); Springsage Ritual (0%)
+Multi,Witherbloom Charm,SOS,"A (top 2%: ~70% saw play, ~45% staple)",99.8,3.1,Infernal Grasp (57%); Eliminate (29%); Sinister Concoction (1%)
+Multi,Vibrance,ECL,"A (top 2%: ~70% saw play, ~45% staple)",99.0,0.3,"Titania, Voice of Gaea (3%); Blanchwood Prowler (1%); Overgrowth Elemental (0%)"
+Multi,"Azula, Cunning Usurper",TLA,"A (top 2%: ~70% saw play, ~45% staple)",98.8,0.0,"Annie Flash, the Veteran (0%); Spell Queller (30%); Ashiok's Erasure (0%)"
+Multi,Quandrix Charm,SOS,"A (top 2%: ~70% saw play, ~45% staple)",98.2,0.0,Brokers Charm (1%); Destroy Evil (35%); Decisive Denial (2%)
+Multi,"King T'Challa // Black Panther, Hope Enduring",MSH,B+ (top 5%: ~55% / ~30%),97.7,0.2,"Sigrid, God-Favored (0%); Heliod, the Radiant Dawn // Heliod, the Warped Eclipse (0%); Embercleave (35%)"
+Multi,"Aang, Swift Savior // Aang and La, Ocean's Fury",TLA,B+ (top 5%: ~55% / ~30%),97.6,0.7,"Embercleave (35%); Multani, Yavimaya's Avatar (0%); Nebelgast Herald (2%)"
+Multi,Null Summoner,FRA,B+ (top 5%: ~55% / ~30%),97.2,0.3,Covetous Urge (0%); Never Happened (0%); Hostage Taker (14%)
+Multi,Solitary Cell,FRA,B+ (top 5%: ~55% / ~30%),97.1,0.3,Portable Hole (22%); Glass Casket (18%); Azor's Gateway // Sanctum of the Sun (1%)
+R,Spinneret and Spiderling,SPM,"A (top 2%: ~70% saw play, ~45% staple)",99.9,0.0,"Arasta of the Endless Web (0%); Ishkanah, Grafwidow (25%); Hoarding Recluse (0%)"
+R,Stingcaster Mage,FRA,"A (top 2%: ~70% saw play, ~45% staple)",99.9,1.7,"Slickshot Lockpicker (0%); Lier, Disciple of the Drowned (24%); Pyromantic Pilgrim (0%)"
+R,Summon: Brynhildr,FIN,"A (top 2%: ~70% saw play, ~45% staple)",99.7,0.0,Showdown of the Skalds (16%); Fall of the Impostor (0%); Kardur's Vicious Return (0%)
+R,Hexing Squelcher,ECL,"A (top 2%: ~70% saw play, ~45% staple)",99.5,0.3,Rhythm of the Wild (1%); Prowling Serpopard (1%); Whirlwind Denial (2%)
+R,Flashback,SOS,"A (top 2%: ~70% saw play, ~45% staple)",99.4,6.1,"Slickshot Lockpicker (0%); Galvanic Iteration (26%); Lier, Disciple of the Drowned (24%)"
+R,Avengers Disassembled,MSH,"A (top 2%: ~70% saw play, ~45% staple)",99.3,2.9,Cleansing Wildfire (0%); Deathsprout (1%); Spring // Mind (2%)
+R,Emeritus of Conflict // Lightning Bolt,SOS,"A (top 2%: ~70% saw play, ~45% staple)",99.3,0.0,Rockslide Sorcerer (0%); Irencrag Pyromancer (6%); Thundering Sparkmage (0%)
+R,Road Rage,DFT,"A (top 2%: ~70% saw play, ~45% staple)",98.3,0.0,Hungry Flames (2%); Reckless Rage (0%); Flame Sweep (10%)
+U,The Wondrous Wasp,MSH,"A (top 2%: ~70% saw play, ~45% staple)",99.2,9.2,"Merfolk Trickster (6%); Altanak, the Thrice-Called (1%); Ambush Gigapede (0%)"
+U,Spider-Sense,SPM,"A (top 2%: ~70% saw play, ~45% staple)",98.8,2.5,Disallow (16%); Tale's End (3%); Miscast (4%)
+U,"Kaito, Cunning Infiltrator",FDN,"A (top 2%: ~70% saw play, ~45% staple)",98.6,0.0,"Kaito, Dancing Shadow (1%); Kaito Shizuki (21%); Kaito, Bane of Nightmares (35%)"
+U,Subcommander T'Pol,TRK,"A (top 2%: ~70% saw play, ~45% staple)",98.6,0.0,Chrome Prowler (0%); Runaway Boulder (0%); Lodestone Needle // Guidestone Compass (0%)
+U,Jace's Machinations,FRA,"A (top 2%: ~70% saw play, ~45% staple)",98.0,3.0,"Teferi, Master of Time (9%); The Wandering Emperor (48%); Jace, Ingenious Mind-Mage (0%)"
+U,"Wan Shi Tong, Librarian",TLA,B+ (top 5%: ~55% / ~30%),97.9,14.5,"Vega, the Watcher (0%); Shaile, Dean of Radiance // Embrose, Dean of Shadow (0%); Kastral, the Windcrested (0%)"
+U,Theorist's Proxy,FRA,B+ (top 5%: ~55% / ~30%),97.5,0.3,Jace's Projection (0%); Jace's Defeat (10%); Haunting Figment (0%)
+U,Louisoix's Sacrifice,FIN,B+ (top 5%: ~55% / ~30%),97.4,0.0,Tale's End (3%); Disruption Protocol (1%); Pyrrhic Blast (0%)
+W,Erode,SOS,"A (top 2%: ~70% saw play, ~45% staple)",100.0,23.4,Deathsprout (1%); Assassin's Trophy (14%); Cleansing Wildfire (0%)
+W,Spectacular Spider-Man,SPM,"A (top 2%: ~70% saw play, ~45% staple)",99.9,0.2,"Archangel Avacyn // Avacyn, the Purifier (37%); Ambush Paratrooper (0%); Kyodai, Soul of Kamigawa (0%)"
+W,"Momo, Friendly Flier",TLA,"A (top 2%: ~70% saw play, ~45% staple)",99.7,9.1,"Lifecreed Duo (0%); Zoraline, Cosmos Caller (12%); Watcher of the Spheres (0%)"
+W,"Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",FIN,"A (top 2%: ~70% saw play, ~45% staple)",99.6,0.0,"Nylea, Keen-Eyed (1%); Tyvar, the Pummeler (6%); Klothys, God of Destiny (14%)"
+W,Seam Rip,EOE,"A (top 2%: ~70% saw play, ~45% staple)",99.5,14.0,Borrowed Time (3%); Hieromancer's Cage (0%); Portable Hole (22%)
+W,Emeritus of Truce // Swords to Plowshares,SOS,"A (top 2%: ~70% saw play, ~45% staple)",99.2,0.3,Sanctifier of Souls (0%); Basri's Acolyte (0%); Salvation Swan (0%)
+W,Sunpearl Kirin,TDM,"A (top 2%: ~70% saw play, ~45% staple)",99.1,0.0,Zephyr Sentinel (15%); Aether Channeler (1%); Loyal Gryff (0%)
+W,Lightstall Inquisitor,EOE,"A (top 2%: ~70% saw play, ~45% staple)",99.1,0.3,Codespell Cleric (0%); Angel of Condemnation (0%); Emeria Captain (0%)

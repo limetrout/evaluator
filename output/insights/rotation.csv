@@ -1,0 +1,669 @@
+card,play_pct_2026,survives_rotation
+Burst Lightning,28.4,True
+Stock Up,25.2,True
+Llanowar Elves,24.0,True
+Requiting Hex,19.4,True
+Opt,19.4,True
+Badgermole Cub,19.4,False
+Sleight of Hand,19.1,False
+Bitter Triumph,16.9,False
+Spell Snare,16.3,True
+Boomerang Basics,15.6,True
+Stormchaser's Talent,15.4,False
+Seam Rip,15.1,True
+Eddymurk Crab,14.9,False
+Winternight Stories,14.9,True
+Slickshot Show-Off,12.7,False
+Spell Pierce,12.3,True
+Icetill Explorer,12.1,True
+Mightform Harmonizer,12.0,True
+Earthbender Ascension,11.7,True
+Meltstrider's Resolve,11.7,True
+Shoot the Sheriff,11.4,False
+Ouroboroid,11.2,True
+Deadly Cover-Up,11.0,False
+Sazh's Chocobo,11.0,True
+"Surrak, Elusive Hunter",10.6,True
+Firebending Lesson,10.5,True
+Abandon Attachments,10.1,True
+Esper Origins // Summon: Esper Maduin,10.1,True
+Deceit,9.9,True
+Keen-Eyed Curator,9.7,False
+Flow State,9.5,True
+Gene Pollinator,9.5,True
+Practiced Offense,9.2,True
+Erode,9.1,True
+Bounce Off,9.0,True
+Superior Spider-Man,9.0,True
+Three Steps Ahead,8.8,False
+Sear,8.6,True
+Into the Flood Maw,8.5,False
+Jeskai Revelation,8.4,True
+Secret Identity,8.3,True
+Quantum Riddler,8.3,True
+Tablet of Discovery,8.2,True
+Duress,8.1,True
+Sunderflock,8.1,True
+Consult the Star Charts,8.0,True
+Mossborn Hydra,7.7,True
+Gran-Gran,7.7,False
+Get Out,7.7,False
+Impractical Joke,7.7,True
+Hearth Elemental // Stoke Genius,7.5,False
+Accumulate Wisdom,7.4,True
+Brightglass Gearhulk,7.4,True
+Voice of Victory,7.4,True
+Combustion Technique,7.4,True
+Wild Ride,7.1,True
+Spider Manifestation,7.0,True
+Elusive Otter // Grove's Bounty,7.0,False
+Doomsday Excruciator,6.8,False
+Get Lost,6.8,False
+It'll Quench Ya!,6.8,True
+Iroh's Demonstration,6.6,True
+Vibrant Outburst,6.6,True
+Prismari Charm,6.5,True
+"Leatherhead, Swamp Stalker",6.4,True
+Pawpatch Recruit,6.2,False
+Nurturing Pixie,6.2,False
+Strategic Betrayal,6.2,True
+Floodpits Drowner,6.1,False
+Enduring Curiosity,6.0,False
+"Momo, Friendly Flier",6.0,True
+Flashback,6.0,True
+"Kaito, Bane of Nightmares",5.7,False
+Day of Judgment,5.7,True
+Sapling Nursery,5.7,True
+Tishana's Tidebinder,5.3,False
+Nature's Rhythm,5.2,True
+Monument to Endurance,5.0,True
+Spyglass Siren,5.0,False
+No More Lies,4.9,False
+Insatiable Avarice,4.9,False
+Drake Hatcher,4.7,True
+Roaring Furnace // Steaming Sauna,4.7,False
+Inevitable Defeat,4.6,True
+Nova Hellkite,4.6,True
+Lumbering Worldwagon,4.6,True
+Day of Black Sun,4.5,True
+Spider-Sense,4.5,True
+Deep-Cavern Bat,4.5,False
+Traumatic Critique,4.4,True
+Colorstorm Stallion,4.4,True
+Torch the Tower,4.3,False
+Artist's Talent,4.2,False
+Bushwhack,4.2,True
+"Haliya, Guided by Light",4.1,True
+Emeritus of Ideation // Ancestral Recall,4.1,True
+Archenemy's Charm,3.9,True
+"Wan Shi Tong, Librarian",3.9,True
+Hired Claw,3.9,False
+Archdruid's Charm,3.8,False
+Harvester of Misery,3.8,False
+Jennifer Walters // The Sensational She-Hulk,3.8,True
+Smaug the Magnificent,3.7,True
+Nowhere to Run,3.7,False
+Dream Beavers,3.6,True
+Craterhoof Behemoth,3.6,True
+Abrade,3.5,True
+Overlord of the Balemurk,3.5,False
+Springleaf Drum,3.4,True
+Sage of the Skies,3.4,True
+"Cecil, Dark Knight // Cecil, Redeemed Paladin",3.4,True
+Lightning Helix,3.2,False
+The Wondrous Wasp,3.2,True
+Clarion Conqueror,3.1,True
+Soul-Guide Lantern,3.0,True
+Together as One,3.0,True
+Starfield Shepherd,3.0,True
+Magmatic Hellkite,2.9,True
+Snakeskin Veil,2.9,True
+Twinmaw Stormbrood // Charring Bite,2.8,True
+Lively Dirge,2.8,False
+Intimidation Tactics,2.8,True
+"Sarkhan, Dragon Ascendant",2.7,True
+We Say Thee Nay!,2.7,True
+Royal Treatment,2.6,False
+"The Theorist, Jace Beleren",2.6,True
+"Aang, Swift Savior // Aang and La, Ocean's Fury",2.6,True
+Wistfulness,2.5,True
+Tersa Lightshatter,2.4,True
+Umbral Collar Zealot,2.4,True
+"Thor, God of Thunder",2.4,True
+"Bristly Bill, Spine Sower",2.3,False
+Obsessive Pursuit,2.3,True
+Mockingbird,2.3,False
+Greedy Freebooter,2.2,False
+Biotech Specialist,2.2,True
+Fire Magic,2.2,True
+The Sackville-Bagginses,2.2,True
+Full Bore,2.1,True
+Cosmogrand Zenith,2.0,True
+"Ral, Crackling Wit",2.0,False
+Great Divide Guide,2.0,True
+Shock,1.9,True
+Glacial Dragonhunt,1.9,True
+Case of the Uneaten Feast,1.9,False
+"Ashling, Rekindled // Ashling, Rimebound",1.9,True
+Frostcliff Siege,1.8,True
+Formidable Speaker,1.8,True
+Shared Roots,1.8,True
+Hunter's Talent,1.8,False
+Amalia Benavides Aguirre,1.8,False
+Curious Farm Animals,1.8,True
+Hinterland Sanctifier,1.8,True
+Ill-Timed Explosion,1.8,False
+North Wind Avatar,1.8,True
+Daydream,1.7,True
+Professor Dellian Fel,1.7,True
+Starscape Cleric,1.7,False
+Bloodghast,1.7,True
+Unholy Annex // Ritual Chamber,1.7,False
+Lunar Convocation,1.7,False
+"Moseo, Vein's New Dean",1.7,True
+Pompous Battlemage // Improvised Act,1.6,True
+Preacher of the Schism,1.6,False
+Marang River Regent // Coil and Catch,1.6,True
+Maelstrom Pulse,1.6,True
+Moonshadow,1.6,True
+Pinnacle Starcage,1.6,True
+Stadium Headliner,1.6,True
+Marauding Mako,1.5,True
+"Ojer Axonil, Deepest Might // Temple of Power",1.5,False
+"Magda, the Hoardmaster",1.5,False
+Flitterwing Nuisance,1.5,True
+Firdoch Core,1.5,True
+Hexing Squelcher,1.5,True
+Improvisation Capstone,1.5,True
+Iron-Shield Elf,1.5,True
+The Misty Mountains Cold,1.5,True
+Warleader's Call,1.5,False
+Phantom Interference,1.5,False
+The Mind Stone,1.4,True
+"Inti, Seneschal of the Sun",1.4,False
+Negate,1.4,True
+M.O.D.O.K.,1.4,True
+Thunder Magic,1.4,True
+Cryogen Relic,1.3,True
+Iridescent Vinelasher,1.3,False
+Vibrance,1.3,True
+Figure of Fable,1.3,True
+Skateboard,1.3,True
+Flamebraider,1.3,True
+Roaming Throne,1.3,False
+Fear of Missing Out,1.2,False
+Insidious Fungus,1.2,False
+Kíli the Resourceful,1.2,True
+"Dwalin, Weaponmaster",1.2,True
+"Thorin, Mountain-king",1.2,True
+Dragonfire Blade,1.2,True
+Dáin's Company,1.2,True
+Dwarven Mauler,1.2,True
+Aunt May,1.2,True
+Leyline Axe,1.2,True
+Fecund Greenshell,1.2,False
+Lightning Strike,1.2,True
+Burnout Bashtronaut,1.2,True
+Liliana the Faultless,1.2,True
+Shardmage's Rescue,1.0,False
+Countersculpt,1.0,True
+Bringer of the Last Gift,1.0,False
+Howlsquad Heavy,1.0,True
+Emberheart Challenger,1.0,False
+Shore Up,1.0,False
+Ultima,1.0,True
+Lavaspur Boots,1.0,False
+Enlightened Confidant,1.0,True
+Carnivorous Cultivator // Enroot,1.0,True
+Stir Up Trouble,1.0,True
+Oblivious Bookworm,1.0,False
+Dredger's Insight,1.0,True
+United Battlefront,1.0,True
+"Wolverine, Fierce Fighter",1.0,True
+"Ardyn, the Usurper",1.0,True
+Tragic Trajectory,0.9,True
+Fanatical Firebrand,0.9,True
+Aven Interrupter,0.9,False
+Chainsaw,0.9,False
+Broadside Barrage,0.9,True
+Rottenmouth Viper,0.9,False
+The Legend of Roku // Avatar Roku,0.9,True
+Callous Sell-Sword // Burn Together,0.9,False
+The Unagi of Kyoshi Island,0.9,True
+Razorkin Needlehead,0.9,False
+Seasoned Cryomancer,0.9,True
+"Dragonhawk, Fate's Tempest",0.9,False
+Steamcore Scholar,0.9,False
+"Hydro-Man, Fluid Felon",0.9,True
+Spring-Loaded Sawblades // Bladewheel Chariot,0.9,False
+Basilisk Collar,0.9,True
+Analyze the Pollen,0.9,False
+Master of Barbs,0.8,True
+Turn Inside Out,0.8,False
+Ingris Stingerquill,0.8,True
+"Zoraline, Cosmos Caller",0.8,False
+Fireglass Mentor,0.8,False
+Callous Inspector,0.8,True
+Aang's Iceberg,0.8,True
+Terror of the Peaks,0.8,False
+Flamecache Gecko,0.8,False
+High Noon,0.8,False
+Rapid Rescue,0.8,True
+Ancestral Anger,0.8,True
+Bloodthorn Flail,0.8,False
+The Soul Stone,0.8,True
+Scalding Viper // Steam Clean,0.8,False
+Jace's Machinations,0.8,True
+Town Greeter,0.8,True
+"Kona, Rescue Beastie",0.8,False
+"Gev, Scaled Scorch",0.8,False
+Stingerquill Charm,0.8,True
+Flamewake Phoenix,0.8,True
+Reclamation Sage,0.7,True
+Frontline Rush,0.7,True
+Sentinel of the Nameless City,0.7,False
+"Mutagen Man, Living Ooze",0.7,True
+The Last Ronin's Technique,0.7,True
+Dispelling Exhale,0.7,True
+Shocking Sharpshooter,0.7,True
+Ajani Resolute,0.7,True
+Bitterbloom Bearer,0.7,True
+Witherbloom Charm,0.7,True
+Valley Flamecaller,0.7,False
+Song of Totentanz,0.7,False
+"Beza, the Bounding Spring",0.7,False
+Essence Channeler,0.7,False
+Rest in Peace,0.7,False
+Cool but Rude,0.7,True
+Parting Gust,0.7,False
+Guiding Hydra,0.7,True
+Emptiness,0.7,True
+Omniscience,0.7,True
+Avatar's Wrath,0.7,True
+Mazemind Tome,0.7,True
+Disruptive Stormbrood // Petty Revenge,0.6,True
+Stab,0.6,True
+"Jadzi, Steward of Fate // Oracle's Gift",0.6,True
+"Kiora, the Rising Tide",0.6,True
+"Elspeth, Storm Slayer",0.6,True
+Commune with Beavers,0.6,True
+Pest Control,0.6,False
+Origin of Metalbending,0.6,True
+Hardened Academic,0.6,True
+"Aang, at the Crossroads // Aang, Destined Savior",0.6,True
+Feed the Cycle,0.6,False
+Inside Information,0.6,True
+Glimpse the Core,0.6,False
+Herd Heirloom,0.6,True
+"Carnage, Crimson Chaos",0.6,True
+Dusk Rose Reliquary,0.6,False
+Doorkeeper Thrull,0.6,False
+Theorix Charm,0.6,True
+"Tezzeret, Cruel Captain",0.5,True
+The Fire Crystal,0.5,True
+"Dyadrine, Synthesis Amalgam",0.5,True
+Simulacrum Synthesizer,0.5,False
+Hard-Hitting Question,0.5,False
+Hop to It,0.5,False
+Stingcaster Mage,0.5,True
+"Balmor, Battlemage Captain",0.5,True
+Spell Stutter,0.5,False
+Corpses of the Lost,0.5,False
+Malboro,0.5,True
+Legion Extruder,0.5,False
+Boiling Rock Rioter,0.5,True
+"Hakoda, Selfless Commander",0.5,True
+Ashling's Command,0.5,True
+Forsaken Miner,0.5,False
+Perilous Snare,0.5,True
+Thundertrap Trainer,0.5,False
+Confounding Riddle,0.5,False
+Deadly Precision,0.5,True
+Allies at Last,0.5,True
+Sunspine Lynx,0.5,False
+South Pole Voyager,0.5,True
+"Chandra, Chill of Compliance",0.5,True
+Airbender Ascension,0.5,True
+Roiling Dragonstorm,0.5,True
+Enduring Innocence,0.5,False
+Earth King's Lieutenant,0.5,True
+Earth Kingdom Protectors,0.5,True
+Bender's Waterskin,0.5,True
+Weapons Manufacturing,0.5,True
+Slagstorm,0.5,True
+Avengers Disassembled,0.5,True
+"Raphael, Tough Turtle",0.5,True
+Repurposing Bay,0.5,True
+Candy Trail,0.5,False
+Braided Net // Braided Quipu,0.5,False
+Earthen Ally,0.5,True
+Uldaros Theorix,0.5,True
+Political Triumph,0.5,True
+Belladonna Took,0.5,True
+Duelist of the Mind,0.5,False
+"Katara, the Fearless",0.5,True
+Ambitious Augmenter,0.4,True
+Emeritus of Abundance // Regrowth,0.4,True
+"Chandra, Torch of Defiance",0.4,True
+Splash Portal,0.4,False
+Break Under Pressure,0.4,True
+Ghitu Lavarunner,0.4,True
+Innkeeper's Talent,0.4,False
+Plunder the Trollshaws,0.4,True
+Pyroclasm,0.4,False
+"Ral Zarek, Guest Lecturer",0.4,True
+Skycoach Conductor // All Aboard,0.4,True
+Environmental Scientist,0.4,True
+"Lord Skitter, Sewer King",0.4,False
+"Gandalf, Goblins' Bane // Flameshape",0.4,True
+"Vraska, the Cutting Glare",0.4,True
+"Kellan, Planar Trailblazer",0.4,True
+Sunset Saboteur,0.4,True
+Qarsi Revenant,0.4,True
+Plasma Bolt,0.4,True
+Loch Mare,0.4,True
+Spinner of Souls,0.4,True
+"Malcolm, Alluring Scoundrel",0.4,False
+Way of the Pyromancer,0.4,True
+Sphinx of False Conclusions,0.4,True
+Awaken the Honored Dead,0.4,True
+Ajani Unrelenting,0.4,True
+The End,0.4,False
+"Captain Marvel, Earth's Protector",0.4,True
+Octopus Form,0.4,True
+Torpor Orb,0.4,False
+"Zhao, the Moon Slayer",0.4,True
+The Irencrag,0.4,False
+Faunsbane Troll,0.4,False
+Essence Scatter,0.4,True
+"Michelangelo, Weirdness to 11",0.4,True
+Bloom Tender,0.3,True
+Magic Damper,0.3,True
+"Garruk, Veiled Butcher",0.3,True
+Tarmogoyf,0.3,True
+Flashfreeze,0.3,True
+Leyline of Resonance,0.3,False
+Desolation Prowler,0.3,True
+Swallowed by Leviathan,0.3,True
+"Appa, Steadfast Guardian",0.3,True
+Azure Beastbinder,0.3,False
+"Gollum, Riddle Master",0.3,True
+"Tyvar, the Pummeler",0.3,False
+Channeled Dragonfire,0.3,True
+Scrapshooter,0.3,False
+"Delney, Streetwise Lookout",0.3,False
+Sewer-veillance Cam,0.3,True
+"Ketramose, the New Dawn",0.3,True
+The Ooze,0.3,True
+Tifa Lockhart,0.3,True
+Nighthowl Pursuer,0.3,True
+Splatter Technique,0.3,True
+Might of the Meek,0.3,False
+Overlord of the Mistmoors,0.3,False
+Twinned Vision,0.3,True
+"Kaito, Cunning Infiltrator",0.3,True
+Lost in the Maze,0.3,False
+Broodspinner,0.3,False
+Simulacrum Shaper,0.3,True
+Thrór's Map,0.3,True
+Damage Control Crew,0.3,True
+Boltwave,0.3,True
+"Loki, God of Mischief",0.3,True
+Overlord of the Boilerbilges,0.3,False
+Ghost Vacuum,0.3,False
+Sentinel of Lost Lore,0.3,False
+Sanctum Lurker,0.3,True
+Molt Tender,0.3,True
+"Sanar, Unfinished Genius // Wild Idea",0.3,True
+Grim Bauble,0.3,True
+Heroes' Hangout,0.3,True
+The Jolly Balloon Man,0.3,False
+Dissection Practice,0.3,True
+Greasewrench Goblin,0.3,True
+"Leonardo, Cutting Edge",0.3,True
+Naga Fleshcrafter,0.3,True
+"Yuna, Hope of Spira",0.3,True
+Molten-Core Maestro,0.3,True
+Urgent Necropsy,0.3,False
+"Yuriko, Hope from the Shadows",0.3,True
+Clay-Fired Bricks // Cosmium Kiln,0.3,False
+Settle the Wreckage,0.2,True
+Scavenger Regent // Exude Toxin,0.2,True
+Battle Menu,0.2,True
+Scavenging Ooze,0.2,True
+Boros Charm,0.2,True
+Prehistoric Pet,0.2,True
+Restoration Magic,0.2,True
+"Morlun, Devourer of Spiders",0.2,True
+"Arachne, Psionic Weaver",0.2,True
+The Legend of Kuruk // Avatar Kuruk,0.2,True
+The Unbeatable Squirrel Girl,0.2,True
+Beifong's Bounty Hunters,0.2,True
+Gastal Thrillroller,0.2,True
+"Monica Rambeau // Photon, Living Light",0.2,True
+Puppet Crafting,0.2,True
+Fanatical Offering,0.2,False
+"Lazav, Wearer of Faces",0.2,False
+Break Out,0.2,False
+Painter's Studio // Defaced Gallery,0.2,False
+The Vision,0.2,True
+"Giott, King of the Dwarves",0.2,True
+Wildfire Wickerfolk,0.2,False
+"Koh, the Face Stealer",0.2,True
+Heartless Act,0.2,True
+Windcrag Siege,0.2,True
+White Auracite,0.2,True
+"Lorehold, the Historian",0.2,True
+Tiger-Seal,0.2,True
+Bramble Familiar // Fetch Quest,0.2,False
+Riverchurn Monument,0.2,True
+Patchwork Beastie,0.2,False
+"Sandman, Shifting Scoundrel",0.2,True
+Violent Urge,0.2,False
+Vicious Rivalry,0.2,True
+Dark Matter Manipulator,0.2,True
+Way of the Paradox,0.2,True
+"Shang-Chi, Master of Kung Fu",0.2,True
+Charming Scoundrel,0.2,False
+Fresh Start,0.2,True
+Insidious Roots,0.2,False
+Faerie Dreamthief,0.2,False
+"Shiko, Paragon of the Way",0.2,True
+Enduring Vitality,0.2,False
+Unauthorized Exit,0.2,False
+"Doc Aurlock, Grizzled Genius",0.2,False
+Hearthborn Battler,0.2,False
+"Emet-Selch, Unsundered // Hades, Sorcerer of Eld",0.2,True
+Price of Freedom,0.2,True
+Glamer Gifter,0.2,True
+Outrageous Robbery,0.2,False
+Doc Ock's Tentacles,0.2,True
+Enduring Courage,0.2,False
+"Mabel, Heir to Cragflame",0.2,False
+Bruce Banner // The Incredible Hulk,0.2,True
+The Enigma Jewel // Locus of Enlightenment,0.2,False
+"Elektra, Daughter of the Hand",0.2,True
+Abhorrent Oculus,0.2,False
+Dauntless Scrapbot,0.2,True
+Edge Rover,0.2,True
+"Tomik, Izzet Sparkmage",0.2,True
+"Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",0.2,True
+Scorching Shot,0.2,False
+"Ironheart, Clever Champion",0.2,True
+Spectacular Spider-Man,0.2,True
+Geist of Saint Thalia,0.2,True
+Gigastorm Titan,0.2,True
+"Anim Pakal, Thousandth Moon",0.2,False
+"Arabella, Abandoned Doll",0.2,False
+Lodestone Needle // Guidestone Compass,0.2,False
+Virtue of Persistence // Locthwain Scorn,0.2,False
+Sunpearl Kirin,0.2,True
+Vein Ripper,0.2,False
+Elegy Acolyte,0.2,True
+Ancient Cornucopia,0.2,False
+Thornvault Forager,0.2,False
+Theorist's Proxy,0.1,True
+Demon Wall,0.1,True
+Postmortem Professor,0.1,True
+Quag Feast,0.1,True
+"Kellan, Daring Traveler // Journey On",0.1,False
+Gas Guzzler,0.1,True
+Pawpatch Formation,0.1,False
+Bulk Up,0.1,True
+Huskburster Swarm,0.1,False
+Molten Collapse,0.1,False
+Magebane Lizard,0.1,False
+Tragedy Feaster,0.1,True
+"Titania, Rugged Rumbler",0.1,True
+Saheeli's Lattice // Mastercraft Raptor,0.1,False
+Sharp-Eyed Rookie,0.1,False
+"King T'Challa // Black Panther, Hope Enduring",0.1,True
+Lich's Relic,0.1,True
+Summon: Bahamut,0.1,True
+"Kaya, Spirits' Justice",0.1,False
+Zack Fair,0.1,True
+Resolute Reinforcements,0.1,True
+Hollow Marauder,0.1,False
+Rubblebelt Maverick,0.1,False
+Thrill of Possibility,0.1,True
+"Ayli, Eternal Pilgrim",0.1,True
+Emeritus of Truce // Swords to Plowshares,0.1,True
+Ruin-Lurker Bat,0.1,False
+"Kitsa, Otterball Elite",0.1,False
+Helping Hand,0.1,False
+Sleep-Cursed Faerie,0.1,False
+The Seriema,0.1,True
+Exorcise,0.1,False
+"Jackal, Genius Geneticist",0.1,True
+"Ugin, Eye of the Storms",0.1,True
+Celestial Reunion,0.1,True
+The Skullspore Nexus,0.1,False
+Questing Druid // Seek the Beast,0.1,False
+Authority of the Consuls,0.1,True
+Null Summoner,0.1,True
+Lightstall Inquisitor,0.1,True
+Tenured Tethermage,0.1,True
+"Black Widow, Super Spy",0.1,True
+"The Mighty Thor, Jane Foster",0.1,True
+Super Shredder,0.1,True
+Pinnacle Emissary,0.1,True
+"Krang, Master Mind",0.1,True
+Horned Loch-Whale // Lagoon Breach,0.1,False
+"Ghalta, Primal Hunger",0.1,True
+Vivien Reid,0.1,True
+Say Its Name,0.1,False
+Webstrike Elite,0.1,True
+Slick Sequence,0.1,False
+Starfield Vocalist,0.1,True
+"Hellcat, Undying Vigilante",0.1,True
+Scheming Silvertongue // Sign in Blood,0.1,True
+Interdimensional Web Watch,0.1,True
+Ravenous Robots,0.1,True
+Super-Skrull,0.1,True
+Bloodletter of Aclazotz,0.1,False
+Go Ninja Go,0.1,True
+"Elenda, Saint of Dusk",0.1,True
+Souls of the Lost,0.1,False
+Novice Inspector,0.1,False
+Kutzil's Flanker,0.1,False
+"Casey Jones, Vigilante",0.1,True
+Quill-Blade Laureate // Twofold Intent,0.1,True
+Unidentified Hovership,0.1,False
+Miles Morales // Ultimate Spider-Man,0.1,True
+Tinybones Joins Up,0.1,False
+Rally the Monastery,0.1,True
+"Obyra, Dreaming Duelist",0.1,False
+"Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",0.1,True
+Vastlands Scavenger // Bind to Life,0.1,True
+"Ajani, Outland Chaperone",0.1,True
+Diamond Weapon,0.1,True
+Timeline Culler,0.1,True
+Swiftfoot Boots,0.1,True
+Heartwood Crafter // Soul Tether,0.1,True
+Gideon's Memorial,0.1,True
+Desolation of Smaug,0.1,True
+Rapturous Moment,0.1,True
+Spectral Interference,0.1,True
+Veteran Survivor,0.1,False
+Way of the Mentor,0.1,True
+Improvised Arsenal,0.1,True
+The Swarmweaver,0.1,False
+Glen Elendra Guardian,0.1,True
+Darkstar Augur,0.1,False
+Dina's Guidance,0.1,True
+"Nick Fury, Agent of S.H.I.E.L.D.",0.1,True
+Pym Particles,0.1,True
+"Cloak and Dagger, Entwined",0.1,True
+"Altanak, the Thrice-Called",0.1,False
+Unstoppable Slasher,0.1,False
+Solitary Cell,0.1,True
+Tarrian's Journal // The Tomb of Aclazotz,0.1,False
+Serah Farron // Crystallized Serah,0.1,True
+Liliana the Repentant,0.1,True
+Mathemagics,0.1,True
+"Ygra, Eater of All",0.1,False
+Mind into Matter,0.1,True
+"Talion, the Kindly Lord",0.1,False
+"Oko, Lorwyn Liege // Oko, Shadowmoor Scion",0.1,True
+Charming Prince,0.1,True
+Shimmerwilds Growth,0.1,True
+Fatehold Charm,0.1,True
+"Leonardo, Leader in Blue",0.1,True
+"Mole Man, Moloid Master",0.1,True
+Heraldic Banner,0.1,True
+Rakshasa's Bargain,0.1,True
+Germinate Recruits,0.1,True
+Ninja Teen,0.1,True
+Devastating Onslaught,0.1,True
+Split Up,0.1,False
+Sheltered by Ghosts,0.1,False
+"Oroku Saki, Shredder Rising",0.1,True
+Exhibition Tidecaller,0.1,True
+Werefox Bodyguard,0.1,False
+"Raubahn, Bull of Ala Mhigo",0.1,True
+Rewrite Regrets,0.1,True
+Michelangelo's Technique,0.1,True
+Unsummon,0.1,True
+Divergent Equation,0.1,True
+End of the Hunt,0.1,True
+Vraska's Final Mercy,0.1,True
+Samurai's Katana,0.1,True
+"Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield",0.1,True
+Phoenix Fleet Airship,0.1,True
+Stirring Hopesinger,0.1,True
+Summon: Knights of Round,0.1,True
+Rust Harvester,0.1,True
+"Gisa, the Hellraiser",0.1,False
+Frenzied Baloth,0.1,True
+Zookeeper Mechan,0.1,True
+"Mai, Scornful Striker",0.1,True
+Baron Helmut Zemo,0.1,True
+Gingerbrute,0.1,False
+Avatar of Burgeoning Echoes,0.1,True
+Collector's Cage,0.1,False
+Faebloom Trick,0.1,True
+"Toph, Hardheaded Teacher",0.1,True
+"Raphael, the Nightwatcher",0.1,True
+"Lady Octopus, Inspired Inventor",0.1,True
+Melded Moxite,0.1,True
+"Tokka & Rahzar, Terrible Twos",0.1,True
+Tithing Blade // Consuming Sepulcher,0.1,False
+Giant's Boulder,0.1,True
+Honest Rutstein,0.1,False
+Slumbering Trudge,0.1,True
+Annul,0.1,True
+Fulminous Forte,0.1,True
+Disdainful Stroke,0.1,False
+Prophetic Prism,0.1,False
+Songcrafter Mage,0.1,True
+Momentum Breaker,0.1,True
+Thought-Stalker Warlock,0.1,False
+Voracious Tome-Skimmer,0.1,True
+Crystal Barricade,0.1,True
+Bogslither's Embrace,0.1,True
+Instant Ramen,0.1,True
+Dawn's Truce,0.1,False
+Aerid Konstrari,0.1,True
+Invasion Reinforcements,0.1,True
+Kavaron Harrier,0.1,True
+Spectacular Tactics,0.1,True
