@@ -202,3 +202,20 @@ Elves, Sazh's Chocobo, Ouroboroid, Earthbender Ascension, Bristly Bill, Bushwhac
   lands appearing as partners.
 
 Saved models: `output/models/synergy_ranker.txt` and `synergy_prob.txt` (`src/15_final_synergy.py`).
+
+---
+
+# From models to decisions (post-rotation)
+
+| Step | Script | What it does | How well it works (forward-only tests) |
+|---|---|---|---|
+| Archetypes | `20_archetypes.py` | Groups recent Standard decks into archetypes; core cards; share of core that survives rotation; best replacements | Descriptive (no test needed) |
+| Meta projection | `22_meta_projection.py` | Ranks archetypes after rotation: strength now × share of core retained | **Rule of thumb** (there is no history of rotations to train on) |
+| Deck builder | `21_deck_builder.py` | Completes a shell from 3 seed cards using rating + synergy + curve + colors | 2021–24, 152 archetype-quarters: finds **32.8%** of the real core vs 33.1% "most-played in colors", 28.8% rating only |
+| New-card fit | `21_deck_builder.py` | Ranks *unplayed* cards for a shell | Real new core cards in the top 10: **8.6%** (synergy + rating) vs 1.5% random |
+| Shells | `23_shells.py` | Engines to build around: current archetypes after rotation + new brew ideas, with options, interaction and new spoilers | Built from the parts above |
+
+**What these tests mean:** for cards already being played, "what's popular in your colors" finishes a shell as
+well as the models do. The models add value mainly on **new and unplayed cards**, where popularity knows nothing.
+That's still hard: about 6× better than random, but a top-10 shortlist catches only about 1 in 12 of the cards that
+end up in the deck.

@@ -6,7 +6,7 @@ Walks the monthly archive pages (mtgo.com/decklists/YYYY/MM) and keeps competiti
 Each event's embedded JSON (all decklists + standings) is saved to data/raw/mtgo/<slug>.json.
 Resumable (skips files already on disk). Uses a small number of parallel connections.
 """
-import json, re, sys, time, datetime, pathlib, requests, threading
+import os, json, re, sys, time, datetime, pathlib, requests, threading
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -60,6 +60,9 @@ for s_ in sorted(todo, key=lambda s: (bool(MINOR.match(s)), "challenge" not in s
     k = (fmt_of(s_), date_of(s_)[:7]); r = seen[k]; seen[k] += 1
     keyed.append(((PRIO[fmt_of(s_)] > 2, r, PRIO[fmt_of(s_)], date_of(s_)), s_))
 todo = [s_ for _, s_ in sorted(keyed)]
+ONLY = os.environ.get("ONLY_FORMAT")          # e.g. ONLY_FORMAT=standard -> just that format, newest first
+if ONLY:
+    todo = sorted([t for t in todo if t.startswith(ONLY + "-")], key=lambda t: date_of(t), reverse=True)
 print("events to download:", len(todo), flush=True)
 
 # mtgo.com rate-limits bursts (serves an empty page): go one at a time, pause, back off when blocked

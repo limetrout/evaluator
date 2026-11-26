@@ -1,0 +1,153 @@
+quarter,archetype_decks,seeds,core_size,builder_recall,builder_precision,popularity_recall,quality_only_recall,new_core_cards,builder_found_new,popularity_found_new,new_hit10_syn,new_hit10_rating,new_hit10_combo,new_candidates,new_hit10_random
+20212,62,Into the Story; Merfolk Windrobber; Ruin Crab,10,0.2,0.25,0.1,0.0,,,,,,,,
+20212,36,"Hall Monitor; Torbran, Thane of Red Fell; Fervent Champion",7,0.8571428571428571,0.75,0.42857142857142855,0.2857142857142857,,,,,,,,
+20212,28,Frostveil Ambush; Go for Blood; Irencrag Pyromancer,9,0.0,0.0,0.0,0.0,,,,,,,,
+20212,21,Prismari Command; Frostveil Ambush; Go for Blood,8,0.0,0.0,0.0,0.0,,,,,,,,
+20212,17,Drannith Healer; Memory Leak; Valiant Rescuer,7,0.14285714285714285,0.125,0.0,0.0,,,,,,,,
+20212,36,Memory Leak; Go for Blood; Irencrag Pyromancer,8,0.0,0.0,0.0,0.0,,,,,,,,
+20212,28,Jwari Disruption // Jwari Ruins; Wolfwillow Haven; Binding the Old Gods,11,0.09090909090909091,0.125,0.18181818181818182,0.18181818181818182,,,,,,,,
+20212,115,"Emergent Ultimatum; Kiora Bests the Sea God; Sea Gate Restoration // Sea Gate, Reborn",17,0.058823529411764705,0.125,0.11764705882352941,0.11764705882352941,,,,,,,,
+20212,51,Selfless Savior; Skyclave Apparition; Luminarch Aspirant,7,0.2857142857142857,0.25,0.5714285714285714,0.14285714285714285,1.0,0.0,0.0,0.0,0.0,0.0,376.0,0.026595744680851064
+20212,47,"Fireblade Charger; Anax, Hardened in the Forge; Fervent Champion",7,0.7142857142857143,0.625,0.42857142857142855,0.2857142857142857,,,,,,,,
+20212,20,"Fireblade Charger; Anax, Hardened in the Forge; Fervent Champion",8,0.75,0.75,0.5,0.375,,,,,,,,
+20212,14,Sejiri Shelter // Sejiri Glacier; Kazuul's Fury // Kazuul's Cliffs; Shepherd of the Flock // Usher to Safety,8,0.375,0.375,0.5,0.375,,,,,,,,
+20212,43,Kabira Takedown // Kabira Plateau; Clarion Spirit; Showdown of the Skalds,8,0.125,0.125,0.25,0.125,1.0,0.0,0.0,0.0,0.0,0.0,677.0,0.014771048744460858
+20212,24,Tangled Florahedron // Tangled Vale; Drannith Magistrate; Clarion Spirit,8,0.25,0.25,0.375,0.25,1.0,0.0,0.0,0.0,0.0,0.0,665.0,0.015037593984962407
+20212,41,Woe Strider; Immersturm Predator; Claim the Firstborn,8,0.5,0.5,0.5,0.5,,,,,,,,
+20212,14,Bastion of Remembrance; Eyetwitch; Hunt for Specimens,9,0.2222222222222222,0.25,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,388.0,0.02577319587628866
+20212,17,Brushfire Elemental; Scavenging Ooze; Questing Beast,10,0.8,1.0,0.8,0.8,,,,,,,,
+20212,23,"Song-Mad Treachery // Song-Mad Ruins; Magda, Brazen Outlaw; Jaspera Sentinel",9,0.6666666666666666,0.75,0.6666666666666666,0.6666666666666666,,,,,,,,
+20212,65,Galazeth Prismari; Expressive Iteration; Saw It Coming,7,0.2857142857142857,0.25,0.2857142857142857,0.2857142857142857,,,,,,,,
+20212,69,"Lukka, Coppercoat Outcast; Llanowar Visionary; Koma, Cosmos Serpent",11,0.36363636363636365,0.5,0.45454545454545453,0.45454545454545453,,,,,,,,
+20212,36,Kazandu Mammoth // Kazandu Valley; The Great Henge; Saw It Coming,7,0.2857142857142857,0.25,0.42857142857142855,0.2857142857142857,,,,,,,,
+20214,114,"Magda, Brazen Outlaw; Jaspera Sentinel; Goldspan Dragon",7,0.42857142857142855,0.375,0.42857142857142855,0.42857142857142855,,,,,,,,
+20214,29,The Meathook Massacre; Siphon Insight; Wash Away,8,0.125,0.125,0.125,0.125,1.0,0.0,0.0,0.0,1.0,1.0,783.0,0.01277139208173691
+20214,21,Tangled Florahedron // Tangled Vale; Wrenn and Seven; Prosperous Innkeeper,3,0.3333333333333333,0.125,0.3333333333333333,0.3333333333333333,,,,,,,,
+20214,13,Chaplain of Alms // Chapel Shieldgeist; Maul of the Skyclaves; Clarion Spirit,7,0.14285714285714285,0.125,0.14285714285714285,0.14285714285714285,1.0,0.0,0.0,0.0,0.0,0.0,429.0,0.023310023310023312
+20214,30,Stonebinder's Familiar; Sungold Sentinel; Elite Spellbinder,9,0.0,0.0,0.1111111111111111,0.0,,,,,,,,
+20214,48,Smoldering Egg // Ashmouth Dragon; Prismari Command; Memory Deluge,12,0.25,0.375,0.25,0.25,,,,,,,,
+20214,16,Flunk; Sedgemoor Witch; Duress,11,0.18181818181818182,0.25,0.18181818181818182,0.18181818181818182,2.0,0.0,0.0,0.0,0.0,0.0,427.0,0.023419203747072598
+20214,24,Sorin the Mirthless; Sedgemoor Witch; Siphon Insight,12,0.08333333333333333,0.125,0.08333333333333333,0.08333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,783.0,0.01277139208173691
+20214,19,Kabira Takedown // Kabira Plateau; Monk of the Open Hand; Paladin Class,8,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,429.0,0.023310023310023312
+20214,20,Monk of the Open Hand; Paladin Class; Clarion Spirit,9,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.5,0.0,0.5,429.0,0.023310023310023312
+20214,21,Lotus Cobra; Unnatural Growth; Kazandu Mammoth // Kazandu Valley,7,0.2857142857142857,0.25,0.2857142857142857,0.2857142857142857,,,,,,,,
+20214,65,Inscription of Abundance; Sculptor of Winter; Kazandu Mammoth // Kazandu Valley,7,0.2857142857142857,0.25,0.2857142857142857,0.2857142857142857,,,,,,,,
+20214,47,Ascendant Packleader; Ulvenwald Oddity // Ulvenwald Behemoth; Sculptor of Winter,8,0.25,0.25,0.25,0.25,,,,,,,,
+20214,19,Unnatural Growth; Ulvenwald Oddity // Ulvenwald Behemoth; Tangled Florahedron // Tangled Vale,7,0.2857142857142857,0.25,0.2857142857142857,0.2857142857142857,2.0,0.0,0.0,0.0,0.0,0.0,418.0,0.023923444976076555
+20214,28,Hullbreaker Horror; The Celestus; Cinderclasm,12,0.08333333333333333,0.125,0.08333333333333333,0.08333333333333333,3.0,0.0,0.0,0.0,0.0,0.0,803.0,0.012453300124533002
+20214,15,Smoldering Egg // Ashmouth Dragon; Burn Down the House; Memory Deluge,9,0.2222222222222222,0.25,0.2222222222222222,0.2222222222222222,2.0,0.0,0.0,0.0,0.0,0.0,804.0,0.01243781094527363
+20214,28,Battle of Frost and Fire; Prismari Command; Thundering Rebuke,11,0.18181818181818182,0.25,0.18181818181818182,0.18181818181818182,2.0,0.0,0.0,0.5,0.0,0.0,804.0,0.01243781094527363
+20214,16,Test of Talents; Burn Down the House; Demon Bolt,10,0.3,0.375,0.3,0.3,1.0,0.0,0.0,0.0,0.0,0.0,803.0,0.012453300124533
+20214,61,Cinderclasm; Unexpected Windfall; Galvanic Iteration,12,0.16666666666666666,0.25,0.16666666666666666,0.16666666666666666,3.0,0.0,0.0,0.0,0.0,0.0,803.0,0.012453300124533002
+20222,16,Old-Growth Troll; Blizzard Brawl; Invoke the Ancients,9,0.5555555555555556,0.625,0.5555555555555556,0.4444444444444444,,,,,,,,
+20222,16,Commune with Spirits; Kami of Transience; Generous Visitor,7,0.0,0.0,0.0,0.0,,,,,,,,
+20222,29,Circle of Confinement; Kami of Transience; Rune of Sustenance,8,0.125,0.125,0.125,0.125,,,,,,,,
+20222,17,Michiko's Reign of Truth // Portrait of Michiko; Kami of Transience; Generous Visitor,7,0.0,0.0,0.0,0.0,,,,,,,,
+20222,17,Tangled Florahedron // Tangled Vale; Skyclave Apparition; Esika's Chariot,8,0.375,0.375,0.375,0.375,,,,,,,,
+20222,38,Deadly Dispute; Voldaren Epicure; Oni-Cult Anvil,8,0.375,0.375,0.5,0.5,,,,,,,,
+20222,13,Titan of Industry; Fading Hope; Memory Deluge,13,0.15384615384615385,0.25,0.15384615384615385,0.07692307692307693,,,,,,,,
+20222,43,Play with Fire; Kumano Faces Kakkazan // Etching of Kumano; Roil Eruption,7,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,440.0,0.022727272727272728
+20222,53,"Intrepid Adversary; Elite Spellbinder; Thalia, Guardian of Thraben",7,0.7142857142857143,0.625,0.5714285714285714,0.5714285714285714,,,,,,,,
+20222,21,Hullbreaker Horror; Prismari Command; Burn Down the House,13,0.38461538461538464,0.625,0.5384615384615384,0.46153846153846156,1.0,0.0,0.0,0.0,0.0,0.0,787.0,0.012706480304955529
+20222,50,"Corpse Appraiser; Evelyn, the Covetous; Bloodtithe Harvester",10,0.2,0.25,0.1,0.1,1.0,0.0,0.0,0.0,0.0,0.0,1161.0,0.008613264427217916
+20222,26,Show of Confidence; Big Score; Unexpected Windfall,11,0.18181818181818182,0.25,0.09090909090909091,0.09090909090909091,,,,,,,,
+20222,15,Alchemist's Gambit; Show of Confidence; Unexpected Windfall,14,0.14285714285714285,0.25,0.07142857142857142,0.07142857142857142,,,,,,,,
+20222,43,"Magma Opus; Hinata, Dawn-Crowned; Dragon's Fire",11,0.36363636363636365,0.5,0.2727272727272727,0.2727272727272727,1.0,0.0,0.0,0.0,0.0,0.0,1160.0,0.008620689655172414
+20222,49,"Flame-Blessed Bolt; Magma Opus; Hinata, Dawn-Crowned",9,0.4444444444444444,0.5,0.3333333333333333,0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,1160.0,0.008620689655172414
+20222,50,"Magda, Brazen Outlaw; Jaspera Sentinel; Moonveil Regent",9,0.5555555555555556,0.625,0.3333333333333333,0.3333333333333333,,,,,,,,
+20222,13,"Ob Nixilis, the Adversary; Riveteers Charm; Esika's Chariot",8,0.375,0.375,0.375,0.25,2.0,0.0,0.0,0.0,0.0,0.0,1173.0,0.008525149190110827
+20222,30,Briarbridge Tracker; Unleash the Inferno; Riveteers Charm,11,0.36363636363636365,0.5,0.2727272727272727,0.2727272727272727,1.0,0.0,0.0,0.0,0.0,0.0,1173.0,0.008525149190110827
+20222,13,March of Otherworldly Light; Sorin the Mirthless; Kaito Shizuki,9,0.3333333333333333,0.375,0.3333333333333333,0.3333333333333333,,,,,,,,
+20222,82,"Raffine, Scheming Seer; Kaito Shizuki; Tenacious Underdog",10,0.6,0.75,0.6,0.6,1.0,0.0,0.0,0.0,0.0,0.0,1156.0,0.00865051903114187
+20222,13,"Graveyard Trespasser // Graveyard Glutton; Path of Peril; Edgar, Charmed Groom // Edgar Markov's Coffin",13,0.3076923076923077,0.5,0.5384615384615384,0.5384615384615384,,,,,,,,
+20222,39,"Valki, God of Lies // Tibalt, Cosmic Impostor; Wedding Announcement // Wedding Festivity; Reidane, God of the Worthy // Valkmira, Protector's Shield",9,0.2222222222222222,0.25,0.6666666666666666,0.6666666666666666,,,,,,,,
+20222,15,"Path of Peril; Henrika Domnathi // Henrika, Infernal Seer; Edgar, Charmed Groom // Edgar Markov's Coffin",12,0.3333333333333333,0.5,0.5833333333333334,0.5833333333333334,,,,,,,,
+20224,29,The Mightstone and Weakstone; Skitterbeam Battalion; Cityscape Leveler,8,0.375,0.375,0.375,0.375,2.0,0.0,0.0,0.0,0.5,0.5,1899.0,0.00526592943654555
+20224,20,"Cemetery Illuminator; Strangle; Lier, Disciple of the Drowned",12,0.25,0.375,0.25,0.25,2.0,0.0,0.0,0.0,0.0,0.0,785.0,0.012738853503184712
+20224,31,Tolarian Terror; Essence Scatter; Thirst for Discovery,8,0.375,0.375,0.5,0.375,,,,,,,,
+20224,34,Delver of Secrets // Insectile Aberration; Thirst for Discovery; Tolarian Terror,8,0.25,0.25,0.375,0.25,,,,,,,,
+20224,16,Herd Migration; Leyline Binding; The Kami War // O-Kagachi Made Manifest,8,0.25,0.25,0.25,0.25,,,,,,,,
+20224,22,Phoenix Chick; Mechanized Warfare,8,0.25,0.2222222222222222,0.375,0.125,2.0,0.0,0.0,0.0,0.0,0.0,460.0,0.021739130434782608
+20224,25,"Atsushi, the Blazing Sky; Jaya, Fiery Negotiator; Reckless Impulse",8,0.125,0.125,0.25,0.125,3.0,0.0,0.0,0.0,0.0,0.0,461.0,0.021691973969631236
+20224,38,Experimental Synthesizer; Oni-Cult Anvil; Eaten Alive,11,0.5454545454545454,0.75,0.6363636363636364,0.6363636363636364,,,,,,,,
+20224,51,"Thalia, Guardian of Thraben; Recruitment Officer",6,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.2,0.0,0.0,456.0,0.021929824561403508
+20224,19,Titan of Industry; Soul of Windgrace; The Cruelty of Gix,9,0.4444444444444444,0.5,0.5555555555555556,0.5555555555555556,,,,,,,,
+20224,33,Unleash the Inferno; Riveteers Charm; Workshop Warchief,8,0.375,0.375,0.5,0.5,,,,,,,,
+20224,41,"Toluz, Clever Conductor; Adeline, Resplendent Cathar; Thalia, Guardian of Thraben",7,0.0,0.0,0.0,0.0,,,,,,,,
+20224,31,Archangel of Wrath; Serra Paragon; Sanctuary Warden,10,0.2,0.25,0.2,0.2,2.0,0.0,0.0,0.0,0.0,0.0,457.0,0.02188183807439825
+20224,27,Evolved Sleeper; Graveyard Trespasser // Graveyard Glutton; Tenacious Underdog,9,0.2222222222222222,0.25,0.4444444444444444,0.4444444444444444,4.0,0.0,0.0,0.0,0.0,0.0,467.0,0.021413276231263385
+20224,24,Soul Transfer; Graveyard Trespasser // Graveyard Glutton; Duress,11,0.45454545454545453,0.625,0.5454545454545454,0.45454545454545453,1.0,0.0,0.0,0.0,0.0,0.0,467.0,0.021413276231263385
+20224,46,"Raffine, Scheming Seer; Dennick, Pious Apprentice // Dennick, Pious Apparition; Ao, the Dawn Sky",7,0.5714285714285714,0.5,0.5714285714285714,0.5714285714285714,,,,,,,,
+20224,30,Obscura Interceptor; Kaito Shizuki; Ertai Resurrected,10,0.4,0.5,0.4,0.4,,,,,,,,
+20224,19,Anointed Peacekeeper; Lay Down Arms; Steel Seraph,9,0.3333333333333333,0.375,0.3333333333333333,0.3333333333333333,,,,,,,,
+20224,28,Loran of the Third Path; Lay Down Arms; Ambitious Farmhand // Seasoned Cathar,8,0.375,0.375,0.375,0.375,1.0,0.0,0.0,0.0,0.0,0.0,455.0,0.021978021978021976
+20224,19,Wandering Mind; Corpse Appraiser; Invoke Despair,8,0.625,0.625,0.5,0.5,,,,,,,,
+20224,27,Wandering Mind; Corpse Appraiser,8,0.375,0.3333333333333333,0.375,0.375,1.0,0.0,0.0,0.0,0.0,0.0,1125.0,0.008888888888888889
+20224,80,Corpse Appraiser; Invoke Despair,8,0.375,0.3333333333333333,0.375,0.375,1.0,0.0,0.0,0.0,0.0,0.0,1125.0,0.008888888888888889
+20224,25,Duress; Corpse Appraiser; Invoke Despair,7,0.5714285714285714,0.5,0.5714285714285714,0.5714285714285714,,,,,,,,
+20224,36,Liliana of the Veil; Duress; Corpse Appraiser,9,0.4444444444444444,0.5,0.4444444444444444,0.4444444444444444,,,,,,,,
+20232,31,Generous Visitor; Jukai Naturalist; Teachings of the Kirin // Kirin-Touched Orochi,8,0.125,0.125,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,898.0,0.011135857461024499
+20232,14,Haughty Djinn; Fading Hope; Tolarian Terror,10,0.4,0.5,0.3,0.2,,,,,,,,
+20232,14,"Coppercoat Vanguard; Hopeful Initiate; Adeline, Resplendent Cathar",7,0.14285714285714285,0.125,0.14285714285714285,0.14285714285714285,1.0,0.0,0.0,0.0,1.0,1.0,519.0,0.019267822736030827
+20232,13,Bloodfeather Phoenix; Khenra Spellspear // Gitaxian Spellstalker; Monastery Swiftspear,9,0.3333333333333333,0.375,0.4444444444444444,0.0,2.0,0.0,0.0,0.5,0.0,0.5,527.0,0.018975332068311195
+20232,27,Knight-Errant of Eos; Zephyr Sentinel; Valiant Veteran,8,0.375,0.375,0.125,0.125,1.0,0.0,0.0,0.0,0.0,0.0,893.0,0.011198208286674132
+20232,25,Protect the Negotiators; Skystrike Officer; Zephyr Sentinel,10,0.1,0.125,0.1,0.1,1.0,0.0,0.0,0.0,0.0,0.0,530.0,0.018867924528301886
+20232,127,"Raffine, Scheming Seer; Dennick, Pious Apprentice // Dennick, Pious Apparition; Sheoldred, the Apocalypse",6,0.3333333333333333,0.25,0.3333333333333333,0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,1308.0,0.00764525993883792
+20232,30,Phyrexian Fleshgorger; Tenacious Underdog; Liliana of the Veil,6,0.5,0.375,0.5,0.5,,,,,,,,
+20232,13,Shivan Devastator; Falkenrath Pit Fighter; Invasion of Tarkir // Defiant Thundermaw,8,0.375,0.375,0.5,0.0,1.0,0.0,0.0,0.0,0.0,0.0,528.0,0.01893939393939394
+20232,39,Invasion of Tarkir // Defiant Thundermaw; Phoenix Chick; Furnace Punisher,7,0.42857142857142855,0.375,0.5714285714285714,0.0,1.0,0.0,0.0,0.0,0.0,0.0,528.0,0.01893939393939394
+20232,15,"Atsushi, the Blazing Sky; The Cruelty of Gix; Brotherhood's End",9,0.7777777777777778,0.875,0.7777777777777778,0.7777777777777778,,,,,,,,
+20232,13,The Elder Dragon War; Bitter Reunion; The Cruelty of Gix,11,0.5454545454545454,0.75,0.5454545454545454,0.5454545454545454,1.0,0.0,0.0,0.0,0.0,0.0,902.0,0.011086474501108647
+20232,44,"Big Score; Breach the Multiverse; Chandra, Hope's Beacon",11,0.7272727272727273,1.0,0.7272727272727273,0.7272727272727273,1.0,0.0,0.0,0.0,0.0,0.0,900.0,0.011111111111111112
+20232,45,Corpse Appraiser; Make Disappear; Invoke Despair,7,1.0,0.875,1.0,1.0,,,,,,,,
+20232,33,Serra Paragon; Ambitious Farmhand // Seasoned Cathar; Breach the Multiverse,12,0.3333333333333333,0.5,0.25,0.25,1.0,0.0,0.0,0.0,0.0,0.0,907.0,0.011025358324145536
+20232,26,Elspeth Resplendent; The Restoration of Eiganjo // Architect of Restoration; Lay Down Arms,10,0.7,0.875,0.7,0.5,,,,,,,,
+20232,39,Invasion of Zendikar // Awakened Skyclave; Topiary Stomper; Archangel of Wrath,7,0.14285714285714285,0.125,0.14285714285714285,0.14285714285714285,2.0,0.0,0.0,0.0,0.0,0.0,896.0,0.011160714285714284
+20232,18,Invasion of Zendikar // Awakened Skyclave; Topiary Stomper; Archangel of Wrath,7,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,896.0,0.011160714285714284
+20232,59,Light Up the Night; Graveyard Trespasser // Graveyard Glutton; Duress,9,0.8888888888888888,1.0,0.8888888888888888,0.8888888888888888,1.0,0.0,0.0,0.0,0.0,0.0,901.0,0.011098779134295227
+20232,16,Archfiend of the Dross; Graveyard Trespasser // Graveyard Glutton; Invoke Despair,9,0.4444444444444444,0.5,0.4444444444444444,0.4444444444444444,1.0,0.0,0.0,0.0,0.0,0.0,531.0,0.018832391713747645
+20234,16,Haughty Djinn; Consider; Sleight of Hand,8,0.125,0.125,0.125,0.125,1.0,0.0,0.0,0.0,0.0,0.0,480.0,0.020833333333333332
+20234,27,Memory Deluge; Negate; Sunfall,8,0.375,0.375,0.25,0.25,,,,,,,,
+20234,26,"Etali, Primal Conqueror // Etali, Primal Sickness; Virtue of Persistence // Locthwain Scorn",9,0.1111111111111111,0.1111111111111111,0.2222222222222222,0.2222222222222222,,,,,,,,
+20234,16,Audacity; Cacophony Scamp; Picnic Ruiner // Stolen Goodies,7,0.14285714285714285,0.125,0.2857142857142857,0.0,2.0,0.0,0.0,0.0,0.0,0.0,809.0,0.012360939431396784
+20234,26,Geological Appraiser; Bloodtithe Harvester; Preacher of the Schism,10,0.3,0.375,0.3,0.3,4.0,0.0,0.0,0.0,0.0,0.0,809.0,0.012360939431396784
+20234,27,Tenacious Underdog; Blossoming Tortoise; Liliana of the Veil,11,0.36363636363636365,0.5,0.36363636363636365,0.36363636363636365,,,,,,,,
+20234,22,Sentinel of the Nameless City; Mosswood Dreadknight // Dread Whispers; Glissa Sunslayer,10,0.5,0.625,0.4,0.4,2.0,0.0,0.0,0.0,0.0,0.0,809.0,0.012360939431396784
+20234,46,Nahiri's Warcrafting; Bloodthirsty Adversary; Play with Fire,10,0.4,0.5,0.4,0.2,,,,,,,,
+20234,31,"Phoenix Chick; Squee, Dubious Monarch; Feldon, Ronom Excavator",8,0.5,0.5,0.625,0.25,,,,,,,,
+20234,14,The Eternal Wanderer; Serra Paragon; Lay Down Arms,15,0.26666666666666666,0.5,0.26666666666666666,0.2,3.0,0.0,0.0,0.0,0.0,0.0,471.0,0.021231422505307854
+20234,18,Spyglass Siren; Subterranean Schooner; Destroy Evil,7,0.42857142857142855,0.375,0.42857142857142855,0.42857142857142855,2.0,0.0,0.0,0.0,0.0,0.0,807.0,0.012391573729863693
+20234,21,"Invasion of Segovia // Caetus, Sea Tyrant of Segovia; Regal Bunnicorn; Warden of the Inner Sky",8,0.25,0.25,0.25,0.25,4.0,0.0,0.0,0.0,0.0,0.0,807.0,0.012391573729863693
+20234,22,"Coppercoat Vanguard; Thalia, Guardian of Thraben; Adeline, Resplendent Cathar",4,0.75,0.375,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,471.0,0.021231422505307854
+20234,67,Invasion of Zendikar // Awakened Skyclave; Topiary Stomper; Up the Beanstalk,7,0.14285714285714285,0.125,0.14285714285714285,0.14285714285714285,,,,,,,,
+20234,18,"Gix, Yawgmoth Praetor; Spyglass Siren; Bitter Triumph",10,0.4,0.5,0.4,0.4,4.0,0.0,0.0,0.25,0.0,0.25,804.0,0.01243781094527363
+20234,16,"Tishana's Tidebinder; Zephyr Sentinel; Harbin, Vanguard Aviator",9,0.2222222222222222,0.25,0.2222222222222222,0.2222222222222222,1.0,0.0,0.0,0.0,0.0,0.0,808.0,0.012376237623762377
+20234,37,Topiary Stomper; Up the Beanstalk; Archangel of Wrath,7,0.2857142857142857,0.25,0.5714285714285714,0.14285714285714285,,,,,,,,
+20234,30,Courier's Briefcase; Invasion of Zendikar // Awakened Skyclave; Topiary Stomper,8,0.125,0.125,0.125,0.125,,,,,,,,
+20234,23,"Werefox Bodyguard; Zephyr Sentinel; Harbin, Vanguard Aviator",8,0.25,0.25,0.375,0.375,,,,,,,,
+20234,50,"Werefox Bodyguard; Zephyr Sentinel; Harbin, Vanguard Aviator",9,0.2222222222222222,0.25,0.2222222222222222,0.2222222222222222,,,,,,,,
+20234,17,"Malcolm, Alluring Scoundrel; Werefox Bodyguard; Zephyr Sentinel",8,0.25,0.25,0.25,0.25,,,,,,,,
+20234,16,Tishana's Tidebinder; Loran of the Third Path; Destroy Evil,10,0.2,0.25,0.2,0.2,2.0,0.0,0.0,0.0,0.0,0.0,808.0,0.012376237623762377
+20234,20,Deep-Cavern Bat; Get Lost; Ertai Resurrected,11,0.2727272727272727,0.375,0.36363636363636365,0.36363636363636365,1.0,0.0,0.0,0.0,0.0,0.0,1161.0,0.008613264427217916
+20234,16,Deep-Cavern Bat; Subterranean Schooner; Destroy Evil,9,0.4444444444444444,0.5,0.4444444444444444,0.4444444444444444,,,,,,,,
+20234,16,"Lord Skitter, Sewer King; Raffine, Scheming Seer; Dennick, Pious Apprentice // Dennick, Pious Apparition",7,0.5714285714285714,0.5,0.7142857142857143,0.7142857142857143,,,,,,,,
+20234,41,"Faerie Mastermind; Raffine, Scheming Seer; Dennick, Pious Apprentice // Dennick, Pious Apparition",8,0.375,0.375,0.5,0.5,,,,,,,,
+20241,25,"Harbin, Vanguard Aviator; Zephyr Sentinel; Lunarch Veteran // Luminous Phantom",8,0.625,0.625,0.25,0.25,,,,,,,,
+20241,28,Breach the Multiverse; The Cruelty of Gix; Virtue of Persistence // Locthwain Scorn,7,0.14285714285714285,0.125,0.14285714285714285,0.14285714285714285,,,,,,,,
+20241,36,Crawling Chorus; Jawbone Duelist; Venerated Rotpriest,9,0.1111111111111111,0.125,0.0,0.0,,,,,,,,
+20241,50,"Nissa, Resurgent Animist; Aftermath Analyst; Worldsoul's Rage",5,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.3333333333333333,0.0,0.0,797.0,0.012547051442910915
+20241,68,Kumano Faces Kakkazan // Etching of Kumano; Play with Fire; Monastery Swiftspear,9,0.6666666666666666,0.75,0.8888888888888888,0.4444444444444444,,,,,,,,
+20241,15,Quick Study; Farewell; March of Otherworldly Light,6,0.3333333333333333,0.25,0.3333333333333333,0.3333333333333333,1.0,0.0,0.0,0.0,0.0,0.0,804.0,0.01243781094527363
+20241,30,Deduce; March of Otherworldly Light; Temporary Lockdown,8,0.25,0.25,0.25,0.25,1.0,0.0,0.0,0.0,0.0,0.0,803.0,0.012453300124533
+20241,64,Invasion of Zendikar // Awakened Skyclave; Archangel of Wrath; Topiary Stomper,7,0.5714285714285714,0.5,0.5714285714285714,0.5714285714285714,,,,,,,,
+20241,28,Spelunking; Invasion of Zendikar // Awakened Skyclave; Topiary Stomper,8,0.25,0.25,0.25,0.25,,,,,,,,
+20241,67,Mosswood Dreadknight // Dread Whispers; Sentinel of the Nameless City; Glissa Sunslayer,9,0.4444444444444444,0.5,0.4444444444444444,0.3333333333333333,,,,,,,,
+20241,23,"Inti, Seneschal of the Sun; Bloodtithe Harvester; Archfiend of the Dross",10,0.4,0.5,0.4,0.4,,,,,,,,
+20241,42,Bloodtithe Harvester; The Cruelty of Gix; Geological Appraiser,10,0.4,0.5,0.4,0.4,,,,,,,,
+20241,22,Sanguine Evangelist; Yotian Frontliner; Case of the Gateway Express,7,0.2857142857142857,0.25,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,472.0,0.0211864406779661
+20241,28,Warleader's Call; Sanguine Evangelist; Case of the Gateway Express,8,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,799.0,0.012515644555694618
+20241,14,Subterranean Schooner; Destroy Evil; Loran of the Third Path,11,0.18181818181818182,0.25,0.18181818181818182,0.18181818181818182,,,,,,,,
+20241,78,"Spyglass Siren; Gix, Yawgmoth Praetor; Ertai Resurrected",8,0.75,0.75,0.75,0.625,,,,,,,,
+20241,58,"No More Lies; Dennick, Pious Apprentice // Dennick, Pious Apparition; Virtue of Loyalty // Ardenvale Fealty",9,0.4444444444444444,0.5,0.4444444444444444,0.4444444444444444,,,,,,,,
+20241,19,"Dennick, Pious Apprentice // Dennick, Pious Apparition; Tishana's Tidebinder; Virtue of Loyalty // Ardenvale Fealty",9,0.4444444444444444,0.5,0.4444444444444444,0.4444444444444444,,,,,,,,
+20241,15,"Lord Skitter, Sewer King; Loran of the Third Path; Dennick, Pious Apprentice // Dennick, Pious Apparition",9,0.6666666666666666,0.75,0.7777777777777778,0.7777777777777778,,,,,,,,

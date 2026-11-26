@@ -2,7 +2,7 @@
 # Keeps the scraper alive: restarts it if it exits early or makes no progress for 8 minutes.
 cd "$(dirname "$0")/.."
 while true; do
-  python3 src/01_scrape_mtgo.py 1 >> data/scrape.log 2>&1 &
+  ONLY_FORMAT=standard python3 src/01_scrape_mtgo.py 1 >> data/scrape.log 2>&1 &
   pid=$!
   while kill -0 $pid 2>/dev/null; do
     sleep 60

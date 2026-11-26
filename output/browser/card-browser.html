@@ -72,6 +72,26 @@ section.partners h2 { font-family: var(--display); font-size: 1.05rem; margin: 4
 .pcard .facts { font-size: .8rem; }
 .together { font-weight: 600; color: var(--ink); }
 .empty { padding: 20px; color: var(--muted); }
+.tabs { display: flex; gap: 6px; flex-basis: 100%; flex-wrap: wrap; margin-top: 4px; }
+.tabs a { text-decoration: none; color: var(--ink); border: 1px solid var(--line); background: var(--surface); padding: 6px 12px; border-radius: 999px; font-weight: 500; font-size: .9rem; }
+.tabs a[aria-current="page"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+#shellview { display: grid; gap: 14px; }
+#shellview h2.sec { font-family: var(--display); font-size: 1.15rem; margin: 10px 0 0; }
+#shellview p.secnote { margin: 0; color: var(--muted); max-width: 80ch; }
+.shells { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); gap: 12px; }
+.shell { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.shell .shead { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.shell h3 { font-family: var(--display); font-size: 1.05rem; margin: 0; }
+.shell .rank { font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.shell .sum { color: var(--muted); font-size: .85rem; margin: 0; }
+.shell .lab { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-top: 4px; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { font: inherit; font-size: .84rem; border: 1px solid var(--line); background: var(--raised); color: var(--ink); border-radius: 7px; padding: 3px 8px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; text-align: left; }
+.chip:hover { border-color: var(--accent); }
+.chip .nt { color: var(--muted); font-size: .76rem; }
+.chip .tier { font-size: .68rem; padding: 0 6px; }
+.badge { font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.badge.newb { color: var(--accent); border-color: var(--accent); }
 @media (prefers-reduced-motion: no-preference) { .results li button, .pcard button.link { transition: background .12s, color .12s; } }
 </style>
 
@@ -79,8 +99,10 @@ section.partners h2 { font-family: var(--display); font-size: 1.05rem; margin: 4
   <header class="top">
     <h1>Future Standard Browser</h1>
     <p>Every card legal after the January 2027 rotation, with its full rules text, the model's rating, how much it's played now, and the cards the synergy model ranks as its best partners.</p>
+    <nav class="tabs" aria-label="Views"><a href="#shells" id="tab-shells">Shells to build around</a><a href="#mossborn-hydra" id="tab-cards">Card browser</a></nav>
   </header>
-  <div class="app">
+  <section id="shellview" hidden></section>
+  <div class="app" id="cardview">
     <aside class="side" aria-label="Find a card">
       <div class="controls">
         <label class="sr" for="q" hidden>Search</label>
@@ -149,7 +171,7 @@ function facts(c, small) {
     ${small ? "" : `<span>${esc(c.sn)} · ${esc(c.r)}${c.rp ? " · reprint" : ""}</span>`}</div>`;
 }
 function show(i, push = true) {
-  const c = CARDS[i]; if (!c) return; cur = i;
+  const c = CARDS[i]; if (!c) return; cur = i; setView("cards");
   if (push) { try { history.replaceState(null, "", "#" + slug(c.n)); } catch (e) { location.hash = slug(c.n); } }
   const parts = c.p.map(([j, tog]) => { const p = CARDS[j]; return `<article class="pcard">
       <div class="ptitle"><button class="link" data-i="${j}">${esc(p.n)}</button><span>${pips(p.c)}</span></div>
@@ -178,16 +200,47 @@ document.addEventListener("click", e => {
   if (e.target.id === "more") { shown += 150; renderList(); }
 });
 ["#q", "#set", "#tier", "#type", "#sort", "#norp"].forEach(s => $(s).addEventListener(s === "#q" ? "input" : "change", filter));
+let SHELLS = [], BYNAME = {};
+function chip(c) {
+  const i = BYNAME[c.n];
+  return `<button class="chip" ${i !== undefined ? `data-i="${i}"` : "disabled"} title="${esc(c.note || "")}"><span class="tier ${tierCls(c.tier)}">${esc(c.tier || "?")}</span>${esc(c.n)}${c.note ? `<span class="nt">${esc(c.note)}</span>` : ""}</button>`;
+}
+function shellHTML(s) {
+  const isNew = s.kind === "brew" && !/^.*?, (6[7-9]|[7-9]\d|100)% of its cards see play now$/.test(s.summary);
+  const badge = s.kind === "brew" ? `<span class="badge ${isNew ? "newb" : ""}">${isNew ? "new idea" : "variant of a current deck"}</span>` : `<span class="rank">projected #${s.rank}</span>`;
+  const sec = (lab, arr) => arr && arr.length ? `<div class="lab">${lab}</div><div class="chips">${arr.map(chip).join("")}</div>` : "";
+  return `<article class="shell"><div class="shead"><h3>${esc(s.name)}</h3>${badge}</div>
+    <p class="sum">${esc(s.summary)}</p>
+    ${sec("Engine", s.engine)}${sec("Also played now", s.current_flex)}${sec("Options (best synergy with the engine)", s.options)}${sec("Cheap interaction in these colors", s.interaction)}${sec("From Nauctis / Darkhold", s.new_cards)}</article>`;
+}
+function renderShells() {
+  const arch = SHELLS.filter(s => s.kind === "archetype"), brew = SHELLS.filter(s => s.kind === "brew");
+  $("#shellview").innerHTML = `<h2 class="sec">Current archetypes after rotation</h2>
+    <p class="secnote">Ordered by projected strength after rotation: current share of the field and results, times how much of the deck survives (rotating cards count partly back in via their best replacement). The projection is a rule of thumb, not a trained model. Engine = cards in at least half of the archetype's recent lists, plus the best replacement for each rotating one.</p>
+    <div class="shells">${arch.map(shellHTML).join("")}</div>
+    <h2 class="sec">Brew ideas</h2>
+    <p class="secnote">Groups of 4–6 cards rated B or better whose members the synergy model predicts go together, in at most two colors. “New idea” means most of the cards aren't played yet. Treat these as starting points to test, not proven decks.</p>
+    <div class="shells">${brew.map(shellHTML).join("")}</div>`;
+}
+function setView(v) {
+  const sh = v === "shells";
+  $("#shellview").hidden = !sh; $("#cardview").hidden = sh;
+  $("#tab-shells").setAttribute("aria-current", sh ? "page" : "false"); $("#tab-cards").setAttribute("aria-current", sh ? "false" : "page");
+}
 function fromHash() { const h = location.hash.slice(1); const c = h && CARDS.find(x => slug(x.n) === h); return c ? c.i : null; }
-window.addEventListener("hashchange", () => { const i = fromHash(); if (i !== null && i !== cur) show(i, false); });
+window.addEventListener("hashchange", () => {
+  if (location.hash === "#shells") { setView("shells"); return; }
+  setView("cards"); const i = fromHash(); if (i !== null && i !== cur) show(i, false); });
 fetch("cards.json").then(r => r.json()).then(data => {
   CARDS = data.map((c, i) => ({ ...c, i }));
   const sets = [...new Map(CARDS.map(c => [c.s, c.sn])).entries()].sort((a, b) => a[1].localeCompare(b[1]));
   $("#set").insertAdjacentHTML("beforeend", sets.map(([k, v]) => `<option value="${esc(k)}">${esc(v)} (${esc(k)})</option>`).join(""));
   $(".colors").insertAdjacentHTML("beforeend", COLORS.map(([k, l]) => `<button type="button" data-c="${k}" aria-pressed="false" title="${l}" class="ms ${/^[WUBRG]$/.test(k) ? k : ""}" style="width:30px;height:30px;font-size:.8rem">${k}</button>`).join(""));
   document.querySelectorAll(".colors button").forEach(b => b.addEventListener("click", () => { b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") !== "true"); filter(); }));
+  CARDS.forEach(c => BYNAME[c.n] = c.i);
   filter();
   const start = fromHash() ?? CARDS.findIndex(c => c.n === "Mossborn Hydra");
   show(start >= 0 ? start : 0, false);
+  return fetch("shells.json").then(r => r.json()).then(sh => { SHELLS = sh; renderShells(); if (location.hash === "#shells" || !location.hash) setView("shells"); });
 }).catch(() => { $("#main").innerHTML = '<div class="empty">The card data could not be loaded. Reload the page to try again.</div>'; });
 </script>

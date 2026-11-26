@@ -1,0 +1,22 @@
+projected_rank,archetype,colors,share_now_pct,avg_finish_pct,top8_rate_pct,core_survival_pct,retained_pct,strength_now,projected,biggest_losses,best_replacements
+1,Mono-Green (Mossborn Hydra),G,9.8,44.1,28.6,100.0,100.0,10.73,10.73,,
+2,Izzet (Roaring Furnace // Steaming Sauna),UR,10.2,45.2,25.9,56.0,76.0,10.78,8.15,"Sleight of Hand, Stormchaser's Talent, Slickshot Show-Off, Eddymurk Crab","Stock Up, Balmor, Battlemage Captain, Frostcliff Siege, Ashling's Command"
+3,Izzet (Sunderflock),UR,6.8,46.4,30.8,62.0,82.0,7.44,6.09,"Sleight of Hand, Eddymurk Crab, Get Out, Hearth Elemental // Stoke Genius","Flow State, Precise Redaction, Ashling's Command"
+4,Dimir (Doomsday Excruciator),UB,7.0,56.7,17.5,79.0,91.0,6.01,5.46,"Bitter Triumph, Deadly Cover-Up, Doomsday Excruciator","Theorix Charm, Inside Information, The Speed Demon"
+5,Izzet (Accumulate Wisdom),UR,6.0,52.0,20.6,87.0,94.0,5.62,5.28,"Gran-Gran, Three Steps Ahead","Price of Freedom, Broadside Barrage"
+6,Mono-White (Daydream),W,5.1,49.5,24.1,95.0,98.0,5.08,4.97,Nurturing Pixie,Airbender Ascension
+7,Jeskai (Lightning Helix),WUR,4.7,51.4,33.3,87.0,93.0,5.02,4.7,"No More Lies, Lightning Helix, Three Steps Ahead","It'll Quench Ya!, Traumatic Critique, Broadside Barrage"
+8,Selesnya (Spider Manifestation),WG,5.3,50.5,20.0,78.0,90.0,5.01,4.51,"Badgermole Cub, Pawpatch Recruit","Great Divide Guide, Tifa Lockhart"
+9,Dimir (We Say Thee Nay!),UB,4.9,43.8,35.7,39.0,74.0,5.73,4.23,"Kaito, Bane of Nightmares, Bitter Triumph, Floodpits Drowner, Shoot the Sheriff","Kaito, Cunning Infiltrator, Subcommander T'Pol, Countersculpt, Stab"
+10,"Boros (Sarkhan, Dragon Ascendant)",WR,3.0,45.4,29.4,100.0,100.0,3.27,3.27,,
+11,Jund (Lively Dirge),BRG,3.7,51.6,19.0,71.0,81.0,3.42,2.75,"Greedy Freebooter, Lively Dirge, Torch the Tower","Callous Inspector, Deadly Precision"
+12,Orzhov (Liliana the Faultless),WB,3.2,51.0,33.3,56.0,79.0,3.43,2.71,"Case of the Uneaten Feast, Amalia Benavides Aguirre, Starscape Cleric, Lunar Convocation","Leonardo, Cutting Edge, Curious Farm Animals, Momo, Friendly Flier, Ajani Resolute"
+13,Selesnya (Bushwhack),WG,2.1,46.0,41.7,71.0,86.0,2.53,2.18,"Badgermole Cub, Keen-Eyed Curator, Pawpatch Recruit, Nurturing Pixie","Great Divide Guide, Tifa Lockhart, Herd Heirloom, Sazh's Chocobo"
+14,WUBR (Together as One),WUBR,2.1,42.3,25.0,84.0,93.0,2.26,2.11,"Deadly Cover-Up, Nowhere to Run, Shoot the Sheriff","Avengers Disassembled, Prismari Charm, Countersculpt"
+15,Mono-Black (Firdoch Core),B,2.6,53.5,26.7,57.0,79.0,2.55,2.02,"Deadly Cover-Up, Shoot the Sheriff, Unholy Annex // Ritual Chamber, Nowhere to Run","Inside Information, Day of Black Sun, Caustic Exhale, Stab"
+16,Azorius (Jace's Machinations),WU,2.5,55.1,21.4,72.0,85.0,2.28,1.93,"Three Steps Ahead, Get Lost, No More Lies","It'll Quench Ya!, Refute, Harsh Annotation"
+17,Selesnya (Shardmage's Rescue),WG,1.6,44.8,44.4,68.0,83.0,1.99,1.66,"Badgermole Cub, Shardmage's Rescue, Keen-Eyed Curator, Pawpatch Recruit","Great Divide Guide, Dyadrine, Synthesis Amalgam, Snakeskin Veil, Airbender Ascension"
+18,Boros (Chainsaw),WR,1.9,57.8,18.2,84.0,93.0,1.62,1.51,"Lavaspur Boots, Chainsaw","Raubahn, Bull of Ala Mhigo"
+19,Sultai (Bringer of the Last Gift),UBG,1.6,48.0,33.3,66.0,83.0,1.76,1.46,"Overlord of the Balemurk, Bringer of the Last Gift, Oblivious Bookworm","Molt Tender, Wistfulness"
+20,Mono-Red (The Last Ronin's Technique),R,2.8,57.9,12.5,47.0,64.0,2.23,1.42,Hired Claw,Master of Barbs
+21,Izzet (Pompous Battlemage // Improvised Act),UR,1.6,43.4,22.2,65.0,76.0,1.66,1.26,"Sleight of Hand, Elusive Otter // Grove's Bounty, Slickshot Show-Off, Eddymurk Crab","Balmor, Battlemage Captain, Winternight Stories, Cryotheory Adept, Ashling's Command"
