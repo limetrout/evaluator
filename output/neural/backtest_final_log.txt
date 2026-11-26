@@ -1,0 +1,10 @@
+10ed027 Neural give/want pair-synergy model: learned channels, flexibility term, explanations, projection onto post-rotation Standard
+{'year': 2019, 'neural_recall@10': 0.092, 'v3_ranker_recall@10': 0.175, 'graded': 316}
+{'year': 2020, 'neural_recall@10': 0.138, 'v3_ranker_recall@10': 0.169, 'graded': 364}
+{'year': 2021, 'neural_recall@10': 0.144, 'v3_ranker_recall@10': 0.185, 'graded': 378}
+{'year': 2022, 'neural_recall@10': 0.151, 'v3_ranker_recall@10': 0.215, 'graded': 300}
+{'year': 2023, 'neural_recall@10': 0.183, 'v3_ranker_recall@10': 0.241, 'graded': 311}
+{'year': 2024, 'neural_recall@10': 0.199, 'v3_ranker_recall@10': 0.228, 'graded': 226}
+{'neural_recall@10': 0.151, 'v3_ranker_recall@10': 0.202, 'graded': 315.833}
+
+[exited with code 0]
