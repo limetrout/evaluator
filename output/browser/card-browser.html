@@ -1,0 +1,193 @@
+<title>Future Standard Browser</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: two-pane reference tool. Left = search + filters + results; right = the card and its partners, each with full rules text. */
+:root {
+  --bg: #eef0f4; --surface: #ffffff; --raised: #f7f8fb; --ink: #1a1d25; --muted: #5a6170; --line: #d9dde6; --accent: #2c5a87; --accent-ink: #ffffff;
+  --mW: #efe7c7; --mU: #a9cdee; --mB: #bcb3af; --mR: #f1a387; --mG: #9fd0aa; --mC: #d3d1cb; --pip-ink: #1a1d25;
+  --tA: #1f7a4d; --tBp: #3d8b5f; --tB: #5b8f3a; --tC: #9a7a1d; --tD: #9b5a2a; --tF: #8a3b3b;
+  --display: "Cinzel", "Trajan Pro", Georgia, serif; --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; --rules: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111318; --surface: #1a1d24; --raised: #20242d; --ink: #e7e9ef; --muted: #9aa1af; --line: #2c313c; --accent: #8db5de; --accent-ink: #0f1520;
+  --mW: #d9cfa6; --mU: #7fb0dd; --mB: #9d9390; --mR: #e08a6c; --mG: #7fbf8c; --mC: #b3b1ab; --pip-ink: #14161b;
+  --tA: #4fc285; --tBp: #6cc08c; --tB: #93c56a; --tC: #d6b14d; --tD: #d88a55; --tF: #d77a7a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111318; --surface: #1a1d24; --raised: #20242d; --ink: #e7e9ef; --muted: #9aa1af; --line: #2c313c; --accent: #8db5de; --accent-ink: #0f1520;
+  --mW: #d9cfa6; --mU: #7fb0dd; --mB: #9d9390; --mR: #e08a6c; --mG: #7fbf8c; --mC: #b3b1ab; --pip-ink: #14161b;
+  --tA: #4fc285; --tBp: #6cc08c; --tB: #93c56a; --tC: #d6b14d; --tD: #d88a55; --tF: #d77a7a; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 14px; line-height: 1.45; }
+.wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 16px 32px; max-width: 1400px; margin: 0 auto; }
+header.top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; margin-bottom: 14px; }
+header.top h1 { font-family: var(--display); font-size: 1.35rem; letter-spacing: .02em; margin: 0; text-wrap: balance; }
+header.top p { margin: 0; color: var(--muted); font-size: .9rem; max-width: 70ch; }
+.app { display: grid; grid-template-columns: minmax(280px, 380px) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 860px) { .app { grid-template-columns: minmax(0, 1fr); } .side { position: static !important; max-height: none !important; } .results { max-height: 46vh; } }
+.side { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; display: flex; flex-direction: column; max-height: calc(100vh - 32px); min-width: 0; }
+.controls { padding: 12px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+input[type=search], select { width: 100%; font: inherit; color: var(--ink); background: var(--raised); border: 1px solid var(--line); border-radius: 7px; padding: 8px 10px; }
+input[type=search]:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.colors { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.colors button { font: inherit; font-size: .8rem; font-weight: 600; width: 30px; height: 30px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; color: var(--pip-ink); }
+.colors button[aria-pressed="true"] { border-color: var(--ink); }
+.colors .lbl { font-size: .78rem; color: var(--muted); margin-right: 2px; letter-spacing: .04em; text-transform: uppercase; }
+.check { display: flex; gap: 6px; align-items: center; font-size: .85rem; color: var(--muted); }
+.count { font-size: .8rem; color: var(--muted); padding: 6px 12px 0; }
+.results { list-style: none; margin: 0; padding: 6px; overflow-y: auto; flex: 1 1 auto; min-height: 0; }
+.results li button { width: 100%; text-align: left; font: inherit; color: inherit; background: none; border: 0; border-radius: 7px; padding: 7px 8px; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 8px; align-items: center; }
+.results li button:hover { background: var(--raised); }
+.results li button[aria-current="true"] { background: var(--raised); box-shadow: inset 3px 0 0 var(--accent); }
+.rname { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rmeta { grid-column: 1 / -1; color: var(--muted); font-size: .78rem; display: flex; gap: 8px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+.more { margin: 6px 12px 12px; font: inherit; padding: 7px; border-radius: 7px; border: 1px solid var(--line); background: var(--raised); color: var(--ink); cursor: pointer; }
+main { min-width: 0; display: grid; gap: 16px; }
+.cardface { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; display: grid; gap: 10px; }
+.titleline { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.cname { font-family: var(--display); font-size: 1.5rem; font-weight: 700; line-height: 1.2; margin: 0; text-wrap: balance; }
+.typeline { color: var(--muted); font-size: .92rem; }
+.rules { font-family: var(--rules); font-size: 1.02rem; line-height: 1.55; max-width: 68ch; }
+.rules p { margin: 0 0 .5em; } .rules p:last-child { margin: 0; } .rules i { color: var(--muted); }
+.pt { font-family: var(--rules); font-weight: 600; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .88rem; color: var(--muted); font-variant-numeric: tabular-nums; align-items: center; }
+.facts b { color: var(--ink); font-weight: 600; }
+.tier { display: inline-block; font-weight: 700; font-size: .78rem; padding: 2px 8px; border-radius: 999px; color: var(--surface); letter-spacing: .02em; }
+.tier.A { background: var(--tA) } .tier.Bp { background: var(--tBp) } .tier.B { background: var(--tB) } .tier.C { background: var(--tC) } .tier.D { background: var(--tD) } .tier.F { background: var(--tF) }
+.sim { font-size: .85rem; color: var(--muted); } .sim b { color: var(--ink); font-weight: 500; }
+a { color: var(--accent); }
+.ms { display: inline-grid; place-items: center; min-width: 1.25em; height: 1.25em; padding: 0 .2em; border-radius: 999px; font: 600 .72em/1 var(--body); color: var(--pip-ink); vertical-align: .08em; margin: 0 .06em; background: var(--mC); box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
+.ms.W { background: var(--mW) } .ms.U { background: var(--mU) } .ms.B { background: var(--mB) } .ms.R { background: var(--mR) } .ms.G { background: var(--mG) }
+section.partners { display: grid; gap: 10px; }
+section.partners h2 { font-family: var(--display); font-size: 1.05rem; margin: 4px 0 0; letter-spacing: .02em; }
+.note { color: var(--muted); font-size: .85rem; margin: 0; max-width: 75ch; }
+.pgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 10px; }
+.pcard { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.pcard .ptitle { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.pcard button.link { font: 600 1rem var(--display); color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
+.pcard button.link:hover { color: var(--accent); text-decoration: underline; }
+.pcard .rules { font-size: .9rem; }
+.pcard .facts { font-size: .8rem; }
+.together { font-weight: 600; color: var(--ink); }
+.empty { padding: 20px; color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { .results li button, .pcard button.link { transition: background .12s, color .12s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>Future Standard Browser</h1>
+    <p>Every card legal after the January 2027 rotation, with its full rules text, the model's rating, how much it's played now, and the cards the synergy model ranks as its best partners.</p>
+  </header>
+  <div class="app">
+    <aside class="side" aria-label="Find a card">
+      <div class="controls">
+        <label class="sr" for="q" hidden>Search</label>
+        <input id="q" type="search" placeholder="Search name, type or rules text (e.g. treasure, Elf, landfall)" autocomplete="off">
+        <div class="row2">
+          <select id="set" aria-label="Set"><option value="">All sets</option></select>
+          <select id="tier" aria-label="Rating"><option value="">Any rating</option><option value="A">A only</option><option value="B">B+ and better</option><option value="C">C and better</option><option value="D">D and better</option></select>
+        </div>
+        <div class="row2">
+          <select id="type" aria-label="Card type"><option value="">Any type</option><option>Creature</option><option>Instant</option><option>Sorcery</option><option>Artifact</option><option>Enchantment</option><option>Planeswalker</option><option>Land</option><option>Battle</option></select>
+          <select id="sort" aria-label="Sort"><option value="pc">Sort: rating</option><option value="play">Sort: played now</option><option value="n">Sort: name</option><option value="mv">Sort: mana value</option></select>
+        </div>
+        <div class="colors" role="group" aria-label="Colors"><span class="lbl">Color</span></div>
+        <label class="check"><input id="norp" type="checkbox"> Hide reprints (show only cards new since Foundations)</label>
+      </div>
+      <div class="count" id="count" aria-live="polite"></div>
+      <ul class="results" id="results"></ul>
+    </aside>
+    <main id="main"><div class="empty">Loading cards…</div></main>
+  </div>
+</div>
+
+<script>
+const COLORS = [["W","W"],["U","U"],["B","B"],["R","R"],["G","G"],["C","Colorless"],["M","Multicolor"]];
+let CARDS = [], view = [], shown = 150, cur = null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+const slug = n => n.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+function pips(s) {
+  return esc(s).replace(/\{([^}]+)\}/g, (m, x) => {
+    const k = x.replace("/P", "");
+    const cls = /^[WUBRG]$/.test(k) ? k : (/^[WUBRG]\/[WUBRG]$/.test(x) ? x[0] : "");
+    return `<span class="ms ${cls}" title="{${esc(x)}}">${esc(x === "T" ? "⟳" : x)}</span>`;
+  });
+}
+function rules(t) {
+  return t.split("\n").filter(Boolean).map(l => l === "//" ? "<p><i>— other face —</i></p>" :
+    "<p>" + pips(l).replace(/\(([^)]*)\)/g, "<i>($1)</i>") + "</p>").join("");
+}
+const tierCls = t => t === "B+" ? "Bp" : t;
+const tierRank = {"A":0,"B+":1,"B":2,"C":3,"D":4,"F":5};
+function cardColor(c) { return c.col.length > 1 ? "M" : (c.col || "C"); }
+function filter() {
+  const q = $("#q").value.trim().toLowerCase(), st = $("#set").value, tr = $("#tier").value, ty = $("#type").value, so = $("#sort").value, norp = $("#norp").checked;
+  const cols = [...document.querySelectorAll(".colors button[aria-pressed=true]")].map(b => b.dataset.c);
+  const maxRank = {"":9, "A":0, "B":2, "C":3, "D":4}[tr];
+  view = CARDS.filter(c => (!q || c.n.toLowerCase().includes(q) || c.t.toLowerCase().includes(q) || c.x.toLowerCase().includes(q))
+    && (!st || c.s === st) && (tierRank[c.tier] ?? 9) <= maxRank && (!ty || c.t.includes(ty)) && (!norp || !c.rp)
+    && (!cols.length || cols.includes(cardColor(c)) || (cols.some(x => c.col.includes(x)) && !cols.includes("M") && c.col.length > 1)));
+  const key = { pc: c => -c.pc, play: c => -c.play, n: c => c.n, mv: c => c.mv }[so];
+  view.sort((a, b) => { const x = key(a), y = key(b); return x < y ? -1 : x > y ? 1 : 0; });
+  shown = 150; renderList();
+}
+function renderList() {
+  $("#count").textContent = `${view.length.toLocaleString()} card${view.length === 1 ? "" : "s"}`;
+  const ul = $("#results");
+  ul.innerHTML = view.slice(0, shown).map(c => `<li><button data-i="${c.i}" aria-current="${cur === c.i}">
+    <span class="rname">${esc(c.n)}</span><span>${pips(c.c)}</span>
+    <span class="rmeta"><span class="tier ${tierCls(c.tier)}">${esc(c.tier)}</span><span>${esc(c.s)}</span><span>${c.play > 0 ? c.play.toFixed(1) + "% of decks now" : "not played now"}</span></span></button></li>`).join("")
+    + (view.length > shown ? `<li><button class="more" id="more">Show ${Math.min(150, view.length - shown)} more</button></li>` : "");
+}
+function facts(c, small) {
+  return `<div class="facts"><span><span class="tier ${tierCls(c.tier)}">${esc(c.tier)}</span> ${small ? "" : `<span>${esc(c.tl.replace(/^\S+\s*/, ""))}</span>`}</span>
+    <span>Rating percentile <b>${c.pc.toFixed(0)}</b></span>
+    <span>Played now <b>${c.play > 0 ? c.play.toFixed(1) + "%" : "—"}</b></span>
+    ${small ? "" : `<span>${esc(c.sn)} · ${esc(c.r)}${c.rp ? " · reprint" : ""}</span>`}</div>`;
+}
+function show(i, push = true) {
+  const c = CARDS[i]; if (!c) return; cur = i;
+  if (push) { try { history.replaceState(null, "", "#" + slug(c.n)); } catch (e) { location.hash = slug(c.n); } }
+  const parts = c.p.map(([j, tog]) => { const p = CARDS[j]; return `<article class="pcard">
+      <div class="ptitle"><button class="link" data-i="${j}">${esc(p.n)}</button><span>${pips(p.c)}</span></div>
+      <div class="typeline">${esc(p.t)}${p.pt ? ` · <span class="pt">${esc(p.pt)}</span>` : ""} · ${esc(p.s)}</div>
+      <div class="rules">${rules(p.x)}</div>
+      <div class="facts"><span class="tier ${tierCls(p.tier)}">${esc(p.tier)}</span><span>Played now <b>${p.play > 0 ? p.play.toFixed(1) + "%" : "—"}</b></span>
+      <span>Together in recent decks: <span class="together">${tog}</span></span></div></article>`; }).join("");
+  $("#main").innerHTML = `<article class="cardface">
+      <div class="titleline"><h2 class="cname">${esc(c.n)}</h2><span style="font-size:1.15rem">${pips(c.c)}</span></div>
+      <div class="typeline">${esc(c.t)}${c.pt ? ` · <span class="pt">${esc(c.pt)}</span>` : ""}</div>
+      <div class="rules">${rules(c.x) || "<p><i>No rules text.</i></p>"}</div>
+      ${facts(c)}
+      ${c.sim ? `<div class="sim">Most similar past cards (and their peak share of Standard decks): <b>${esc(c.sim)}</b></div>` : ""}
+      <div class="sim"><a href="https://scryfall.com/search?q=${encodeURIComponent('!"' + c.n + '"')}" target="_blank" rel="noopener">See the card image on Scryfall ↗</a></div>
+    </article>
+    <section class="partners" aria-label="Best partners">
+      <h2>Best partners</h2>
+      <p class="note">${c.p.length ? `Ranked by the synergy model (the most accurate one: it finds about a quarter of a new card's real partners in its top 10). “Together in recent decks” counts winning Standard decks since 2025 that ran both cards; 0 means the pairing is untested.` :
+        (c.land ? "Lands were left out of the partner search." : "This card is rated in the bottom 30%, so it was left out of the partner search.")}</p>
+      <div class="pgrid">${parts}</div>
+    </section>`;
+  renderList(); window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("button[data-i]"); if (b) { show(+b.dataset.i); return; }
+  if (e.target.id === "more") { shown += 150; renderList(); }
+});
+["#q", "#set", "#tier", "#type", "#sort", "#norp"].forEach(s => $(s).addEventListener(s === "#q" ? "input" : "change", filter));
+function fromHash() { const h = location.hash.slice(1); const c = h && CARDS.find(x => slug(x.n) === h); return c ? c.i : null; }
+window.addEventListener("hashchange", () => { const i = fromHash(); if (i !== null && i !== cur) show(i, false); });
+fetch("cards.json").then(r => r.json()).then(data => {
+  CARDS = data.map((c, i) => ({ ...c, i }));
+  const sets = [...new Map(CARDS.map(c => [c.s, c.sn])).entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  $("#set").insertAdjacentHTML("beforeend", sets.map(([k, v]) => `<option value="${esc(k)}">${esc(v)} (${esc(k)})</option>`).join(""));
+  $(".colors").insertAdjacentHTML("beforeend", COLORS.map(([k, l]) => `<button type="button" data-c="${k}" aria-pressed="false" title="${l}" class="ms ${/^[WUBRG]$/.test(k) ? k : ""}" style="width:30px;height:30px;font-size:.8rem">${k}</button>`).join(""));
+  document.querySelectorAll(".colors button").forEach(b => b.addEventListener("click", () => { b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") !== "true"); filter(); }));
+  filter();
+  const start = fromHash() ?? CARDS.findIndex(c => c.n === "Mossborn Hydra");
+  show(start >= 0 ? start : 0, false);
+}).catch(() => { $("#main").innerHTML = '<div class="empty">The card data could not be loaded. Reload the page to try again.</div>'; });
+</script>
