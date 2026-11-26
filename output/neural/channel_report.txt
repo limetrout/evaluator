@@ -1,0 +1,176 @@
+
+=== channel 0  (strength 0.223)
+  GIVERS: Tellah, Great Sage; Choco-Comet; Omnath, Locus of Creation; Omnath, Locus of Rage; Karn, Gilded Guardian; Moonveil Regent; Archmage of Runes; Bedlam Reveler; Colossus of the Blood Age; Cavalier of Gales; Saheeli, Jewel of Avishkar; Indomitable Creativity; Hoarding Dragon; Mu Yanling, Wind Rider
+     tags: R_NCSx7.2, P_XSPx3.6, R_SPLx3.4, P_TOKx3.3, R_LNDx2.8 | words: spell,, noncreature, token, colorless, prowess, create, that's, landfall
+  WANTERS: Invasion of Amonkhet // Lazotep Convert; Invasion of Ergamon // Truga Cliffcharger; Invasion of New Phyrexia // Teferi Akosa of Zhalfir; Marang River Regent // Coil and Catch; Invasion of Dominaria // Serra Faithkeeper; Jace, the Perfected Mind; Stormshriek Feral // Flush Out; Invasion of Azgol // Ashen Reaper; Big Score; The Royal Scions; Invasion of Alara // Awaken the Maelstrom; Scrawling Crawler; Sarkhan, Fireblood; Unexpected Windfall
+     tags: P_VEHx5.3, P_DRWx4.3, P_GYx3.3, R_VEHx3.0, R_CSTx2.9 | words: discard, colors., crew, draw, card., cards., cost, treasure
+
+=== channel 1  (strength 0.153)
+  GIVERS: Karai, Future of the Foot; Mutant Surveyor; Evelyn, the Covetous; Crypt Feaster; Sanctum Seeker; Painful Truths; Lord of the Accursed; Tasigur, the Golden Fang; Biting-Palm Ninja; Mindwrack Demon; Terror Tide; Overwrite the Multiverse; Death Baron; Legion Lieutenant
+     tags: P_ATKx2.1, P_TAPx1.9, R_DRWx1.7, R_GYx1.7, R_RECx1.7 | words: start, engines!, speed, lose, player,, loses, cards., upkeep,
+  WANTERS: Invasion of Dominaria // Serra Faithkeeper; Skitterbeam Battalion; Twinmaw Stormbrood // Charring Bite; Balamb T-Rexaur; Canyon Crawler; Sagu Wildling // Roost Seek; Leader's Talent; Rogue Artificial Intelligence; Pizza Face, Gastromancer; Apex Witchstalker; Generous Ent; Savage Land Dinosaur; Altered Ego; Dragonsguard Elite
+     tags: P_LNDx4.7, P_BIGx3.6, P_TREx3.2, P_CPYx2.8, P_LIFx2.8 | words: landcycling, basic, trample, food, copy, except, gain, life.
+
+=== channel 2  (strength 0.161)
+  GIVERS: Invasion of Tolvada // The Broken Sky; Invasion of Ikoria // Zilortha, Apex of Ikoria; Invasion of Tarkir // Defiant Thundermaw; Invasion of Ergamon // Truga Cliffcharger; Invasion of Alara // Awaken the Maelstrom; Invasion of Azgol // Ashen Reaper; Invasion of Amonkhet // Lazotep Convert; Invasion of Segovia // Caetus, Sea Tyrant of Segovia; Invasion of Ixalan // Belligerent Regisaur; Invasion of Gobakhan // Lightshield Array; Invasion of Zendikar // Awakened Skyclave; Invasion of New Phyrexia // Teferi Akosa of Zhalfir; Fell Gravship; Invasion of Dominaria // Serra Faithkeeper
+     tags: R_TAPx6.0, R_OCTx5.6, R_TOKx4.3, P_VEHx3.6, P_ETBx3.5 | words: mill, station, cards,, black, zombie, land, create, green
+  WANTERS: Invasion of Zendikar // Awakened Skyclave; Invasion of Ergamon // Truga Cliffcharger; Flaxen Intruder // Welcome Home; Bramble Familiar // Fetch Quest; Beorn, Reluctant Host // Till and Tend; Invasion of Ikoria // Zilortha, Apex of Ikoria; Invasion of Segovia // Caetus, Sea Tyrant of Segovia; Tovolar's Huntmaster // Tovolar's Packleader; Lovestruck Beast // Heart's Desire; Careful Cultivation; Invasion of Ixalan // Belligerent Regisaur; Nurturing Bristleback; Verdant Kraken; Saurian Explorer
+     tags: P_LNDx4.7, P_MANx4.3, R_LNDx4.2, P_BIGx3.4, P_TOKx3.0 | words: green, forestcycling, {g}., landfall, token., land, reach, create
+
+=== channel 3  (strength 0.288)
+  GIVERS: Nylea, Keen-Eyed; Vorinclex, Monstrous Raider; Abomination, Terrifying Titan; Cemetery Illuminator; Ob Nixilis, Captive Kingpin; Flamewake Phoenix; Quilled Greatwurm; Vorinclex // The Grand Evolution; Phoenix Chick; Hardened Academic; Ozai, the Phoenix King; Capricious Hellraiser; Rot-Curse Rakshasa; Scarlet Spider, Ben Reilly
+     tags: R_GYx3.9, P_BIGx3.5, P_CTRx3.3, P_EVAx3.2, R_CTRx3.0 | words: trample, flying,, haste, fights, +1/+1, don't, it's, counter
+  WANTERS: Ravenous Cosmozoan; Hollow One; Two-Headed Hunter // Twice the Rage; Phyrexian Fleshgorger; Steel Seraph; Platinum Angel; Glorybringer; Velvetwing Butterflies // Gaze in Wonder; Troll of Khazad-dûm; Bebop, Warthog Warrior; Ahn-Crop Crasher; Rabbit Battery; Dreaded Bat-Cloud; Tin Street Dodger
+     tags: P_EVAx4.2, P_BIGx3.3, P_CSTx2.8, R_NCSx2.3, P_CREx1.8 | words: haste, menace, flying,, flying, costs, lifelink, can't, less
+
+=== channel 4  (strength 0.209)
+  GIVERS: Drana's Emissary; Cosmic Spider-Man; Lathril, Blade of the Elves; Vein Ripper; Elas il-Kor, Sadistic Pilgrim; Unexpected Windfall; Lightning, Army of One; Atsushi, the Blazing Sky; Sheoldred, the Apocalypse; Wayward Servant; Big Score; Syr Vondam, Sunstar Exemplar; Liesa, Forgotten Archangel; Sedgemoor Witch
+     tags: R_DIEx4.8, P_LIFx4.6, P_EVAx3.6, R_LIFx3.2, P_DMGx3.0 | words: loses, flying,, life, life., gain, deathtouch, dies,, menace
+  WANTERS: Riddleform; Bring the Ending; Eldrazi Linebreaker; Calculated Dismissal; Dissolve; Condescend; Retreat to Coralhelm; Joint Exploration; Capricious Hellraiser; Geistlight Snare; Cavalier of Night; Burnout Bashtronaut; Purging Stormbrood // Absorb Essence; White Sun's Twilight
+     tags: P_CSTx3.9, P_LIFx2.3, P_ENCx1.8, P_XSPx1.7, P_NCSx1.6 | words: scry, kicker, kicked,, start, engines!, costs, pays, speed
+
+=== channel 5  (strength 0.240)
+  GIVERS: Bilbo Baggins, Burglar // Take a Glance; Shrouded Shepherd // Cleave Shadows; Twinmaw Stormbrood // Charring Bite; Sagu Wildling // Roost Seek; Rimrock Knight // Boulder Rush; Faerie Guidemother // Gift of the Fae; Picnic Ruiner // Stolen Goodies; Two-Headed Hunter // Twice the Rage; Order of Midnight // Alter Fate; Feral Deathgorger // Dusk Sight; Riling Dawnbreaker // Signaling Roar; Purging Stormbrood // Absorb Essence; Imodane's Recruiter // Train Troops; Gollum, Silent Slinker // Meager Meal
+     tags: P_EVAx2.5, P_TREx2.5, P_ETBx1.9, P_GOWx1.9, P_CREx1.5 | words: transform, flying,, into, menace, flying, hand,, card,, cards,
+  WANTERS: Gigantosaurus; Quakestrider Ceratops; Topiary Stomper; Terrian, World Tyrant; Tatyova, Benthic Druid; Hexhaven Invigorator; Sheoldred, the Apocalypse; Warp Speed; Pelakka Wurm; Chancellor of the Tangle; The Great Henge; Sab-Sunen, Luxa Embodied; Wardens of the Cycle; Soul of Windgrace
+     tags: R_LNDx6.0, P_LIFx3.4, P_BIGx3.3, P_LNDx2.9, P_DRWx2.7 | words: landfall, life., land, gain, draw, vigilance, lose, trample
+
+=== channel 6  (strength 0.152)
+  GIVERS: Maja, Bretagard Protector; Summon: Knights of Round; Silk, Web Weaver; Edgar, Charmed Groom // Edgar Markov's Coffin; Fíli the Pathfinder; King Darien XLVIII; Mayor of Avabruck // Howlpack Alpha; Gideon, Ally of Zendikar; Elspeth, Sun's Champion; Serah Farron // Crystallized Serah; Thousand Moons Smithy // Barracks of the Thousand; Suki, Courageous Rescuer; The Wandering Minstrel; Regal Caracal
+     tags: P_GOWx9.1, R_GOWx6.5, P_TOKx4.7, R_LEGx4.4, P_LEGx3.5 | words: transform, white, +1/+1., indestructible, creatures, human, lifelink., token.
+  WANTERS: Zuko's Exile; All Is Dust; Claws Out; Bilbo's Gambit; Crib Swap; Raise the Alarm; Disperse; Steelshaper's Gift; Retraction Helix; Revolutionary Rebuff; Doomskar; Dismember; Void Snare; Serum Snare
+     tags: P_FLSx3.9, P_SPLx3.6, P_GOWx1.1, R_GOWx1.1, P_TREx1.1 | words: creatures., controller, owner's, they, nonland, destroy, return, bottom
+
+=== channel 7  (strength 0.254)
+  GIVERS: Invasion of Dominaria // Serra Faithkeeper; Invasion of Ikoria // Zilortha, Apex of Ikoria; White Sun's Twilight; Invasion of Azgol // Ashen Reaper; Invasion of Tolvada // The Broken Sky; Invasion of Zendikar // Awakened Skyclave; Invasion of Tarkir // Defiant Thundermaw; Sword of Light and Shadow; Charge of the Mites; Speaker of the Heavens; Lost Jitte; Invasion of Gobakhan // Lightshield Array; Sword of Forge and Frontier; Invasion of Alara // Awaken the Maelstrom
+     tags: P_EQAx3.8, R_EVAx2.8, P_PSNx2.4, R_LIFx2.4, P_LIFx2.3 | words: equip, equipped, planeswalker, creatures., tokens, where, less, graveyard
+  WANTERS: Invasion of Tolvada // The Broken Sky; Invasion of Ikoria // Zilortha, Apex of Ikoria; Invasion of Azgol // Ashen Reaper; Invasion of Gobakhan // Lightshield Array; Palantír of Orthanc; Invasion of Dominaria // Serra Faithkeeper; Invasion of Tarkir // Defiant Thundermaw; In Search of Greatness; Invasion of Ixalan // Belligerent Regisaur; Invasion of Alara // Awaken the Maelstrom; Read the Bones; Political Triumph; Weatherlight Compleated; Sandman, Shifting Scoundrel
+     tags: P_RECx2.8, R_GYx2.2, P_CTRx2.0, R_OCTx1.9, R_RECx1.7 | words: scry, menace,, graveyard, battlefield, indestructible, permanent, battlefield., return
+
+=== channel 8  (strength 0.353)
+  GIVERS: Vein Ripper; Spinewoods Armadillo; Herd Migration; Tyrranax Rex; Arbiter of Woe; Erebos's Intervention; Sunset Revelry; Sleep-Cursed Faerie; Ugin, Eye of the Storms; Witherbloom Command; Garruk, Veiled Butcher; Gollum, Riddle Master; White Sun's Twilight; Kaito, Dancing Shadow
+     tags: P_LIFx5.6, R_SACx5.1, P_SACx3.4, P_DMGx3.0, R_DIEx2.7 | words: loses, life, gain, life., ward, creature:, opponent, search
+  WANTERS: Secret Invasion; Rune of Speed; Simulacrum Synthesizer; Iron Man Armor; Rune of Might; Retreat to Coralhelm; Omen of the Sea; Lofty Dreams; Stratus Walk; Sleep Magic; Tractor Beam; Meltstrider's Resolve; Cartouche of Knowledge; Battle of Frost and Fire
+     tags: P_EQAx9.8, P_ENCx6.4, R_ARTx3.1, P_DRWx2.6, P_TAPx1.5 | words: enchant, enchanted, controller's, doesn't, scry, step., during, untap
+
+=== channel 9  (strength 0.274)
+  GIVERS: Apothecary Stomper; Nissa, Voice of Zendikar; Trade Route Envoy; Sab-Sunen, Luxa Embodied; Titanbones, Towering Heart; Professor Dellian Fel; Beorn the Fierce; Regal Force; The Great Henge; Cultivator Colossus; Ghalta, Stampede Tyrant; Savanti Romero, Time's Exile; Topiary Stomper; Nissa, Who Shakes the World
+     tags: R_CTRx5.5, R_LNDx4.2, P_BIGx3.9, P_CTRx3.6, P_DRWx2.7 | words: reach,, trample, vigilance, counters, emblem, +1/+1, draw, gain
+  WANTERS: Bloomvine Regent // Claim Territory; Sagu Wildling // Roost Seek; Heartflame Duelist // Heartflame Slash; Dirgur Island Dragon // Skimming Strike; Scavenger Regent // Exude Toxin; Twinmaw Stormbrood // Charring Bite; Purging Stormbrood // Absorb Essence; Lake-town Mariners // Gone Fishing; Valentin, Dean of the Vein // Lisette, Dean of the Root; Sedgemoor Witch; Runescale Stormbrood // Chilling Screech; Disruptive Stormbrood // Petty Revenge; Whirlwing Stormbrood // Dynamic Soar; Riling Dawnbreaker // Signaling Roar
+     tags: R_SPLx3.8, P_EVAx3.2, R_VEHx3.0, P_VEHx3.0, P_LIFx2.9 | words: ward, sorcery, instant, color., flying, flying,, gain, {t},
+
+=== channel 10  (strength 0.273)
+  GIVERS: Savage Land Dinosaur; Generous Ent; Skitterbeam Battalion; Balamb T-Rexaur; Canyon Crawler; Iron Giant; Oliphaunt; Giant Koi; Titanoth Rex; Cityscape Leveler; Rocksteady, Crash Courser; Decimator of the Provinces; Nurturing Bristleback; Horta
+     tags: P_BIGx5.5, P_LNDx4.7, P_TREx3.9, P_VEHx3.0, P_ARTx2.3 | words: landcycling, forestcycling, trample, trample,, treasure, vigilance,, basic, crew
+  WANTERS: Etali, Primal Conqueror // Etali, Primal Sickness; Ojer Axonil, Deepest Might // Temple of Power; Arlinn Kord // Arlinn, Embraced by the Moon; Crystal Fragments // Summon: Alexander; Tyrranax Rex; Polukranos Reborn // Polukranos, Engine of Ruin; Clive, Ifrit's Dominant // Ifrit, Warden of Inferno; Stormscale Scion; Katilda, Dawnhart Martyr // Katilda's Rising Dawn; Tovolar's Huntmaster // Tovolar's Packleader; Kogla, the Titan Ape; Ajani Unrelenting; Lyra Dawnbringer; Bartz and Boko
+     tags: P_PSNx6.1, R_GOWx3.8, P_BIGx3.2, R_PSNx3.1, P_EQAx2.8 | words: transform, fights, +1/+1., transformed, trample,, lifelink, controls., don't
+
+=== channel 11  (strength 0.139)
+  GIVERS: Kaldra Compleat; Ultima Weapon; The Dominion Bracelet; Iron Man Armor; S.H.I.E.L.D. Spy Kit; Captain America's Shield; The Black Arrow; The Masamune; Sting, Bilbo's Sword; Eater of Virtue; Shadowspear; The Reality Chip; Sword of Feast and Famine; Cranial Plating
+     tags: P_EQAx18.3, P_ARTx6.4, R_EVAx4.2, P_TAPx1.9, R_ARTx1.7 | words: equip, equipped, attach, gets, +2/+2, flash, indestructible, first
+  WANTERS: General's Enforcer; Legion Lieutenant; Cosima, God of the Voyage // The Omenkeel; Inspiring Veteran; Maja, Bretagard Protector; Jirina, Dauntless General; Deepchannel Duelist; Fell Gravship; Cleveland Booker, Empath; Lord of the Accursed; Thranduil's Company; Icetill Explorer; Grub, Storied Matriarch // Grub, Notorious Auntie; The Everflowing Well // The Myriad Pools
+     tags: R_LNDx8.8, R_GOWx5.4, P_GOWx3.4, P_LNDx2.9, P_CPYx1.9 | words: landfall, +1/+1., land, other, mill, control, green, have
+
+=== channel 12  (strength 0.317)
+  GIVERS: Ethereal Armor; All That Glitters; Michiko's Reign of Truth // Portrait of Michiko; Combat Research; Super Intelligence; Keen Sense; With Great Power . . .; Rune of Might; Temur Runemark; Footfall Crater; Greater Auramancy; Rune of Speed; Spider Umbra; Unable to Scream
+     tags: P_EQAx16.4, P_ENCx9.1, R_ENCx5.2, R_EQAx1.9, P_MANx1.5 | words: enchanted, enchant, controller's, gets, doesn't, enchantment, abilities, long
+  WANTERS: Ethereal Armor; Hallowed Haunting; All That Glitters; Sigil of the Empty Throne; Jukai Naturalist; Greater Auramancy; With Great Power . . .; An Unexpected Party // At the Door; Spirit Mantle; Virtue of Loyalty // Ardenvale Fealty; Heliod, Sun-Crowned; Starfield of Nyx; Solid Footing; Super-Soldier Serum
+     tags: P_EQAx9.8, P_ENCx8.9, R_ENCx8.6, R_EQAx3.8, P_GOWx3.8 | words: enchanted, enchant, flash, enchantment, vigilance., +1/+1., white, attached
+
+=== channel 13  (strength 0.256)
+  GIVERS: Summon: Titan; The Inner Light; Primary Research; Elspeth Conquers Death; Courageous Goblin; Falkenrath Forebear; Wayward Guide-Beast; Herd Heirloom; Silverquill Command; Forge Anew; Silversmote Ghoul; The Mountain-king's Return; The Kami War // O-Kagachi Made Manifest; Maximum Carnage
+     tags: P_RECx3.7, P_ENCx3.2, P_TREx2.8, P_SACx2.5, R_BIGx2.5 | words: battlefield., graveyard, trample,, attacks, haste, sacrifice, return, step,
+  WANTERS: Lightwheel Enhancements; Starting Column; White Sun's Twilight; Silverquill Command; Biting-Palm Ninja; Astrologian's Planisphere; Lost Jitte; Invasion of Tolvada // The Broken Sky; Invasion of Alara // Awaken the Maelstrom; Twinblade Blessing; Cavalier of Night; Tidehollow Sculler; Yathan Roadwatcher; Emergency Holographic Crew
+     tags: P_EQAx5.0, P_RECx4.3, P_ARTx2.5, P_DISx2.5, P_ETBx2.3 | words: equip, equipped, battlefield., speed, start, engines!, graveyard, return
+
+=== channel 14  (strength 0.214)
+  GIVERS: Hopeless Nightmare; Primeval Bounty; Earthbender Ascension; Case of the Uneaten Feast; The Cruelty of Gix; Retreat to Hagra; Retreat to Kazandu; Carrot Cake; Felidar Retreat; Down, Down to Goblin-town; Rabaroo Troop; Dragonback Assault; Brain Maggot; Agonizing Remorse
+     tags: R_LNDx10.7, P_ENCx7.0, P_DISx4.9, P_LIFx2.9, P_OCTx1.9 | words: landfall, quest, scry, reveals, land, life., discards, gain
+  WANTERS: Famished Worldsire; Trophy Mage; Treasure Mage; Enigmatic Incarnation; Transit Mage; Lotuslight Dancers; Thassa's Oracle; Emergent Ultimatum; Sun-Spider, Nimble Webber; Calmwater Mentor; Stoneforge Mystic; Yasharn, Implacable Earth; Trinket Mage; Paradox Surveyor
+     tags: R_ENCx4.3, P_ETBx4.2, R_XSPx3.0, P_LNDx2.3, P_XSPx2.0 | words: shuffle., search, hand,, reveal, library, less,, into, card,
+
+=== channel 15  (strength 0.111)
+  GIVERS: Three Steps Ahead; Remand; Izzet Charm; School Daze; You Find the Villains' Lair; Countersculpt; Piercing Exhale; Unravel; Refute; Tainted Indulgence; Abandon Attachments; Traumatic Critique; Prismari Charm; Flame of Anor
+     tags: P_FLSx5.1, P_DRWx3.8, P_SPLx3.6, P_GYx3.2, P_XSPx3.0 | words: pays, unless, spell., controller, cards., {2}., discard, cards,
+  WANTERS: Footfall Crater; Crystal Fragments // Summon: Alexander; Spiral into Solitude; Curious Obsession; Sidequest: Play Blitzball // World Champion, Celestial Weapon; Sentinel's Eyes; Lightwheel Enhancements; Ordeal of Nylea; Summon: Primal Garuda; Escape Velocity; Lórien Revealed; Awaken the Inferno; Last Light of Durin's Day; Undulating Witness
+     tags: P_EQAx9.5, P_ENCx6.7, P_OCTx2.9, P_LNDx2.6, P_CPYx1.9 | words: enchant, enchanted, "{t}:, attack, blocked, basic, gets, can't
+
+=== channel 16  (strength 0.295)
+  GIVERS: History of Benalia; Monument to Endurance; Firja's Retribution; Retreat to Emeria; Magda, the Hoardmaster; The Inner Light; Goblin Surprise; The Cloning of Shredder; Bloodghast; Cryptbreaker; Collector's Vault; Kiora Bests the Sea God; Tezzeret, Betrayer of Flesh; The Misty Mountains Cold
+     tags: P_TREx6.0, P_TOKx4.2, P_GOWx3.8, R_TREx3.7, P_RECx2.5 | words: treasure, create, token., tokens., token, white, zombie, black
+  WANTERS: Wurmcoil Engine; Aclazotz, Deepest Betrayal // Temple of the Dead; God-Eternal Oketra; Henrika Domnathi // Henrika, Infernal Seer; Vincent Valentine // Galian Beast; Enduring Innocence; Archangel Avacyn // Avacyn, the Purifier; Etali, Primal Conqueror // Etali, Primal Sickness; Preacher of the Schism; Cecil, Dark Knight // Cecil, Redeemed Paladin; Legion's Landing // Adanto, the First Fort; Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight; Ulamog, the Infinite Gyre; Garland, Knight of Cornelia // Chaos, the Endless
+     tags: P_DIEx6.6, P_LIFx3.7, R_DIEx3.2, P_TREx2.8, P_TOKx2.7 | words: transform, dies,, lifelink, transformed, white, vampire, sorcery., lifelink.
+
+=== channel 17  (strength 0.194)
+  GIVERS: Kabira Takedown // Kabira Plateau; Sejiri Shelter // Sejiri Glacier; Spikefield Hazard // Spikefield Cave; Malakir Rebirth // Malakir Mire; Hagra Mauling // Hagra Broodpit; Fell the Profane // Fell Mire; Jwari Disruption // Jwari Ruins; Vastwood Fortification // Vastwood Thicket; Tangled Florahedron // Tangled Vale; Valakut Awakening // Valakut Stoneforge; Sink into Stupor // Soporific Springs; Kazuul's Fury // Kazuul's Cliffs; Boggart Trawler // Boggart Bog; Glasspool Mimic // Glasspool Shore
+     tags: P_LNDx7.3, P_FLSx3.7, P_SPLx2.4, P_ETBx1.6, P_HNDx1.5 | words: tapped., enters, don't,, {t}:, {w}., {b}., flash, {r}.
+  WANTERS: Koma, World-Eater; Koma, Cosmos Serpent; Titan of Industry; Grim Flayer; Glissa Sunslayer; Inscription of Ruin; Cosmic Spider-Man; Ragnarok, Divine Deliverance; Junji, the Midnight Sky; Worldspine Wurm; Horde of Notions; Kroxa and Kunoros; Samut, Voice of Dissent; Fangkeeper's Familiar
+     tags: P_BIGx4.0, P_DISx3.7, P_RECx2.9, P_LEGx2.8, P_ATKx2.7 | words: vigilance,, trample,, reach,, countered., lifelink, player,, discards, strike,
+
+=== channel 18  (strength 0.090)
+  GIVERS: Chandra, Torch of Defiance; Chandra, Awakened Inferno; Chandra, Dressed to Kill; Koth of the Hammer; Sarkhan, the Dragonspeaker; Ajani Vengeant; Chandra, Fire Artisan; Nicol Bolas, God-Pharaoh; Chandra, Pyromaster; Nicol Bolas, Planeswalker; Ugin, the Spirit Dragon; Domri, Anarch of Bolas; Chandra, Hope's Beacon; Liliana of the Veil
+     tags: P_DMGx5.4, P_LEGx2.3, P_MANx2.0, P_XSPx2.0, P_DISx1.6 | words: planeswalker., deals, emblem, damage, creature., where, controls., dealt
+  WANTERS: Invasion of Azgol // Ashen Reaper; Invasion of Tarkir // Defiant Thundermaw; Tribute to Horobi // Echo of Death's Wail; Butcher of the Horde; Silence the Echo; Embrace Oblivion; Stir Up Trouble; Annihilating Glare; Spark Harvest; Deadly Precision; Reno and Rude; Worthy Cost; Gas Guzzler; Bolg of the North
+     tags: P_SACx7.5, R_SACx5.7, R_GYx2.2, R_DIEx1.6, P_SPLx1.6 | words: sacrifice, additional, cost, creature:, planeswalker., destroy, creature's, creature.
+
+=== channel 19  (strength 0.248)
+  GIVERS: Gandalf, Goblins' Bane // Flameshape; Lovestruck Beast // Heart's Desire; Horned Loch-Whale // Lagoon Breach; Questing Druid // Seek the Beast; Beorn, Reluctant Host // Till and Tend; Flaxen Intruder // Welcome Home; Silverback Elder; Lake-town Mariners // Gone Fishing; Glóin the Mighty // Easy Pickings; The Mirari Conjecture; The Lion-Turtle; Picnic Ruiner // Stolen Goodies; Bramble Familiar // Fetch Quest; Sagu Wildling // Roost Seek
+     tags: R_SPLx4.2, R_NCSx4.1, P_BIGx2.1, P_DMGx1.8, P_CREx1.6 | words: spell,, sorcery, instant, noncreature, flash, green, vigilance, land
+  WANTERS: Nylea, Keen-Eyed; Gandalf, Goblins' Bane // Flameshape; Arcane Bombardment; Purphoros, God of the Forge; Spinerock Tyrant; Aziza, Mage Tower Captain; Thousand-Year Storm; Arcane Proxy; Q, Stacking the Deck; Zada, Hedron Grinder; Summon: G.F. Cerberus; Infinite Diversity; God-Eternal Kefnet; Sea Gate Stormcaller
+     tags: R_SPLx11.7, P_CPYx11.6, R_NCSx5.9, P_CSTx3.3, P_LEGx2.4 | words: instant, copy., sorcery, copy, targets, spell,, devotion, spell
+
+=== channel 20  (strength 0.642)
+  GIVERS: Tenured Tethermage; Iroh, Tea Master; Neelix, Moral Support; Biotech Specialist; Witch's Oven; Rosie Cotton of South Lane; Gilded Goose; Sokenzan Smelter; Samwise Gamgee; Hungering Puppetbeast; Ashnod, Flesh Mechanist; Rhovanion Rampager; Sandbender Scavengers; Michelangelo, Weirdness to 11
+     tags: R_SACx7.0, P_TREx6.7, P_DIEx6.6, R_CTRx5.0, P_SACx4.8 | words: food, token., sacrifice, artifact:, dies,, colorless, create, creature:
+  WANTERS: Tenured Tethermage; Ant-Man, Colony Commander; The Goose Mother; Biotech Specialist; Iroh, Tea Master; Sokenzan Smelter; Gowron, Eager for Battle; Kuldotha Rebirth; Rhovanion Rampager; Dreadhorde Butcher; Gilded Goose; Cacophony Scamp; L'Rell, Fierce Visionary; Ashnod, Flesh Mechanist
+     tags: R_SACx10.1, P_TREx8.1, R_CTRx5.5, P_CTRx4.9, P_SACx4.8 | words: food, sacrifice, token., creature:, artifact:, +1/+1, create, counter
+
+=== channel 21  (strength 0.242)
+  GIVERS: Sea Gate Stormcaller; Endrider Catalyzer; Sahagin; Brushfire Elemental; Courageous Goblin; Elven Raft-Steerer; Hydro-Channeler; Sprite Dragon; Soulherder; Astrologian's Planisphere; Sokka's Haiku; Ruby, Daring Tracker; Grappling Kraken; Prowcatcher Specialist
+     tags: R_NCSx5.4, R_LNDx4.6, R_SPLx2.6, P_TAPx2.3, P_CTRx2.0 | words: blocked, landfall, haste, noncreature, spell,, spell., double, instant
+  WANTERS: Invasion of Dominaria // Serra Faithkeeper; Tezzeret, Cruel Captain; Chandra, Torch of Defiance; Chandra, Dressed to Kill; Colleen Wing, Street Samurai; Invasion of Ikoria // Zilortha, Apex of Ikoria; Brutal Cathar // Moonrage Brute; Phyrexian Missionary; Chandra, Awakened Inferno; Smoldering Egg // Ashmouth Dragon; Thing in the Ice // Awoken Horror; Crystal Fragments // Summon: Alexander; Compassionate Healer; Sidequest: Play Blitzball // World Champion, Celestial Weapon
+     tags: P_EQAx2.8, P_TAPx2.6, P_LIFx2.5, R_LIFx2.4, R_ETBx2.0 | words: scry, transform, nightbound, daybound, kicker, kicked,, emblem, dealt
+
+=== channel 22  (strength 0.561)
+  GIVERS: Tarrian's Journal // The Tomb of Aclazotz; Ojer Axonil, Deepest Might // Temple of Power; Arguel's Blood Fast // Temple of Aclazotz; Sidequest: Catch a Fish // Cooking Campsite; Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel; Aclazotz, Deepest Betrayal // Temple of the Dead; Rona, Herald of Invasion // Rona, Tolarian Obliterator; Garland, Knight of Cornelia // Chaos, the Endless; The Emperor of Palamecia // The Lord Master of Hell; Braided Net // Braided Quipu; Tribute to Horobi // Echo of Death's Wail; Jerren, Corrupted Bishop // Ormendahl, the Corrupter; Gwen Stacy // Ghost-Spider; Terra, Magical Adept // Esper Terra
+     tags: R_SACx4.4, P_SACx3.6, P_LEGx3.0, R_DIEx2.7, P_GYx2.6 | words: transform, sorcery., transformed, activate, only, creature:, transforms, under
+  WANTERS: Witch's Oven; Oni-Cult Anvil; Altar of Dementia; Agadeem's Awakening // Agadeem, the Undercrypt; Mishra's Research Desk; The Underworld Cookbook; Grinding Station; In the Pale Moonlight; Hot Dog Cart; Fabrication Foundry; Chthonian Nightmare; Codex Shredder; Blood Fountain; Phoenix Down
+     tags: R_SACx6.3, P_ARTx4.7, P_SACx4.3, P_TREx3.5, R_ARTx3.4 | words: {t},, {t}:, equip, sacrifice, sacrificed, equipped, tapped., attach
+
+=== channel 23  (strength 0.292)
+  GIVERS: Aerith Gainsborough; Vincent Valentine // Galian Beast; Valentin, Dean of the Vein // Lisette, Dean of the Root; Moment of Glory; Growth Curve; Generous Revival; Teachings of the Kirin // Kirin-Touched Orochi; Practiced Offense; Recursive Recruitment; Kaya the Inexorable; Scolding Administrator; Predictive Preparations; Inscription of Ruin; Syr Vondam, Sunstar Exemplar
+     tags: R_LIFx5.5, P_RECx4.8, P_CTRx4.2, P_DISx2.9, P_LIFx2.3 | words: flashback, lifelink, counters, +1/+1, life,, graveyard, counter, return
+  WANTERS: The Emperor of Palamecia // The Lord Master of Hell; Izzet Charm; Sea Gate Restoration // Sea Gate, Reborn; King T'Challa // Black Panther, Hope Enduring; Archmage's Charm; Agadeem's Awakening // Agadeem, the Undercrypt; Jwari Disruption // Jwari Ruins; Rona, Herald of Invasion // Rona, Tolarian Obliterator; Cruel Ultimatum; Avatar Aang // Aang, Master of Elements; Vohar, Vodalian Desecrator; Wesley Crusher, Starfleet Cadet; Garland, Knight of Cornelia // Chaos, the Endless; Silundi Vision // Silundi Isle
+     tags: P_LNDx4.2, P_DRWx3.9, P_XSPx3.0, P_GYx2.7, R_DRWx2.6 | words: tapped., transform, {u}., {t}:, sorcery., enters, cards,, cards.
+
+=== style 0  (strength 0.273)
+  CARDS: Apex Witchstalker; Balamb T-Rexaur; Spinewoods Armadillo; Malboro; Migrating Ketradon; Humpback Whales; Rogue Artificial Intelligence; Saber-Tooth Moose-Lion; Savage Land Dinosaur; Pale Recluse; Zog, Triceraton Castaway; Stockman, Mad Fly-entist; Nissa's Renewal; Sire of Seven Deaths; Troll of Khazad-dûm; Bloomvine Regent // Claim Territory
+     tags: P_LNDx6.8, P_BIGx5.5, R_HNDx2.4, P_LIFx2.3, P_ETBx1.9 | words: landcycling, basic, reach,, swampcycling, mountaincycling, forestcycling, trample, reach
+
+=== style 1  (strength 0.619)
+  CARDS: Demonic Embrace; Sentinel's Eyes; Alien Symbiosis; Ethereal Armor; Escape Velocity; All That Glitters; Gryff's Boon; Evershrike's Gift; Lightwheel Enhancements; Hammerhand; Eagle's Rescue; Super-Soldier Serum; With Great Power . . .; Glaring Aegis; Hyena Umbra; Wingspan Stride
+     tags: P_EQAx17.0, P_ENCx8.9, R_EQAx2.9, R_ENCx2.6, P_RECx1.7 | words: enchanted, enchant, controller's, doesn't, during, step., gets, untap
+
+=== style 2  (strength 0.163)
+  CARDS: Replicator; Esika's Chariot; Gleaming Barrier; S.H.I.E.L.D. Helicarrier; Fire Nation Warship; Ultron, Artificial Malevolence; Worldwalker Helm; Turtle Blimp; God-Pharaoh's Gift; U.S.S. Cerritos, Following Up; Skitterbeam Battalion; Parhelion II; Ticket Tortoise; Chrome Dome; Magic Pot; Magitek Armor
+     tags: P_VEHx11.3, P_TREx6.3, P_ARTx6.1, P_CPYx5.1, R_ARTx4.1 | words: crew, treasure, token., that's, create, colorless, food, copy
+
+=== style 3  (strength 0.678)
+  CARDS: Pelakka Predation // Pelakka Caverns; Bala Ged Recovery // Bala Ged Sanctuary; Song-Mad Treachery // Song-Mad Ruins; Sea Gate Restoration // Sea Gate, Reborn; Agadeem's Awakening // Agadeem, the Undercrypt; Sundering Eruption // Volcanic Fissure; Tangled Florahedron // Tangled Vale; Blackbloom Rogue // Blackbloom Bog; Valakut Awakening // Valakut Stoneforge; Hagra Mauling // Hagra Broodpit; Kazandu Mammoth // Kazandu Valley; Shatterskull Smashing // Shatterskull, the Hammer Pass; Makindi Stampede // Makindi Mesas; Fell the Profane // Fell Mire; Silundi Vision // Silundi Isle; Kabira Takedown // Kabira Plateau
+     tags: P_LNDx8.6, P_MANx6.3, P_ARTx2.4, R_HNDx2.4, P_SPLx1.6 | words: tapped., {t}:, {b}., {c}., enters, {r}., don't,, {w}.
+
+=== style 4  (strength 0.810)
+  CARDS: Wrenn and Realmbreaker; Kiora, Master of the Depths; Garruk Relentless // Garruk, the Veil-Cursed; Wrenn and Seven; Oko, Lorwyn Liege // Oko, Shadowmoor Scion; Vivien on the Hunt; Arlinn, the Pack's Hope // Arlinn, the Moon's Fury; Vivien, Monsters' Advocate; Garruk, Cursed Huntsman; Vraska, Relic Seeker; Vivien, Arkbow Ranger; Kaya the Inexorable; Elspeth Resplendent; Sarkhan Unbroken; Vivien Reid; Domri, Chaos Bringer
+     tags: P_GOWx6.4, P_TOKx5.2, P_LEGx4.2, R_CREx3.2, P_TAPx3.0 | words: emblem, "creatures, green, beast, among, create, them, loyalty
+
+=== style 5  (strength 0.345)
+  CARDS: Miles Morales // Ultimate Spider-Man; K'un-Lun Warrior; Gwen Stacy // Ghost-Spider; Bullseye, Death Dealer; Jet, Freedom Fighter; Killmonger, Scourge of Wakanda; Korvold, Fae-Cursed King; King T'Challa // Black Panther, Hope Enduring; Zodiark, Umbral God; Preacher of the Schism; Silver Sable, Mercenary Leader; Llanowar Visionary; The Goose Mother; Bebop & Rocksteady; Atraxa, Grand Unifier; Honest Rutstein
+     tags: R_SACx5.1, P_DIEx4.1, P_LEGx2.9, P_ETBx2.5, P_SACx2.5 | words: dies,, lifelink, another, attacks,, legendary, sacrifice, when, permanent.
+
+=== style 6  (strength 0.517)
+  CARDS: Thrill of Possibility; Izzet Charm; Traumatic Critique; Thirst for Identity; Thirst for Meaning; Thirst for Discovery; Thirst for Knowledge; Manamorphose; Electrolyze; Sphinx's Revelation; Pull from Tomorrow; Risk Factor; Visions of Beyond; Flame of Anor; Expedite; Curate
+     tags: P_DRWx5.7, P_FLSx5.0, P_GYx3.9, P_SPLx3.6, P_DMGx1.9 | words: card., draw, discard, cards., unless, cards,, then, deals
+
+=== style 7  (strength 0.084)
+  CARDS: Captain America, Super-Soldier; Hakoda, Selfless Commander; Malevolent Hermit // Benevolent Geist; Hullbreaker Horror; Magus of the Tabernacle; Katilda, Dawnhart Martyr // Katilda's Rising Dawn; Dennick, Pious Apprentice // Dennick, Pious Apparition; Knight-Errant of Eos; Squad Rallier; Consult the Star Charts; Jazal Goldmane; Nick Fury, Agent of S.H.I.E.L.D.; Outrider en-Kor; As Foretold; Saiba Cryptomancer; Aven Mindcensor
+     tags: R_CTRx2.5, R_LIFx2.4, P_FLSx2.3, R_XSPx2.0, P_CTRx1.7 | words: flash, look, where, instead., indestructible, would, strike, order.

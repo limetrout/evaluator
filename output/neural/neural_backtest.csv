@@ -1,0 +1,2 @@
+year,neural_recall@10,v3_ranker_recall@10,graded
+2023,0.189,0.241,311
