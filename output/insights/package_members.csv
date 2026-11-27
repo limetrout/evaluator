@@ -1,416 +1,850 @@
-package,card,set,tier,card_percentile,current_play_pct,links_in_package
-1,Dragonfire Blade,TDM,D,64.0,3.9,6.33
-1,Skateboard,TMT,F,43.0,2.8,6.04
-1,Leyline Axe,FDN,F,43.0,3.9,5.37
-1,"Thorin, Mountain-king",HOB,C,78.7,3.9,4.28
-1,"Cloud, Midgar Mercenary",FIN,C,79.5,0.0,4.19
-1,"Dwalin, Weaponmaster",HOB,C,86.0,3.9,4.19
-1,"Gwyndala, the Progeny",TRK,C,85.7,0.0,4.03
-1,The Dominion Bracelet,EOE,C,85.7,0.0,3.8
-1,"Raubahn, Bull of Ala Mhigo",FIN,B,94.7,0.4,3.24
-1,Zack Fair,FIN,C,78.1,0.2,2.91
-1,"Sulu, Space Swashbuckler",TRK,C,88.9,0.0,2.6
-1,Dwarven Mauler,HOB,D,70.5,3.9,2.5
-1,Basilisk Collar,FDN,F,48.3,3.3,2.35
-1,Celestial Armor,FDN,C,86.4,0.0,2.21
-1,My Precious // Allure of Power,HOB,C,75.2,0.0,1.9
-1,Rocket-Powered Goblin Glider,SPM,C,80.0,0.0,1.44
-1,Hardlight Containment,EOE,A,98.5,0.0,1.27
-1,Evershrike's Gift,ECL,C,85.6,0.0,1.0
-1,Kíli the Resourceful,HOB,C,82.7,3.9,0.92
-1,Super-Soldier Serum,MSH,C,86.9,0.0,0.57
-1,Dáin's Company,HOB,D,74.7,3.9,0.43
-1,Dimensional Exile,TMT,B+,97.6,0.0,0.41
-1,Roadside Assistance,DFT,C,79.1,0.0,0.41
-2,Winternight Stories,TDM,C,81.2,9.6,4.36
-2,Secret Identity,SPM,C,88.2,3.8,4.07
-2,Tiger-Seal,TLA,C,84.3,0.0,2.92
-2,Spider-Sense,SPM,A,98.8,2.5,2.67
-2,Traumatic Critique,SOS,D,74.4,10.8,2.65
-2,Accumulate Wisdom,TLA,C,84.3,1.4,2.35
-2,Drake Hatcher,FDN,C,83.2,0.7,2.27
-2,Boomerang Basics,TLA,B,91.6,1.4,2.22
-2,It'll Quench Ya!,TLA,B,90.7,1.4,1.87
-2,Bounce Off,DFT,C,80.9,3.8,1.79
-2,Emeritus of Ideation // Ancestral Recall,SOS,B+,96.8,6.9,1.44
-2,Seasoned Cryomancer,FRA,C,88.8,3.1,1.39
-2,Prismari Charm,SOS,B+,95.4,11.5,1.37
-2,Flow State,SOS,C,78.3,8.8,0.83
-2,The Unagi of Kyoshi Island,TLA,B+,96.9,0.5,0.54
-3,Wild Ride,TDM,C,76.2,4.2,6.81
-3,Impractical Joke,SOS,B,93.7,12.8,5.34
-3,Iroh's Demonstration,TLA,B+,96.5,1.1,4.42
-3,Fire Magic,FIN,B+,95.2,6.5,4.04
-3,Vibrant Outburst,SOS,D,63.0,5.2,3.6
-3,Combustion Technique,TLA,C,81.0,1.4,3.46
-3,Flashback,SOS,A,99.4,6.1,3.21
-3,Tersa Lightshatter,TDM,B,92.4,2.1,2.79
-3,Stingcaster Mage,FRA,A,99.9,1.7,2.69
-3,Pompous Battlemage // Improvised Act,FRA,B+,96.1,5.2,2.64
-3,Abandon Attachments,TLA,C,75.7,1.4,2.57
-3,Firebending Lesson,TLA,C,86.7,4.3,2.46
-3,Marauding Mako,DFT,C,77.4,1.4,2.13
-3,"Tomik, Izzet Sparkmage",FRA,C,87.2,0.7,1.92
-3,"Gandalf, Goblins' Bane // Flameshape",HOB,B+,97.0,1.4,1.85
-3,Burst Lightning,FDN,C,77.8,27.2,1.81
-3,Avengers Disassembled,MSH,A,99.3,2.9,1.74
-3,Glacial Dragonhunt,TDM,B,90.6,0.0,1.41
-3,"Thor, God of Thunder",MSH,B,90.4,3.2,1.4
-3,Colorstorm Stallion,SOS,C,82.2,7.5,1.4
-3,Improvisation Capstone,SOS,C,78.1,0.7,1.34
-3,"Ashling, Rekindled // Ashling, Rimebound",ECL,C,83.4,1.1,0.91
-3,Plasma Bolt,EOE,C,85.7,1.4,0.91
-3,Broadside Barrage,DFT,B,90.5,6.0,0.89
-3,Sear,ECL,B+,97.9,9.5,0.87
-3,Bulk Up,FDN,C,88.8,0.0,0.83
-3,"Hobgoblin, Mantled Marauder",SPM,C,81.0,0.0,0.49
-3,Slagstorm,FDN,B+,95.2,0.5,0.47
-3,Heroes' Hangout,SPM,C,88.8,1.1,0.46
-3,Frostcliff Siege,TDM,B,92.2,0.0,0.44
-3,Cool but Rude,TMT,C,79.5,1.4,0.43
-3,"Quicksilver, Brash Blur",MSH,B+,96.7,0.0,0.42
-3,Heartfire Immolator,FDN,C,86.7,0.0,0.41
-3,Energybending,TLA,C,81.8,0.0,0.41
-4,Mossborn Hydra,FDN,C,81.4,11.3,5.31
-4,Sazh's Chocobo,FIN,D,71.3,13.2,4.44
-4,"Surrak, Elusive Hunter",TDM,B,92.1,8.8,4.32
-4,Earthbender Ascension,TLA,D,74.4,13.2,4.13
-4,Lumbering Worldwagon,DFT,C,86.7,5.3,4.08
-4,Tifa Lockhart,FIN,B+,95.0,0.0,4.07
-4,Mightform Harmonizer,EOE,C,81.7,13.2,3.74
-4,Gene Pollinator,EOE,D,53.0,7.3,3.15
-4,"Leatherhead, Swamp Stalker",TMT,C,89.1,3.7,2.73
-4,Frenzied Baloth,EOE,A,98.7,0.0,2.3
-4,Snakeskin Veil,FDN,F,45.3,3.1,2.24
-4,Sapling Nursery,ECL,C,80.4,11.2,1.83
-4,"Sandman, Shifting Scoundrel",SPM,C,83.8,1.8,1.75
-4,Brightglass Gearhulk,DFT,C,86.4,0.0,0.91
-4,"Jackal, Genius Geneticist",SPM,C,88.3,0.0,0.88
-4,Esper Origins // Summon: Esper Maduin,FIN,B+,96.0,11.8,0.85
-4,Rapid Rescue,MSH,C,76.2,0.3,0.85
-4,Meltstrider's Resolve,EOE,C,76.0,7.7,0.84
-4,"Mutagen Man, Living Ooze",TMT,C,88.4,2.1,0.48
-4,Strength of Will,SPM,C,84.5,0.0,0.47
-4,Biomechan Engineer,EOE,C,87.1,0.0,0.46
-4,First Contact,TRK,C,77.6,0.0,0.42
-4,"Lizard, Connors's Curse",SPM,B,91.9,0.0,0.42
-4,Nasty Little Rabbit,HOB,C,75.2,0.0,0.42
-4,"Michelangelo, Weirdness to 11",TMT,C,89.1,0.3,0.42
-4,Warg Tactics,HOB,D,61.1,4.1,0.41
-5,"Krang, Utrom Warlord",TMT,B,94.0,0.0,8.1
-5,Synthesizer Labship,EOE,B,91.1,0.0,5.74
-5,Ring of Unity,NAU,F,38.2,0.0,3.68
-5,Emissary Escort,EOE,C,78.7,0.0,3.56
-5,Springleaf Drum,ECL,F,44.3,3.5,3.13
-5,Extinguisher Battleship,EOE,C,89.1,0.2,2.92
-5,Lt. Cmdr. Geordi La Forge,TRK,C,76.2,0.0,2.85
-5,Super-Adaptoid,MSH,C,79.8,0.0,2.61
-5,Deep Space 9,TRK,B,90.2,0.0,1.74
-5,Tony Stark // The Invincible Iron Man,MSH,C,84.9,0.0,1.67
-5,Crystalline Entity,TRK,B,92.9,0.0,1.65
-5,Borg Cube,TRK,B,94.0,0.0,1.63
-5,"Mendicant Core, Guidelight",DFT,C,75.5,0.0,1.56
-5,Chronicle of Victory,ECL,C,75.7,0.0,1.45
-5,"U.S.S. Enterprise-D, Galaxy-Class",TRK,C,78.5,0.0,1.43
-5,Weather Maker,TMT,C,77.6,0.0,1.34
-5,"Lady Octopus, Inspired Inventor",SPM,B,94.3,0.4,1.29
-5,Sorcerous Spyglass,FDN,C,79.8,0.2,1.29
-5,"U.S.S. Discovery, at Black Alert",TRK,C,84.9,0.0,1.28
-5,Does Machines,TMT,C,86.7,0.0,1.01
-5,"Donatello, Gadget Master",TMT,C,77.4,0.0,0.97
-5,"Karn, Argent Defender",FRA,B,90.8,1.0,0.94
-5,"Emrakul, the Exigent Doom",FRA,B,93.7,0.0,0.9
-5,Romulan Bird-of-Prey,TRK,B,91.8,0.0,0.9
-5,Anticausal Vestige,EOE,A,99.0,0.0,0.9
-5,Engineered Explosives,TRK,C,77.4,0.0,0.83
-5,Lieutenant Commander Data,TRK,C,85.4,0.0,0.46
-5,Mox Jasper,TDM,C,89.8,0.0,0.45
-5,Sledge-Class Seedship,EOE,C,82.2,0.0,0.45
-5,Sire of Seven Deaths,FDN,A,98.7,0.0,0.44
-5,Lumen-Class Frigate,EOE,C,82.8,0.0,0.44
-6,"Basri, Tomorrow's Champion",DFT,A,98.9,0.0,5.25
-6,"Leonardo, Cutting Edge",TMT,C,88.8,1.1,5.05
-6,"Haliya, Guided by Light",EOE,C,86.1,5.2,4.26
-6,Aerith Gainsborough,FIN,C,78.1,0.0,3.93
-6,Aunt May,SPM,D,58.0,2.4,2.97
-6,"Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",FIN,A,99.6,0.0,2.36
-6,Voice of Victory,TDM,B,91.2,12.9,2.14
-6,"Deanna Troi, Psychic Counsel",TRK,B,93.1,0.0,1.92
-6,Hinterland Sanctifier,FDN,D,51.8,4.2,1.86
-6,Captain Jean-Luc Picard,TRK,B+,96.4,0.0,1.52
-6,Ajani Resolute,FRA,B+,97.6,2.4,1.45
-6,Liliana the Faultless,FRA,B+,95.7,3.8,1.4
-6,Enlightened Confidant,FRA,C,83.0,3.5,1.38
-6,Cosmogrand Zenith,EOE,B+,96.0,0.7,1.24
-6,"Arahbo, the First Fang",FDN,C,78.1,0.0,0.97
-6,Prehistoric Pet,TMT,B,90.2,0.4,0.95
-6,Skyknight Squire,FDN,C,89.7,0.0,0.95
-6,"Bofur, Reliable Guardian // Concerted Care",HOB,A,98.0,0.9,0.93
-6,Sun-Blessed Healer,FDN,B,93.5,0.0,0.92
-6,"Night Nurse, Healer of Heroes",MSH,C,89.4,0.0,0.92
-6,Agent Maria Hill,MSH,C,80.0,0.0,0.82
-6,Captain James T. Kirk,TRK,B+,96.3,0.0,0.67
-6,Leonin Vanguard,FDN,C,82.4,0.0,0.51
-6,Kinscaer Sentry,ECL,B,93.8,0.0,0.5
-6,Triceraton Commander,TMT,C,78.9,0.0,0.48
-6,"Dion, Bahamut's Dominant // Bahamut, Warden of Light",FIN,B,93.7,0.0,0.46
-6,"King T'Challa // Black Panther, Hope Enduring",MSH,B+,97.7,0.2,0.43
-6,"Teyo, Lightshield Expert",FRA,C,89.8,0.0,0.42
-6,"Agent Bishop, Man in Black",TMT,C,77.8,0.0,0.41
-6,Sage of the Skies,TDM,D,69.1,3.5,0.41
-7,Full Bore,EOE,C,86.9,0.7,4.23
-7,Burnout Bashtronaut,DFT,B+,95.9,0.3,3.62
-7,Howlsquad Heavy,DFT,B,92.9,1.1,2.76
-7,Fanatical Firebrand,FDN,C,77.2,0.0,2.74
-7,Fleeting Effigy,TDM,C,88.0,0.0,2.63
-7,Stadium Headliner,TDM,B,90.0,2.6,2.5
-7,Hexing Squelcher,ECL,A,99.5,0.3,2.44
-7,Searslicer Goblin,FDN,C,85.7,0.0,1.6
-7,Draconautics Engineer,DFT,C,83.0,0.0,1.35
-7,Boltwave,FDN,B,90.7,0.7,1.34
-7,Dynamite Diver,DFT,C,88.0,0.0,1.27
-7,Molten-Core Maestro,SOS,C,88.6,0.7,0.83
-7,Thunderdrum Soloist,SOS,C,78.1,0.0,0.82
-7,Soulbright Seeker,ECL,C,79.3,0.0,0.59
-7,Impolite Entrance,ECL,B,90.1,0.0,0.59
-7,Bolg's Company,HOB,C,76.2,0.0,0.56
-7,Master of Barbs,FRA,D,52.4,2.8,0.45
-7,Channeled Dragonfire,TDM,B+,95.3,0.3,0.45
-7,"Hazoret, Godseeker",DFT,B+,96.1,0.0,0.42
-7,Opera Love Song,FIN,B,92.7,0.0,0.42
-8,"Captain America, Wings of Freedom",MSH,C,78.5,0.0,3.53
-8,Spectacular Spider-Man,SPM,A,99.9,0.2,3.47
-8,"Arachne, Psionic Weaver",SPM,B+,96.2,0.2,2.8
-8,"Nick Fury, Agent of S.H.I.E.L.D.",MSH,C,86.2,0.0,2.64
-8,"Spiders-Man, Heroic Horde",SPM,B,90.6,0.0,1.99
-8,Jennifer Walters // The Sensational She-Hulk,MSH,B+,97.3,1.4,1.95
-8,"Monica Rambeau // Photon, Living Light",MSH,B,92.6,0.3,1.37
-8,Peter Parker // Amazing Spider-Man,SPM,B,90.2,0.0,1.28
-8,Radioactive Spider,SPM,B+,95.2,0.0,1.0
-8,Mary Jane Watson,SPM,C,86.6,0.0,0.89
-8,"Captain America, Super-Soldier",MSH,C,88.6,0.2,0.83
-8,"Spider-Woman, Stunning Savior",SPM,B,93.0,0.0,0.58
-8,"The Mighty Thor, Jane Foster",MSH,C,82.7,0.4,0.51
-8,"Flash Thompson, Spider-Fan",SPM,C,82.4,0.0,0.5
-8,Guiding Hydra,FRA,C,82.0,2.4,0.5
-8,"Spider-Ham, Peter Porker",SPM,B,94.9,0.0,0.49
-8,Spider-Punk,SPM,B+,96.4,0.0,0.47
-9,Spell Pierce,DFT,D,70.5,17.7,8.86
-9,Opt,FDN,D,69.9,14.6,4.24
-9,Spell Snare,ECL,C,85.3,26.2,4.05
-9,Negate,TMT,D,59.1,5.5,3.1
-9,Louisoix's Sacrifice,FIN,B+,97.4,0.0,1.82
-9,Flashfreeze,FDN,D,65.6,16.4,1.81
-9,Wild Unraveling,ECL,B,90.0,0.0,1.75
-9,Unravel,EOE,C,85.9,0.0,1.71
-9,Precise Redaction,FRA,B+,96.2,0.2,1.37
-9,Thirst for Identity,ECL,C,78.5,0.0,1.28
-9,Spectral Denial,TDM,B+,96.9,0.0,0.92
-9,"Samut, Tyrant of Naktamun",FRA,B,93.3,0.0,0.89
-9,Energize,TRK,C,79.5,0.0,0.88
-9,Uncover the Moon-Letters,HOB,C,82.6,0.0,0.84
-9,Whoosh!,SPM,C,76.2,0.0,0.84
-9,Annul,EOE,F,45.3,9.3,0.82
-9,Stolen Uniform,FIN,C,81.7,0.0,0.49
-9,Exhibition Tidecaller,SOS,C,87.9,0.4,0.47
-9,Ooze Spill,TMT,C,88.6,0.0,0.46
-9,Desculpting Blast,EOE,C,83.6,0.0,0.46
-9,Glen Elendra's Answer,ECL,B,90.1,0.0,0.44
-9,Mana Sculpt,SOS,B,94.7,0.0,0.43
-9,Pyrrhic Strike,ECL,C,82.2,2.1,0.42
-9,Kobayashi Maru Scenario,TRK,C,86.8,0.0,0.41
-9,Highly Illogical,TRK,B+,96.0,0.0,0.41
-9,Into the Roil,FDN,C,80.9,0.0,0.41
-10,Day of Judgment,FDN,C,88.4,5.6,6.62
-10,United Battlefront,TDM,C,83.0,2.5,2.67
-10,Restoration Seminar,SOS,C,83.8,0.0,2.3
-10,Seam Rip,EOE,A,99.5,14.0,2.24
-10,Erode,SOS,A,100.0,23.4,1.97
-10,Daydream,SOS,C,88.5,3.2,1.9
-10,The Mind Stone,MSH,C,82.2,3.1,1.85
-10,Avatar's Wrath,TLA,B,93.3,1.4,1.74
-10,Perilous Snare,DFT,B+,95.1,1.4,1.69
-10,Ultima,FIN,C,80.4,1.7,1.58
-10,Aang's Iceberg,TLA,B+,95.5,1.3,1.37
-10,Pinnacle Starcage,EOE,C,85.0,4.4,1.36
-10,Starfield Shepherd,EOE,F,35.9,3.2,1.01
-10,Wisdom of Ages,SOS,C,77.0,0.0,1.01
-10,The Seriema,EOE,B,91.7,0.3,0.96
-10,Dig Site Inventory,SOS,C,82.0,0.0,0.9
-10,Practiced Offense,SOS,B,93.4,5.3,0.86
-10,Generous Revival,FRA,C,76.0,0.0,0.85
-10,Kindred Judgment,FRA,C,85.2,0.0,0.84
-10,"Elspeth, Storm Slayer",TDM,C,84.3,1.1,0.54
-10,Moment of Reckoning,SOS,C,85.4,0.0,0.52
-10,Divergent Equation,SOS,C,87.0,0.0,0.48
-10,Curious Farm Animals,TLA,D,71.3,3.3,0.47
-10,Morningtide's Light,ECL,C,87.8,0.2,0.46
-10,"U.S.S. Enterprise-A, Free Spirit",TRK,B,92.0,0.0,0.45
-10,Sunpearl Kirin,TDM,A,99.1,0.0,0.44
-10,Group Project,SOS,C,76.2,0.0,0.44
-10,Bilbo's Gambit,HOB,B+,95.4,0.5,0.42
-10,The Legend of Yangchen // Avatar Yangchen,TLA,B+,97.8,0.0,0.41
-10,Leonardo's Technique,TMT,C,80.2,0.0,0.4
-11,Earth Kingdom Protectors,TLA,B,91.1,0.0,2.54
-11,"Hakoda, Selfless Commander",TLA,C,84.7,0.0,2.25
-11,"Appa, Steadfast Guardian",TLA,B,92.3,0.3,1.38
-11,The Wondrous Wasp,MSH,A,99.2,9.2,1.33
-11,"Momo, Friendly Flier",TLA,A,99.7,9.1,1.1
-11,Earth King's Lieutenant,TLA,C,80.0,0.0,1.06
-11,"Aang, Swift Savior // Aang and La, Ocean's Fury",TLA,B+,97.6,0.7,0.97
-11,Great Divide Guide,TLA,C,84.1,0.7,0.91
-11,South Pole Voyager,TLA,C,88.5,0.0,0.9
-11,Subcommander T'Pol,TRK,A,98.6,0.0,0.46
-11,Airbender Ascension,TLA,B,93.1,0.3,0.45
-11,"Wan Shi Tong, Librarian",TLA,B+,97.9,14.5,0.41
-12,Warmaker Gunship,EOE,C,87.1,0.0,2.87
-12,"Chandra, Spark Hunter",DFT,B+,96.6,0.0,2.27
-12,Weapons Manufacturing,EOE,C,87.5,1.1,1.87
-12,Ravenous Robots,TMT,C,76.8,0.4,1.85
-12,Thopter Fabricator,DFT,C,85.7,0.0,1.82
-12,Rust Harvester,EOE,B+,95.8,0.4,1.45
-12,Gastal Thrillroller,DFT,B,94.5,0.0,1.4
-12,Boommobile,DFT,C,83.4,0.0,1.4
-12,Hungering Puppetbeast,FRA,C,81.5,0.0,1.38
-12,Great Gilded Boat,HOB,C,75.7,0.0,0.92
-12,Technodrome,TMT,C,83.9,0.0,0.88
-12,S.H.I.E.L.D. Flying Car,MSH,B,94.1,0.0,0.87
-12,Marketback Walker,DFT,B+,96.3,0.0,0.85
-12,Thunderous Velocipede,DFT,C,76.0,0.0,0.51
-12,Edge Rover,EOE,C,79.3,0.7,0.43
-12,Replicator,TRK,C,77.6,0.0,0.41
-12,D-7 Battle Cruiser,TRK,C,89.1,0.0,0.41
-12,"Mu Yanling, Wind Rider",DFT,C,81.2,0.0,0.41
-13,"Giada, Font of Hope",FDN,C,87.6,0.0,2.3
-13,Lyra Dawnbringer,FDN,B,92.4,0.0,1.66
-13,Astelli Reclaimer,EOE,C,76.6,0.3,0.93
-13,Lightstall Inquisitor,EOE,A,99.1,0.3,0.66
-13,Herald of Eternal Dawn,FDN,B+,95.2,0.0,0.52
-13,"Lyra, Tolarian Archangel",FRA,C,88.0,0.0,0.48
-14,"Sarkhan, Dragon Ascendant",TDM,C,79.3,5.9,2.88
-14,Ran and Shaw,TLA,C,76.0,0.0,2.6
-14,"Kellan, Planar Trailblazer",FDN,B+,96.9,0.0,1.29
-14,Nova Hellkite,EOE,C,87.0,6.6,1.09
-14,Magmatic Hellkite,TDM,B,92.9,6.4,1.05
-14,Dragonfly Swarm,TLA,C,79.7,0.0,0.55
-14,Smaug the Magnificent,HOB,C,88.1,12.2,0.53
-14,Clarion Conqueror,TDM,B,92.8,9.7,0.5
-14,Desolation of Smaug,HOB,C,81.4,0.5,0.44
-14,Spinneret and Spiderling,SPM,A,99.9,0.0,0.43
-14,Gwen Stacy // Ghost-Spider,SPM,B+,95.0,0.0,0.42
-15,Dreams of Laguna,FIN,B,90.0,0.0,2.33
-15,Jace's Machinations,FRA,A,98.0,3.0,1.69
-15,Dispelling Exhale,TDM,C,81.8,1.5,1.49
-15,Countersculpt,FRA,B+,95.4,3.5,1.39
-15,Roiling Dragonstorm,TDM,C,75.7,0.0,1.37
-15,Marang River Regent // Coil and Catch,TDM,C,86.4,0.7,0.93
-15,North Wind Avatar,TMT,C,77.8,1.1,0.91
-15,Consult the Star Charts,EOE,C,87.2,9.2,0.9
-15,Test of Priorities,TRK,C,82.0,0.0,0.54
-15,Summon: Bahamut,FIN,B,90.4,0.3,0.52
-15,"Chandra, Chill of Compliance",FRA,B+,96.9,1.9,0.45
-15,"The Theorist, Jace Beleren",FRA,B,93.0,9.9,0.41
-16,Carnivorous Cultivator // Enroot,FRA,A,99.6,3.5,2.09
-16,Down in the Valley,HOB,C,87.5,0.0,2.05
-16,Sidequest: Raise a Chocobo // Black Chocobo,FIN,C,89.6,0.0,1.74
-16,Icetill Explorer,EOE,D,64.6,13.2,1.36
-16,Summon: Titan,FIN,C,80.9,0.0,1.36
-16,Ambrosia Whiteheart,FIN,C,89.3,0.0,1.16
-16,Traveling Chocobo,FIN,B,92.0,0.0,1.12
-16,"Mole Man, Moloid Master",MSH,C,75.5,1.0,0.88
-16,Genemorph Imago,EOE,C,77.2,0.0,0.86
-16,Sunstar Expansionist,EOE,C,85.7,0.0,0.58
-16,Simulacrum Shaper,FRA,C,88.4,1.0,0.57
-16,Emeritus of Abundance // Regrowth,SOS,B+,97.2,1.4,0.57
-16,Lasyd Prowler,TDM,C,81.0,0.0,0.51
-16,Avatar of Burgeoning Echoes,FRA,C,82.0,0.3,0.43
-17,Llanowar Elves,FDN,C,86.7,15.9,2.96
-17,Wildborn Preserver,FDN,C,83.9,0.0,1.89
-17,Woodland Weavemaster,HOB,C,79.5,0.0,1.75
-17,"Trystan, Callous Cultivator // Trystan, Penitent Culler",ECL,C,85.0,0.0,1.18
-17,Virulent Emissary,ECL,C,83.4,0.0,1.13
-17,Selfless Safewright,ECL,B,93.2,0.0,1.03
-17,"Lluwen, Imperfect Naturalist",ECL,C,86.4,0.0,0.99
-17,Dragon Sniper,TDM,C,75.2,0.0,0.98
-17,Trystan's Command,ECL,C,75.2,0.0,0.96
-17,"Marwyn, the Preserver",FRA,C,84.7,0.0,0.67
-17,Webstrike Elite,DFT,A,99.1,0.0,0.51
-17,Flourishing Grapple,FRA,B+,97.8,0.0,0.43
-17,District Mascot,DFT,C,76.8,0.0,0.43
-17,Heartwood Crafter // Soul Tether,FRA,C,85.6,0.3,0.4
-18,Intimidation Tactics,DFT,C,86.2,4.8,2.51
-18,Requiting Hex,ECL,B+,97.1,33.1,2.18
-18,Day of Black Sun,TLA,B,94.6,11.4,1.29
-18,The Speed Demon,DFT,B+,96.4,0.0,0.84
-18,Strategic Betrayal,TDM,C,75.2,24.2,0.83
-18,Dream Beavers,TMT,C,83.5,8.9,0.81
-18,Archenemy's Charm,EOE,B,94.2,2.5,0.48
-18,Tragic Trajectory,EOE,A,99.2,0.2,0.44
-18,"Shark Shredder, Killer Clone",TMT,C,75.7,0.0,0.42
-18,Inside Information,HOB,C,76.2,2.9,0.41
-19,Mudbutton Cursetosser,ECL,C,81.2,0.0,2.06
-19,Caustic Exhale,TDM,C,78.7,0.0,1.43
-19,Champion of the Weird,ECL,C,78.1,0.0,1.36
-19,Sunset Saboteur,EOE,C,87.1,1.1,1.34
-19,Scavenger Regent // Exude Toxin,TDM,C,89.6,0.0,0.97
-19,Taster of Wares,ECL,B,94.6,0.0,0.94
-19,"Grub, Storied Matriarch // Grub, Notorious Auntie",ECL,C,76.5,0.0,0.94
-19,Piercing Exhale,TDM,C,80.6,0.0,0.47
-19,Gideon the Oathless,FRA,B,92.7,0.0,0.43
-19,"Cecil, Dark Knight // Cecil, Redeemed Paladin",FIN,B,91.8,1.1,0.41
-20,Voyager Glidecar,DFT,C,85.2,0.0,2.05
-20,The Fire Nation Drill,TLA,B+,97.1,0.0,1.96
-20,Antagonist Incorporator,TRK,C,85.7,0.0,1.45
-20,Nesting Bot,DFT,C,83.2,0.0,1.16
-20,Assembly Specialist,TRK,C,85.2,0.0,1.03
-20,Skyseer's Chariot,DFT,A,98.4,0.0,0.99
-20,Valor's Flagship,DFT,B,94.2,0.0,0.96
-20,Duress,FDN,D,58.0,25.1,0.88
-20,Debris Beetle,DFT,C,83.6,0.0,0.57
-20,Gideon's Memorial,FRA,B,93.9,0.3,0.54
-20,Sunstar Chaplain,EOE,B,91.5,0.0,0.47
-20,Break Under Pressure,FRA,C,86.9,1.4,0.43
-20,The Last Ride,DFT,B+,97.7,0.0,0.41
-21,Harbinger of the Tides,FDN,C,87.0,0.0,1.81
-21,Deepway Navigator,ECL,C,89.1,0.0,1.46
-21,Namor the Sub-Mariner,MSH,C,82.4,0.0,0.89
-21,Sygg's Command,ECL,C,83.6,0.0,0.55
-21,Harmonized Trio // Brainstorm,SOS,C,89.9,0.0,0.42
-21,Skycoach Conductor // All Aboard,SOS,B+,95.4,0.3,0.41
-22,Shock,SPM,C,81.5,0.3,4.0
-22,Pyre Rhymer // Molten Tide,FRA,C,83.2,0.0,1.33
-22,The Scarlet Witch,MSH,C,83.6,0.0,0.88
-22,Firebending Student,TLA,C,89.7,0.0,0.88
-22,Emeritus of Conflict // Lightning Bolt,SOS,A,99.3,0.0,0.86
-22,Choreographed Sparks,SOS,C,76.6,0.0,0.82
-22,Ruinous Rampage,EOE,C,86.4,0.0,0.48
-22,"Speed, Young Avenger",MSH,C,84.5,0.0,0.48
-22,Maelstrom Artisan // Rocket Volley,SOS,B,92.1,0.0,0.47
-22,Boulder Dash,ECL,C,84.1,0.0,0.44
-22,Mindsparker,FDN,C,80.4,0.0,0.43
-22,Explosive Prodigy,ECL,B+,96.0,0.0,0.43
-22,Joined Researchers // Secret Rendezvous,SOS,B+,96.8,0.0,0.43
-22,Transporter Malfunction,TRK,C,88.3,0.0,0.41
-23,Sunderflock,ECL,D,58.7,10.4,2.85
-23,Deceit,ECL,C,89.1,7.8,1.1
-23,Wistfulness,ECL,B+,95.5,0.7,0.73
-23,"Hydro-Man, Fluid Felon",SPM,C,89.6,4.7,0.54
-23,Ashling's Command,ECL,C,88.0,0.9,0.49
-23,Superior Spider-Man,SPM,D,71.9,4.8,0.42
-23,Quantum Riddler,EOE,C,79.5,4.2,0.4
-24,Unwelcome Sprite,ECL,C,78.9,0.0,1.48
-24,"Yuriko, Hope from the Shadows",FRA,C,86.1,1.0,1.39
-24,Diviner of Victory // Unwind History,FRA,B,92.8,0.0,1.36
-24,Flitterwing Nuisance,ECL,B+,96.5,1.4,1.02
-24,Dark Matter Manipulator,FRA,B+,96.1,0.7,0.92
-24,Grave Researcher // Reanimate,SOS,C,88.6,0.0,0.91
-24,Bitterbloom Bearer,ECL,B+,97.3,0.4,0.47
-24,"Kaito, Cunning Infiltrator",FDN,A,98.6,0.0,0.44
-24,"Matoya, Archon Elder",FIN,C,76.8,0.0,0.42
-24,Liliana the Repentant,FRA,C,86.1,0.3,0.41
-24,"Jadzi, Steward of Fate // Oracle's Gift",SOS,B+,95.8,0.0,0.41
-25,Twinned Vision,FRA,C,76.2,1.0,0.88
-25,Nibelheim Aflame,FIN,C,88.4,0.0,0.87
-25,Duel Tactics,SOS,B,92.6,0.0,0.84
-25,Electroduplicate,FDN,C,81.2,0.0,0.46
-25,Pursue the Past,SOS,C,85.2,0.0,0.45
+package,card,set,tier,card_percentile,current_play_pct,centrality
+1,Duress,FDN,C,79.1,26.4,26.43
+1,Requiting Hex,ECL,A,98.0,33.3,16.66
+1,"Cecil, Dark Knight // Cecil, Redeemed Paladin",FIN,B,90.1,1.6,16.36
+1,Dark Matter Manipulator,FRA,B+,95.1,1.5,16.0
+1,Salt Vampire,TRK,A,98.0,1.2,13.83
+1,Storied Veteran,TRK,C,78.2,0.0,13.33
+1,"Ral Zarek, Guest Lecturer",SOS,B+,97.3,0.9,12.93
+1,Moonshadow,ECL,C,86.3,2.9,12.59
+1,Archenemy's Charm,EOE,B,94.0,1.9,12.24
+1,Dream Beavers,TMT,C,88.0,9.6,12.15
+1,Tragic Trajectory,EOE,B,94.1,0.3,11.77
+1,Strategic Betrayal,TDM,D,71.6,26.4,10.77
+1,Grave Researcher // Reanimate,SOS,C,85.2,0.0,10.43
+1,Intimidation Tactics,DFT,C,88.4,4.0,10.41
+1,Liliana the Repentant,FRA,C,85.1,0.2,10.15
+1,Qarsi Revenant,TDM,B,91.0,3.4,10.11
+1,"Zul Ashur, Lich Lord",FDN,C,88.8,0.0,9.36
+1,Gatekeeper of Malakir,FDN,C,87.2,0.0,8.87
+1,"Jecht, Reluctant Guardian // Braska's Final Aeon",FIN,C,78.3,0.0,8.78
+1,Vraska's Final Mercy,FRA,B+,97.6,1.5,8.27
+1,Dawnhand Dissident,ECL,B+,95.2,0.0,8.08
+1,Iron-Shield Elf,ECL,D,62.7,2.1,8.07
+1,"Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",FIN,C,85.0,0.1,8.03
+1,Test of Loyalty,TRK,C,83.8,0.0,7.91
+1,Day of Black Sun,TLA,B,93.1,11.9,7.9
+1,Timeline Culler,EOE,B+,95.0,0.2,7.74
+1,Break Under Pressure,FRA,B,90.3,2.3,7.73
+1,"Elektra, Daughter of the Hand",MSH,B,90.5,0.1,7.41
+1,Nullpriest of Oblivion,FDN,C,87.0,0.0,7.24
+1,Feed the Swarm,FDN,C,85.8,0.1,7.2
+1,Super Shredder,TMT,C,85.8,0.2,7.15
+1,End of the Hunt,SOS,B+,96.5,0.1,7.15
+1,Locust Spray,DFT,B,91.1,0.0,6.99
+1,"Morlun, Devourer of Spiders",SPM,B,91.4,0.2,6.85
+1,Postmortem Professor,SOS,B,91.6,0.0,6.72
+1,"Black Widow, Super Spy",MSH,B+,95.4,0.1,6.62
+1,Doctor Doom,MSH,C,87.8,0.0,6.57
+1,Gastal Raider,DFT,C,86.5,0.0,6.53
+1,Zero Point Ballad,EOE,C,80.9,0.0,6.45
+1,Construct a Cosmic Cube,MSH,C,75.8,0.0,6.35
+1,The Soul Stone,SPM,B,90.1,2.7,6.24
+1,Elegy Acolyte,EOE,C,85.7,0.6,6.24
+1,Baron Helmut Zemo,MSH,C,86.0,0.0,6.17
+1,Hymn of the Faller,EOE,C,82.5,0.0,6.08
+1,Sandman's Quicksand,SPM,C,84.9,0.0,6.05
+1,M.O.D.O.K.,MSH,C,89.6,4.5,5.97
+1,Scheming Silvertongue // Sign in Blood,SOS,B,93.6,0.0,5.97
+1,Scavenger Regent // Exude Toxin,TDM,B+,95.8,0.0,5.96
+1,Sunset Saboteur,EOE,C,85.5,1.0,5.82
+1,Darklight Phoenix,FRA,C,87.9,0.3,5.78
+1,Twilight Diviner,ECL,C,86.4,0.0,5.76
+1,The Speed Demon,DFT,B,91.5,0.0,5.73
+1,Agent Venom,SPM,C,88.5,0.0,5.66
+1,Hero's Downfall,FDN,B+,96.8,0.0,5.59
+1,Quag Feast,DFT,B+,96.1,0.3,5.43
+1,"Mabel, Bitter Recluse",FRA,B,90.9,0.3,5.35
+1,Umbral Collar Zealot,EOE,F,32.0,6.5,5.24
+1,"Carnage, Crimson Chaos",SPM,D,68.3,2.0,4.99
+1,Bitterbloom Bearer,ECL,A,98.7,0.4,4.81
+1,Raven Eagle,TLA,C,86.7,0.5,4.78
+1,The Rise of Sozin // Fire Lord Sozin,TLA,C,78.0,0.0,4.62
+1,The Master of Lake-town,HOB,C,84.0,0.0,4.59
+1,Villainous Wrath,SPM,C,83.9,0.0,4.5
+1,Heartless Act,TLA,C,86.2,0.0,4.41
+1,Superior Spider-Man,SPM,F,41.9,6.9,4.35
+1,Deathmark,FDN,C,89.4,1.3,4.31
+1,The Sibsig Ceremony,TDM,C,87.9,0.0,4.24
+1,Death in the Family,TMT,A,98.1,0.0,4.14
+1,Resistance Is Futile,TRK,C,89.3,0.0,3.96
+1,Overwrite the Multiverse,FRA,B,91.1,0.0,3.63
+1,"Kain, Traitorous Dragoon",FIN,C,78.1,0.0,3.6
+1,Mudbutton Cursetosser,ECL,B,93.4,0.0,3.54
+1,"Gollum, Riddle Master",HOB,A,98.2,1.1,3.53
+1,Gas Guzzler,DFT,B+,96.1,0.0,3.36
+1,Bloodline Recollector // Ancestral Craving,FRA,B+,96.1,0.0,3.26
+1,Rot-Curse Rakshasa,TDM,C,88.8,0.0,3.2
+1,Doom Reigns Supreme,MSH,C,76.0,0.0,3.08
+1,Champion of the Weird,ECL,C,79.0,0.0,3.01
+1,Super-Skrull,MSH,C,87.2,0.0,3.01
+1,"Tecton, Malignant Ruin",NAU,D,60.3,0.0,2.97
+1,Sanctum Lurker,FRA,B+,96.2,0.1,2.86
+1,Along the Crooked Way,HOB,C,81.6,0.0,2.84
+1,Dai Li Indoctrination,TLA,C,77.2,0.0,2.72
+1,Worthy Cost,TDM,C,79.7,0.0,2.64
+1,Fatal Fissure,TLA,C,78.7,0.0,2.61
+1,"Zenos yae Galvus // Shinryu, Transcendent Rival",FIN,C,86.1,0.0,2.61
+1,Poison the Waters,FIN,B,91.8,0.0,2.59
+1,"Tinybones, Bauble Burglar",FDN,B,90.2,0.0,2.47
+1,Pilfer,FDN,C,87.1,0.1,2.45
+1,Head of the Hunt,HOB,C,81.6,0.1,2.44
+1,Ninja Teen,TMT,C,85.9,0.0,2.43
+1,"Garruk, Veiled Butcher",FRA,A,98.1,1.1,2.4
+1,"Moseo, Vein's New Dean",SOS,B,92.0,5.3,2.36
+1,"Zahur, Glory's Past",DFT,C,82.0,0.0,2.33
+1,Inside Information,HOB,B,91.6,2.5,2.31
+1,Bloodghast,DFT,B+,97.4,1.8,2.29
+1,The Sackville-Bagginses,HOB,C,87.3,6.5,2.27
+1,The Death of Gwen Stacy,SPM,B,91.9,0.0,2.27
+1,Gideon the Oathless,FRA,C,85.4,0.0,2.26
+1,"Swordsman, Sharp Scoundrel",MSH,C,76.9,0.0,2.18
+1,"Azog, Moria's Ruin",HOB,B,90.7,0.1,2.07
+1,Witherbloom Charm,SOS,A,98.8,2.7,2.05
+1,Circle of Power,FIN,C,78.6,0.0,1.95
+1,Demonic Pact,FDN,B,92.8,0.0,1.93
+1,"Garland, Knight of Cornelia // Chaos, the Endless",FIN,C,80.3,0.0,1.9
+1,Obsessive Pursuit,TLA,B,92.9,6.5,1.88
+1,Maelstrom Pulse,FDN,B+,95.9,4.3,1.82
+1,Seedship Broodtender,EOE,C,83.3,0.0,1.8
+1,Taster of Wares,ECL,C,88.7,0.0,1.79
+1,Professor Dellian Fel,SOS,B,92.5,6.6,1.73
+1,Bolg's Company,HOB,C,80.2,0.0,1.7
+1,Terminal Criticism,FRA,A,99.5,2.4,1.69
+1,Withering Curse,SOS,B+,97.8,0.0,1.68
+1,Gnashing of Teeth,HOB,C,84.6,0.0,1.66
+1,Oildeep Gearhulk,DFT,B,90.3,0.3,1.63
+1,Dynamite Diver,DFT,B,92.1,0.0,1.54
+1,"Gwenom, Remorseless",SPM,C,79.5,0.0,1.5
+1,"Koh, the Face Stealer",TLA,C,79.2,0.0,1.48
+1,Ruinous Waterbending,TLA,C,86.8,0.0,1.47
+1,The Destruction of Praxis,TRK,B,92.2,0.0,1.47
+1,Supper for Spiders,HOB,C,80.0,0.0,1.45
+1,Impossible Choice,TRK,C,80.3,0.0,1.44
+1,Momentum Breaker,DFT,B,93.9,0.0,1.42
+1,Massacre Wurm,FDN,C,80.2,0.0,1.4
+1,Dark Confidant,FIN,B,90.8,0.1,1.38
+1,Epic Downfall,TLA,B,93.0,0.0,1.29
+1,Sandbender Scavengers,TLA,C,81.7,0.0,1.25
+1,Extrapolate the Impossible,FRA,C,84.1,0.2,1.23
+1,Avengers: Under Siege,MSH,C,75.4,0.0,1.21
+1,Tolls of War,TLA,C,75.7,0.0,1.21
+1,Pox Plague,SOS,C,84.2,0.0,1.21
+1,"Mai, Scornful Striker",TLA,B,94.2,0.1,1.2
+1,"Azula, Cunning Usurper",TLA,B,92.5,0.0,1.18
+1,The Ruinous Wrecking Crew,MSH,C,78.6,0.1,1.16
+1,Ultimate Green Goblin,SPM,C,86.0,0.0,1.15
+1,Firdoch Core,ECL,F,11.4,4.3,1.14
+1,The Great Goblin,HOB,C,75.1,0.0,1.12
+1,"Vraska, the Cutting Glare",FRA,B+,96.4,0.4,1.08
+1,Lecturing Scornmage,SOS,C,83.0,0.0,1.06
+1,"Zodiark, Umbral God",FIN,B,94.9,0.0,1.04
+1,"Smaug, Wicked Worm",HOB,C,83.5,0.0,0.97
+1,"Kai Winn, Faithless Leader",TRK,B,91.9,0.0,0.89
+1,Dark Leo & Shredder,TMT,C,82.4,0.0,0.78
+1,Ancient Vendetta,DFT,F,44.2,2.1,0.76
+1,Silverquill Charm,SOS,C,83.1,0.0,0.75
+1,"Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",FIN,C,77.9,0.0,0.71
+1,Embalmed Ascendant,DFT,C,81.0,0.0,0.65
+1,Krang & Shredder,TMT,C,75.2,0.0,0.65
+1,Scuzzback Scrounger,ECL,C,79.2,0.0,0.64
+1,"Chandra, Flameshaper",FDN,C,80.2,0.0,0.62
+1,Eclipsed Boggart,ECL,C,79.1,0.0,0.59
+1,Mornsong Aria,ECL,C,75.8,0.0,0.58
+1,"Zuko, Conflicted",TLA,C,88.2,0.0,0.58
+1,The Coming of Galactus,MSH,C,82.3,0.0,0.57
+1,Null Summoner,FRA,B+,97.1,0.4,0.57
+1,Mortify,FDN,C,87.5,0.0,0.56
+1,Conciliator's Duelist,SOS,C,89.9,0.0,0.54
+1,"Liliana, Dreadhorde General",FDN,B,91.1,0.0,0.53
+1,Decorum Dissertation,SOS,B,93.1,0.8,0.52
+1,"Lluwen, Imperfect Naturalist",ECL,B,91.8,0.0,0.48
+1,"Ozai, the Phoenix King",TLA,C,75.3,0.0,0.35
+1,Vindictive Triumph,FRA,B,92.9,0.0,0.3
+1,"Tokka & Rahzar, Terrible Twos",TMT,B+,96.1,0.0,0.28
+1,The Serpent Society,MSH,C,84.7,0.0,0.28
+1,Stingerquill Voxmancer // Vicious Verse,FRA,C,86.5,0.0,0.28
+1,"Ketramose, the New Dawn",DFT,C,88.0,0.0,0.27
+1,Cosmogoyf,EOE,C,81.1,0.0,0.26
+1,Essenceknit Scholar,SOS,C,81.4,0.0,0.25
+1,"Syr Vondam, Sunstar Exemplar",EOE,C,86.4,0.0,0.25
+2,Erode,SOS,A,99.9,23.9,21.87
+2,Spectacular Spider-Man,SPM,B+,96.5,0.7,20.47
+2,Seam Rip,EOE,A,99.4,17.1,18.22
+2,"Arachne, Psionic Weaver",SPM,C,82.8,0.5,15.46
+2,Clarion Conqueror,TDM,C,86.8,7.0,15.44
+2,Day of Judgment,FDN,B,94.3,7.6,15.36
+2,"Haliya, Guided by Light",EOE,C,81.3,6.7,15.11
+2,Voice of Victory,TDM,B,90.6,9.7,15.06
+2,Sage of the Skies,TDM,D,72.8,5.7,14.11
+2,Daydream,SOS,D,70.9,4.4,13.99
+2,"Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",FIN,B,94.2,0.0,13.94
+2,"Momo, Friendly Flier",TLA,B+,97.6,7.7,13.2
+2,"Red Guardian, Super-Soldier",MSH,C,78.9,0.0,13.07
+2,Hinterland Sanctifier,FDN,D,51.0,5.4,12.6
+2,Liliana the Faultless,FRA,B,94.3,5.1,12.42
+2,Cosmogrand Zenith,EOE,B,92.9,1.0,11.99
+2,Guiding Hydra,FRA,C,76.4,6.5,11.71
+2,Airbender Ascension,TLA,B,90.4,0.1,11.69
+2,"Basri, Tomorrow's Champion",DFT,B+,95.9,0.0,11.54
+2,Starfield Shepherd,EOE,D,63.6,5.8,11.49
+2,Jennifer Walters // The Sensational She-Hulk,MSH,B,90.2,1.1,11.36
+2,Aunt May,SPM,D,71.2,3.2,11.18
+2,"Appa, Steadfast Guardian",TLA,B+,97.9,0.1,10.69
+2,"The Sentry, Golden Guardian",MSH,B,90.0,0.0,10.68
+2,Curious Farm Animals,TLA,D,70.0,4.0,9.92
+2,Earth Kingdom Protectors,TLA,C,80.8,0.0,9.71
+2,Practiced Offense,SOS,D,72.9,9.7,9.6
+2,Enlightened Confidant,FRA,B,91.8,5.0,9.54
+2,"Leonardo, Cutting Edge",TMT,C,87.7,0.6,9.33
+2,Keep Out,ECL,C,75.0,0.0,9.31
+2,Political Triumph,MSH,D,72.0,2.0,9.15
+2,Elspeth's Smite,FDN,C,75.7,0.0,8.84
+2,"Elspeth, Storm Slayer",TDM,B,90.1,2.3,8.62
+2,Aang's Iceberg,TLA,B,94.8,1.2,8.6
+2,"Captain Marvel, Earth's Protector",MSH,B,91.8,3.5,8.32
+2,Avatar's Wrath,TLA,C,89.8,1.1,8.14
+2,Coordinated Maneuver,TDM,B,92.4,0.0,8.04
+2,Kinscaer Sentry,ECL,B,92.8,0.0,7.75
+2,Savannah Lions,FDN,C,88.0,0.0,7.39
+2,Sunpearl Kirin,TDM,B+,95.6,0.0,7.36
+2,"Stiltzkin, Moogle Merchant",FIN,B,90.5,0.1,7.13
+2,"Night Nurse, Healer of Heroes",MSH,C,86.9,0.0,7.11
+2,Ajani Resolute,FRA,B,91.3,1.7,7.06
+2,Astelli Reclaimer,EOE,B,94.0,0.1,6.97
+2,Peter Parker // Amazing Spider-Man,SPM,B,93.8,0.0,6.95
+2,"Leonardo, Leader in Blue",TMT,C,78.3,0.0,6.68
+2,Invasion Reinforcements,TLA,B,90.8,0.0,6.53
+2,"Momo, Playful Pet",TLA,C,84.4,0.0,6.5
+2,"Ajani, Outland Chaperone",ECL,A,98.7,0.2,6.38
+2,Prayer of Binding,FDN,C,83.8,0.0,6.32
+2,Divine Resilience,FDN,C,77.2,0.0,6.32
+2,Valorous Stance,FDN,C,83.6,0.0,6.3
+2,The Legend of Yangchen // Avatar Yangchen,TLA,C,89.4,0.0,6.28
+2,Morningtide's Light,ECL,C,77.4,0.2,6.27
+2,Charming Prince,FDN,B+,95.3,0.0,6.16
+2,Kindred Judgment,FRA,C,78.2,0.0,6.09
+2,"Aang, Swift Savior // Aang and La, Ocean's Fury",TLA,B,92.4,0.7,6.05
+2,Reroute Systems,EOE,C,79.5,0.0,5.9
+2,"Anafenza, Unyielding Lineage",TDM,C,84.7,0.0,5.68
+2,Enter the Avatar State,TLA,B,92.0,0.0,5.66
+2,Super Villain Lockup,MSH,B+,95.5,0.0,5.62
+2,"Deanna Troi, Psychic Counsel",TRK,C,77.0,0.0,5.42
+2,Resolute Reinforcements,FDN,C,88.6,0.0,5.34
+2,Informed Inkwright,SOS,C,87.1,0.0,5.3
+2,Raise the Past,FDN,C,87.9,0.2,5.27
+2,Featherbrained Filcher,TMT,C,83.8,0.0,5.15
+2,Settle the Wreckage,HOB,C,78.4,0.8,5.14
+2,Earth Kingdom Jailer,TLA,C,75.2,0.0,5.12
+2,Champion of the Clachan,ECL,C,81.9,0.0,5.06
+2,"Dion, Bahamut's Dominant // Bahamut, Warden of Light",FIN,B,91.7,0.0,4.89
+2,Gideon's Memorial,FRA,C,88.2,0.2,4.81
+2,"Captain America, Super-Soldier",MSH,C,86.2,0.1,4.67
+2,"Flash Thompson, Spider-Fan",SPM,C,81.1,0.0,4.38
+2,Nesting Bot,DFT,B+,95.2,0.0,4.25
+2,Stasis Snare,FDN,B,90.7,0.0,4.24
+2,"Giada, Font of Hope",FDN,C,87.4,0.0,4.22
+2,The Last Ronin's Technique,TMT,F,37.4,2.7,4.18
+2,Knight of Grace,FDN,C,76.2,0.0,4.11
+2,Descendant of Storms,TDM,C,80.7,0.0,4.1
+2,Lake-town Lookout,HOB,C,76.4,0.0,4.07
+2,Leonardo's Technique,TMT,C,84.8,0.0,4.04
+2,Stroke of Midnight,FDN,C,76.7,0.0,4.03
+2,Ultima,FIN,C,83.0,1.9,3.99
+2,Exalted Sunborn,EOE,B,93.0,0.1,3.96
+2,"Miles O'Brien, Transporter Ops",TRK,C,78.5,0.0,3.88
+2,Lyra Dawnbringer,FDN,C,87.9,0.0,3.86
+2,"Rhys, the Evermore",ECL,B,92.6,0.0,3.82
+2,"Suki, Courageous Rescuer",TLA,C,86.4,0.0,3.79
+2,Origin of the Avengers,MSH,C,85.7,0.0,3.75
+2,Sun-Blessed Healer,FDN,B,92.7,0.0,3.74
+2,Restoration Seminar,SOS,C,78.5,0.0,3.73
+2,Harsh Annotation,SOS,C,84.4,0.0,3.47
+2,United Battlefront,TDM,B,91.9,2.7,3.45
+2,Lightstall Inquisitor,EOE,A,98.6,0.1,3.45
+2,Triceraton Commander,TMT,B,93.6,0.0,3.45
+2,Leonin Vanguard,FDN,C,79.3,0.0,3.41
+2,Ambrosia Whiteheart,FIN,B,94.4,0.0,3.39
+2,Disenchant,FDN,C,83.2,0.0,3.38
+2,Prophesied End,FRA,C,89.0,0.0,3.37
+2,Captain Jean-Luc Picard,TRK,C,88.3,0.1,3.37
+2,Turncoat Kunoichi,TMT,C,85.0,0.0,3.14
+2,"Teyo, Lightshield Expert",FRA,C,82.4,0.0,3.13
+2,"Monica Rambeau // Photon, Living Light",MSH,B,91.2,0.1,3.05
+2,Prehistoric Pet,TMT,C,83.7,0.4,3.04
+2,Honored Knight-Captain,EOE,C,78.8,0.0,3.01
+2,Skyknight Squire,FDN,C,86.1,0.0,3.0
+2,Gallant Strike,DFT,B+,95.5,0.0,2.93
+2,Pulsar Squadron Ace,EOE,C,76.5,0.0,2.91
+2,South Pole Voyager,TLA,C,84.8,0.0,2.89
+2,Battle Menu,FIN,B+,95.3,0.7,2.88
+2,Joined Researchers // Secret Rendezvous,SOS,B+,95.2,0.0,2.83
+2,Beyond the Quiet,EOE,B,90.0,0.0,2.77
+2,"Spider-Woman, Stunning Savior",SPM,C,79.2,0.0,2.66
+2,Excalbian Gamemaster,TRK,C,89.2,0.0,2.64
+2,Earth King's Lieutenant,TLA,C,89.1,0.0,2.63
+2,Pyrrhic Strike,ECL,C,82.9,3.2,2.61
+2,An Unexpected Party // At the Door,HOB,B,94.4,0.0,2.46
+2,Restoration Magic,FIN,B+,95.5,0.4,2.4
+2,Herald of Eternal Dawn,FDN,C,79.9,0.0,2.3
+2,United Front,TLA,C,76.3,0.0,2.2
+2,Antiquities on the Loose,SOS,C,76.5,0.0,2.17
+2,"70,000 Light-Years from Home",TRK,B+,96.2,0.0,2.09
+2,"King T'Challa // Black Panther, Hope Enduring",MSH,C,79.8,0.0,2.05
+2,"Anti-Venom, Horrifying Healer",SPM,C,86.1,0.0,2.04
+2,Spectacular Pileup,DFT,B,92.1,0.0,1.96
+2,Emeritus of Truce // Swords to Plowshares,SOS,A,99.1,0.0,1.91
+2,Repurposed Enforcer,FRA,B,94.5,0.1,1.89
+2,Stone by Sunlight,HOB,C,79.4,0.0,1.86
+2,Emergency Eject,EOE,B,91.0,0.0,1.74
+2,The Needs of the Many,TRK,C,85.2,0.0,1.65
+2,Your Fate Ends Here,FRA,B+,96.3,0.0,1.63
+2,"Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight",ECL,C,75.5,0.0,1.58
+2,Airbender's Reversal,TLA,B+,97.8,0.0,1.43
+2,Twinmaw Stormbrood // Charring Bite,TDM,D,57.2,2.6,1.42
+2,Origin of Spider-Man,SPM,C,85.3,0.0,1.33
+2,Bilbo's Gambit,HOB,B,91.7,0.1,1.25
+2,Moment of Reckoning,SOS,C,81.8,0.0,1.22
+2,"Ajani, Caller of the Pride",FDN,C,87.2,0.0,1.22
+2,Gleaming Splendor,HOB,B,93.3,0.0,1.18
+2,The Queen of Dale,HOB,B+,96.9,1.2,1.17
+2,Dimensional Exile,TMT,B+,97.3,0.0,1.07
+2,Boiling Rock Rioter,TLA,C,79.8,0.0,1.06
+2,There's Coffee in that Nebula,TRK,C,87.7,0.0,1.05
+2,Calmwater Mentor,NAU,C,79.7,0.0,0.8
+2,Loyal Tutor,FRA,B,93.7,0.0,0.8
+2,"Roads Go Ever, Ever On",HOB,C,77.1,0.0,0.78
+2,Mary Jane Watson,SPM,C,77.3,0.0,0.76
+2,Leader's Talent,TMT,C,88.6,0.0,0.55
+2,Solarium Sentry,FRA,C,88.9,0.0,0.55
+2,Emptiness,ECL,C,80.4,1.0,0.54
+2,"Iroh, Tea Master",TLA,C,79.3,0.0,0.54
+2,The Super Hero Civil War,MSH,C,76.3,0.0,0.5
+2,Refute Destiny,FRA,B+,97.7,0.1,0.44
+2,Devout Decree,FDN,B+,96.0,0.0,0.33
+2,Inevitable Defeat,TDM,B+,97.7,5.8,0.32
+2,Dryad Militant,FDN,C,80.7,0.0,0.27
+2,Explosive Getaway,DFT,C,82.8,0.0,0.25
+3,Spell Snare,ECL,A,98.2,27.6,28.17
+3,Spell Pierce,DFT,B,91.1,17.3,27.45
+3,Winternight Stories,TDM,C,77.4,11.3,20.24
+3,Opt,FDN,C,87.5,12.1,16.79
+3,Louisoix's Sacrifice,FIN,B+,97.4,0.0,15.78
+3,Consult the Star Charts,EOE,B,94.8,14.2,15.76
+3,It'll Quench Ya!,TLA,B+,96.8,1.0,15.52
+3,Traumatic Critique,SOS,C,80.9,9.9,15.39
+3,Countersculpt,FRA,B,94.6,6.0,14.12
+3,Firebending Lesson,TLA,C,85.3,5.1,13.45
+3,Spider-Sense,SPM,B+,97.3,2.9,12.92
+3,Sunderflock,ECL,D,52.9,8.3,12.92
+3,Prismari Charm,SOS,B,93.7,10.1,12.79
+3,Sear,ECL,A,98.0,10.6,12.56
+3,Flashback,SOS,B+,97.2,8.0,12.52
+3,Boomerang Basics,TLA,B,91.7,0.6,12.44
+3,Negate,TMT,C,79.4,8.3,12.38
+3,Emeritus of Ideation // Ancestral Recall,SOS,B,90.8,8.8,12.36
+3,"Chandra, Chill of Compliance",FRA,B+,96.7,1.4,12.3
+3,Stock Up,DFT,D,71.4,14.4,12.13
+3,Jace's Machinations,FRA,C,82.1,5.1,12.05
+3,Secret Identity,SPM,C,75.8,2.3,11.99
+3,Broadside Barrage,DFT,B,92.2,3.5,11.36
+3,Plunder the Trollshaws,HOB,D,73.6,2.1,11.36
+3,Seasoned Cryomancer,FRA,B,92.7,6.8,11.3
+3,Combustion Technique,TLA,C,82.9,1.0,11.18
+3,Abandon Attachments,TLA,C,86.8,1.0,10.75
+3,Tiger-Seal,TLA,C,78.5,0.3,9.83
+3,Together as One,SOS,B,92.2,8.0,9.71
+3,North Wind Avatar,TMT,C,77.6,2.1,9.69
+3,"Yuriko, Hope from the Shadows",FRA,B,92.4,2.3,9.58
+3,Annul,EOE,D,72.7,9.5,9.51
+3,Fire Magic,FIN,A,98.8,7.9,9.21
+3,Syncopate,FIN,C,82.6,0.0,9.19
+3,Accumulate Wisdom,TLA,C,86.6,1.0,8.83
+3,"Thor, God of Thunder",MSH,B+,96.0,3.7,8.67
+3,Flow State,SOS,C,85.2,4.6,8.64
+3,Dreams of Laguna,FIN,C,89.3,0.0,8.25
+3,Memories Returning,FIN,C,81.3,0.0,8.03
+3,Twinned Vision,FRA,C,81.9,1.6,7.88
+3,Glacial Dragonhunt,TDM,C,82.2,0.0,7.44
+3,Marang River Regent // Coil and Catch,TDM,B,90.9,1.2,7.44
+3,Vibrant Outburst,SOS,C,79.4,1.6,7.41
+3,Geist of Saint Thalia,FRA,C,79.3,0.2,7.25
+3,Avengers Disassembled,MSH,B+,95.4,2.9,6.96
+3,Tablet of Discovery,SOS,F,39.9,7.7,6.94
+3,Quantum Riddler,EOE,C,88.4,6.2,6.93
+3,Colorstorm Stallion,SOS,C,78.8,5.3,6.69
+3,"The Theorist, Jace Beleren",FRA,B,90.6,14.2,6.6
+3,Test of Priorities,TRK,B,93.8,0.0,6.33
+3,The Legend of Kuruk // Avatar Kuruk,TLA,B,94.8,0.1,6.31
+3,Energybending,TLA,C,84.0,0.0,6.21
+3,"Wan Shi Tong, Librarian",TLA,B+,96.4,14.7,6.16
+3,Most Decrepit Old Bird // Speak Secrets,HOB,B+,97.0,0.0,6.14
+3,Ashling's Command,ECL,C,84.1,0.7,5.89
+3,Confusticate and Bebother,HOB,B,90.6,0.0,5.82
+3,Secret of Bloodbending,TLA,C,88.9,0.0,5.62
+3,Into the Roil,FDN,C,84.3,0.0,5.44
+3,"Ashling, Rekindled // Ashling, Rimebound",ECL,C,83.5,1.1,5.43
+3,Spectral Denial,TDM,B,90.7,0.0,5.36
+3,Dragonfly Swarm,TLA,C,78.9,0.0,5.28
+3,The Unagi of Kyoshi Island,TLA,C,89.5,0.4,5.26
+3,Spirit Water Revival,TLA,C,82.7,0.0,5.21
+3,Theorix Charm,FRA,B+,95.6,6.3,5.02
+3,Unravel,EOE,B,93.2,0.0,4.96
+3,Price of Freedom,TLA,B,93.7,0.8,4.96
+3,Deceit,ECL,B,92.5,9.6,4.96
+3,Flitterwing Nuisance,ECL,B,94.7,1.4,4.9
+3,"Ty Lee, Chi Blocker",TLA,B,92.1,0.0,4.9
+3,Dispelling Exhale,TDM,C,89.5,1.6,4.86
+3,We Say Thee Nay!,MSH,C,88.3,9.7,4.85
+3,Variable Chaser // Arc of Fortune,FRA,C,88.0,0.0,4.75
+3,Sphinx of Forgotten Lore,FDN,B+,96.2,0.0,4.72
+3,Drake Hatcher,FDN,C,85.4,1.1,4.69
+3,Glen Elendra's Answer,ECL,B+,96.9,0.0,4.69
+3,The Wondrous Wasp,MSH,B+,97.2,10.6,4.65
+3,"Taigam, Master Opportunist",TDM,C,83.9,0.0,4.45
+3,Frostcliff Siege,TDM,C,75.2,0.1,4.4
+3,Norman Osborn // Green Goblin,SPM,B,91.4,0.0,4.34
+3,Sphinx of False Conclusions,FRA,C,79.5,3.6,4.26
+3,Theorist's Proxy,FRA,B+,96.9,0.2,4.24
+3,Precise Redaction,FRA,B+,96.0,0.2,4.13
+3,Highly Illogical,TRK,B+,96.9,0.0,4.13
+3,Whoosh!,SPM,C,84.5,0.0,3.95
+3,"Ms. Marvel, Kamala Khan",MSH,C,76.0,0.0,3.95
+3,Uldaros Theorix,FRA,C,75.7,5.0,3.93
+3,The Vision,MSH,C,77.4,0.5,3.91
+3,Thirst for Identity,ECL,C,75.6,0.0,3.88
+3,Sphinx of the Final Word,FDN,C,75.2,0.7,3.76
+3,Spectral Interference,DFT,C,75.3,0.5,3.76
+3,Mana Sculpt,SOS,B+,95.7,0.0,3.76
+3,"Scotty, Miracle Worker",TRK,C,84.3,0.0,3.55
+3,Wild Unraveling,ECL,C,80.0,0.0,3.5
+3,Vulcan Mind-Meld,TRK,C,80.6,0.0,3.49
+3,Sound the Trumpets,HOB,C,87.5,0.0,3.45
+3,Cancel,FDN,C,77.7,0.0,3.38
+3,Glen Elendra Guardian,ECL,B+,97.7,0.6,3.37
+3,No Admittance,FRA,C,80.7,0.0,3.34
+3,Violent Echoes,FRA,C,77.2,0.0,3.3
+3,Spectral Sailor,FDN,C,86.0,0.0,3.3
+3,"Emet-Selch, Unsundered // Hades, Sorcerer of Eld",FIN,C,89.6,0.2,3.26
+3,"Lyra, Tolarian Archangel",FRA,C,83.7,0.0,3.21
+3,"Wesley Crusher, Starfleet Cadet",TRK,A,98.5,0.0,3.11
+3,Divert Disaster,EOE,C,87.7,0.0,3.09
+3,"Jace, Reality Sculptor",FRA,C,81.3,0.1,3.09
+3,Kid Loki,MSH,C,80.1,0.0,3.05
+3,Flashfreeze,FDN,B,90.4,18.3,3.02
+3,Exhibition Tidecaller,SOS,C,79.9,0.4,2.96
+3,"Kaito, Cunning Infiltrator",FDN,B+,95.7,0.0,2.95
+3,Uncover the Moon-Letters,HOB,C,78.7,0.0,2.94
+3,"Samut, Tyrant of Naktamun",FRA,C,85.8,0.0,2.93
+3,"Bilbo, Thief in the Night",HOB,B,93.3,0.0,2.86
+3,Skycoach Conductor // All Aboard,SOS,B,93.1,0.3,2.6
+3,Wistfulness,ECL,B+,96.5,0.5,2.59
+3,Glamer Gifter,ECL,C,84.5,0.0,2.57
+3,Subcommander T'Pol,TRK,B,92.6,0.0,2.54
+3,Jeskai Revelation,TDM,C,84.0,7.2,2.53
+3,"Leader, Super-Genius",MSH,C,81.4,0.0,2.17
+3,Summon: Bahamut,FIN,B+,96.4,0.1,2.07
+3,School Daze,SPM,C,80.2,0.0,2.03
+3,Way of the Pyromancer,FRA,C,79.7,0.3,2.02
+3,Ajani Unrelenting,FRA,B,90.7,0.8,1.93
+3,"Jill, Shiva's Dominant // Shiva, Warden of Ice",FIN,C,77.8,0.0,1.91
+3,Riddles in the Dark,HOB,C,77.9,0.0,1.89
+3,Diviner of Victory // Unwind History,FRA,B+,97.2,0.1,1.77
+3,Fatehold Charm,FRA,C,83.6,0.7,1.75
+3,"Kiora, the Rising Tide",FDN,C,83.0,0.0,1.73
+3,"Loki, God of Mischief",MSH,C,76.4,0.0,1.69
+3,"Vnwxt, Verbose Host",DFT,C,85.8,0.0,1.62
+3,Finale of Revelation,FDN,C,78.6,0.0,1.28
+3,"Nyota Uhura, Communications",TRK,C,87.3,0.0,1.04
+3,"Jadzi, Steward of Fate // Oracle's Gift",SOS,C,87.8,0.0,0.97
+3,"Hydro-Man, Fluid Felon",SPM,C,88.1,3.7,0.95
+3,Avatar of Burgeoning Echoes,FRA,B+,96.6,0.2,0.93
+3,Kobayashi Maru Scenario,TRK,B+,96.3,0.1,0.85
+3,Splatter Technique,SOS,B+,97.0,0.0,0.83
+3,An Offer You Can't Refuse,FDN,B,90.4,0.1,0.79
+3,Vibrance,ECL,A,99.0,0.1,0.71
+3,"Ugin, Eye of the Storms",TDM,A,98.9,0.1,0.69
+3,"Ovika, Enigma Goliath",FDN,C,77.3,0.0,0.57
+3,Dragonologist,TDM,C,83.0,0.0,0.53
+3,"Renet, Temporal Apprentice",TMT,C,77.8,0.0,0.52
+3,"Sokka, Bold Boomeranger",TLA,C,82.3,0.0,0.52
+3,Corsair Captain,FDN,C,80.5,0.0,0.33
+3,"Toph, Hardheaded Teacher",TLA,C,85.2,0.0,0.31
+3,Quandrix Charm,SOS,A,99.3,0.0,0.31
+3,Awaken the Honored Dead,TDM,C,82.0,0.5,0.26
+3,Glacierwood Siege,TDM,C,76.5,0.0,0.25
+3,Mondo Gecko,TMT,C,83.4,0.0,0.24
+4,Bushwhack,FDN,C,80.0,1.0,20.7
+4,Llanowar Elves,FDN,D,71.0,17.6,19.81
+4,Sazh's Chocobo,FIN,C,85.6,13.7,19.47
+4,"Leatherhead, Swamp Stalker",TMT,C,81.5,5.1,16.76
+4,"Surrak, Elusive Hunter",TDM,B+,95.8,11.5,16.26
+4,Tifa Lockhart,FIN,B,92.4,0.3,16.22
+4,Mightform Harmonizer,EOE,B,90.5,13.6,16.06
+4,Mossborn Hydra,FDN,C,77.1,12.3,14.92
+4,Carnivorous Cultivator // Enroot,FRA,B+,97.2,5.4,14.59
+4,Earthbender Ascension,TLA,C,86.6,13.9,13.54
+4,Ouroboroid,EOE,D,52.0,2.4,12.47
+4,Nature's Rhythm,TDM,C,78.4,0.1,11.97
+4,Icetill Explorer,EOE,C,83.6,13.7,10.67
+4,Snakeskin Veil,FDN,D,59.2,3.3,10.41
+4,Eumidian Terrabotanist,EOE,C,76.5,0.1,10.22
+4,Lumbering Worldwagon,DFT,B,90.4,5.5,9.87
+4,Sapling Nursery,ECL,C,81.4,12.0,9.36
+4,Esper Origins // Summon: Esper Maduin,FIN,C,84.8,11.8,9.3
+4,"Sandman, Shifting Scoundrel",SPM,B,91.4,2.2,9.24
+4,Traveling Chocobo,FIN,C,88.1,0.2,9.12
+4,"Michelangelo, Weirdness to 11",TMT,C,87.4,2.0,8.92
+4,Summon: Titan,FIN,C,76.1,0.0,8.9
+4,Rampaging Baloths,FDN,C,76.8,0.0,8.53
+4,Bejeweled Warg,HOB,C,82.6,2.1,7.44
+4,Vastlands Scavenger // Bind to Life,SOS,C,75.5,0.0,6.94
+4,Sidequest: Raise a Chocobo // Black Chocobo,FIN,C,84.1,0.0,6.6
+4,District Mascot,DFT,C,81.7,0.0,6.41
+4,Radioactive Spider,SPM,C,89.5,0.0,6.4
+4,"Mole Man, Moloid Master",MSH,C,89.3,0.5,6.27
+4,Guerrilla Gorilla,MSH,F,34.2,2.8,6.25
+4,Gene Pollinator,EOE,F,46.2,8.1,6.23
+4,Frenzied Baloth,EOE,B+,97.9,0.1,6.06
+4,Wildgrowth Archaic,SOS,C,77.7,0.0,6.02
+4,Great Divide Guide,TLA,C,78.4,0.3,5.96
+4,Wildborn Preserver,FDN,C,88.9,0.0,5.93
+4,Plow Through,DFT,C,85.6,0.0,5.88
+4,Scavenging Ooze,FDN,C,88.4,0.1,5.79
+4,Down in the Valley,HOB,B,91.5,0.0,5.78
+4,Environmental Scientist,SOS,C,76.8,0.2,5.77
+4,Dancing from Dark to Dawn,HOB,C,81.0,0.0,5.63
+4,Primeval Bounty,FDN,B,91.2,0.0,5.58
+4,Ambitious Augmenter,SOS,B,92.5,0.4,5.17
+4,"Lizard, Connors's Curse",SPM,C,86.6,0.0,5.02
+4,Emeritus of Abundance // Regrowth,SOS,B+,95.1,0.4,4.93
+4,"Toph, the Blind Bandit",TLA,C,83.7,0.0,4.78
+4,"Jadzia Dax, Living Legacy",TRK,C,75.7,0.3,4.67
+4,Shared Roots,TLA,C,84.3,4.8,4.66
+4,Aurora Awakener,ECL,C,77.0,0.0,4.64
+4,"Yoshimaru, Scrappy Stray",FRA,C,86.4,0.0,4.3
+4,Champions of the Perfect,ECL,C,77.6,0.0,4.22
+4,"Trystan, Callous Cultivator // Trystan, Penitent Culler",ECL,C,79.1,0.0,4.19
+4,Dragon Sniper,TDM,C,75.0,0.0,4.16
+4,Webstrike Elite,DFT,A,98.9,0.0,4.04
+4,Heartwood Crafter // Soul Tether,FRA,C,83.5,0.2,4.02
+4,"Jake Sisko, War Correspondent",TRK,C,84.6,0.0,4.0
+4,Tifa's Limit Break,FIN,C,81.4,0.0,4.0
+4,Strength of Will,SPM,C,77.6,0.0,3.99
+4,Hexhaven Invigorator,FRA,C,85.8,0.0,3.93
+4,Edge Rover,EOE,B,90.0,0.3,3.79
+4,Brightglass Gearhulk,DFT,C,87.0,1.9,3.69
+4,Flourishing Grapple,FRA,B+,97.4,0.0,3.28
+4,Genemorph Imago,EOE,C,85.1,0.0,3.2
+4,Bristlebane Battler,ECL,C,79.4,0.0,3.18
+4,Virulent Emissary,ECL,C,80.4,0.0,3.11
+4,Miles Morales // Ultimate Spider-Man,SPM,B,92.6,0.0,3.05
+4,Meltstrider's Resolve,EOE,C,79.2,9.6,3.05
+4,Warg Tactics,HOB,D,69.6,3.9,2.89
+4,"Haru, Hidden Talent",TLA,C,79.8,0.0,2.85
+4,Agonasaur Rex,DFT,C,77.8,0.0,2.65
+4,"Karn, Argent Defender",FRA,D,71.2,2.0,2.65
+4,Close Encounter,EOE,C,77.6,0.0,2.51
+4,"Spiders-Man, Heroic Horde",SPM,C,87.1,0.0,2.49
+4,Dr. Joseph M'Benga,TRK,C,78.1,0.0,2.44
+4,"Mutagen Man, Living Ooze",TMT,C,79.7,0.9,2.44
+4,"Michelangelo, Improviser",TMT,C,78.0,0.0,2.27
+4,Lasyd Prowler,TDM,C,82.6,0.0,2.25
+4,Sunstar Expansionist,EOE,B,94.7,0.0,2.24
+4,"Hellcat, Undying Vigilante",MSH,C,79.9,0.0,2.22
+4,The Legend of Kyoshi // Avatar Kyoshi,TLA,C,88.7,0.0,2.2
+4,Felidar Retreat,FDN,C,76.0,0.0,2.11
+4,Bloomvine Regent // Claim Territory,TDM,C,75.6,0.0,2.08
+4,Saved by the Shell,TMT,C,75.6,0.0,2.06
+4,Selfless Safewright,ECL,B+,96.3,0.0,2.04
+4,Infirmary Healer // Stream of Life,SOS,C,84.4,0.0,2.01
+4,Point the Way,DFT,C,85.1,0.0,1.99
+4,Simulacrum Shaper,FRA,B,93.2,0.3,1.94
+4,The Ooze,TMT,D,71.7,3.1,1.89
+4,"Dr. Leonard ""Bones"" McCoy",TRK,C,78.0,0.0,1.82
+4,Defend the Rider,DFT,B,91.6,0.2,1.65
+4,Germination Practicum,SOS,C,75.0,0.0,1.63
+4,Nasty Little Rabbit,HOB,C,81.8,0.0,1.59
+4,"Spider-Ham, Peter Porker",SPM,B+,95.9,0.0,1.58
+4,"Koma, World-Eater",FDN,C,78.6,0.0,1.5
+4,Earthen Ally,TLA,C,87.5,0.0,1.49
+4,"Shang-Chi, Master of Kung Fu",MSH,B,90.4,0.0,1.43
+4,MACO Strike Team,TRK,B,94.1,0.0,1.37
+4,Cowabunga!,TMT,C,83.3,0.0,1.33
+4,Sami's Curiosity,EOE,C,77.1,0.0,1.27
+4,Studious First-Year // Rampant Growth,SOS,C,85.3,0.0,1.23
+4,Biotech Specialist,EOE,C,89.3,6.5,1.2
+4,Seedship Impact,EOE,C,86.5,1.2,1.15
+4,Vigorbloom Charm,FRA,C,87.7,0.4,1.14
+4,"Quandrix, the Proof",SOS,C,87.2,0.0,1.12
+4,Famished Worldsire,EOE,C,82.8,0.0,1.04
+4,Commune with Beavers,FIN,C,85.5,0.1,1.0
+4,First Contact,TRK,C,76.2,0.0,0.9
+4,Gigantic Big Bear,HOB,C,76.1,2.2,0.88
+4,Seismic Sense,TLA,C,89.2,0.0,0.85
+4,Dundoolin Weaver,ECL,C,76.7,0.0,0.83
+4,Bioengineered Future,EOE,C,89.0,0.0,0.8
+4,Afterburner Expert,DFT,C,75.5,0.0,0.79
+4,Mind into Matter,SOS,C,79.0,0.4,0.77
+4,Ancient Adamantoise,FIN,C,77.5,0.0,0.75
+4,Figure of Fable,ECL,C,83.7,0.0,0.75
+4,The Earth King,TLA,C,75.8,0.0,0.75
+4,Eclipsed Kithkin,ECL,C,83.6,0.0,0.7
+4,"Terra, Magical Adept // Esper Terra",FIN,C,75.3,0.0,0.68
+4,"Garruk, Curse Breaker",FRA,B,92.7,0.1,0.65
+4,"Captain Pike, Fullness of Time",TRK,B,92.7,0.0,0.57
+4,Test of Courage,TRK,A,99.1,1.0,0.57
+4,Vivien Reid,FDN,B,94.5,0.0,0.54
+4,Mutable Explorer,ECL,C,89.9,0.0,0.51
+4,Bulwark Ox,DFT,C,89.1,0.0,0.51
+4,"Ureni, the Song Unending",TDM,C,80.0,0.0,0.31
+4,"Wolverine, Fierce Fighter",MSH,C,85.0,3.7,0.3
+4,Rhino's Rampage,SPM,C,83.4,0.0,0.28
+4,"Sab-Sunen, Luxa Embodied",DFT,C,77.1,0.0,0.27
+4,Tarmogoyf,FRA,C,81.1,0.3,0.26
+4,The Unbeatable Squirrel Girl,MSH,C,88.7,0.0,0.25
+4,"Redshift, Rocketeer Chief",DFT,C,86.2,0.0,0.25
+4,Dragonback Assault,TDM,B+,95.4,0.0,0.25
+4,"Oko, Lorwyn Liege // Oko, Shadowmoor Scion",ECL,B,91.3,0.0,0.24
+5,Burst Lightning,FDN,C,80.4,17.6,40.35
+5,Shock,SPM,B,94.9,0.2,28.34
+5,Lightning Strike,DFT,C,80.5,0.4,26.74
+5,Full Bore,EOE,C,75.1,1.2,23.77
+5,Boltwave,FDN,B,91.5,0.1,21.14
+5,Duel Tactics,SOS,C,79.8,0.0,17.82
+5,Impractical Joke,SOS,B+,97.6,10.1,17.78
+5,Road Rage,DFT,A,98.1,0.0,17.04
+5,Stingcaster Mage,FRA,A,99.6,0.8,15.78
+5,Abrade,FDN,B+,97.0,2.7,15.56
+5,Channeled Dragonfire,TDM,C,88.9,0.1,15.14
+5,Thunder Magic,FIN,C,88.7,0.4,15.07
+5,Impolite Entrance,ECL,C,86.7,0.0,14.27
+5,Wild Ride,TDM,D,60.0,2.6,14.11
+5,Plasma Bolt,EOE,B,91.9,0.5,13.33
+5,Heroes' Hangout,SPM,C,85.6,0.6,12.94
+5,Nova Hellkite,EOE,B+,96.6,3.5,12.33
+5,The Scarlet Witch,MSH,C,81.2,0.0,12.27
+5,Heartfire Immolator,FDN,C,88.2,0.0,12.23
+5,Manhole Missile,TMT,C,81.9,0.0,12.13
+5,"Speed, Young Avenger",MSH,C,83.1,0.0,11.91
+5,"Gandalf, Goblins' Bane // Flameshape",HOB,B+,97.5,0.3,11.86
+5,Truck Toss,MSH,C,83.2,0.0,11.77
+5,Mindsparker,FDN,C,81.8,0.0,11.41
+5,Thunderdrum Soloist,SOS,C,78.1,0.0,11.32
+5,End-Blaze Epiphany,ECL,C,85.5,0.0,10.86
+5,Tersa Lightshatter,TDM,B,91.6,1.8,10.54
+5,Boulder Dash,ECL,C,83.8,0.0,10.36
+5,Redirect Lightning,TLA,B+,97.1,0.0,10.28
+5,Transporter Malfunction,TRK,C,82.1,0.0,10.1
+5,Slagstorm,FDN,B+,95.9,0.2,9.93
+5,"Electro, Assaulting Battery",SPM,C,87.6,0.0,9.9
+5,Iroh's Demonstration,TLA,B+,95.8,0.8,9.81
+5,Invasive Maneuvers,EOE,B,93.9,0.0,9.63
+5,Pompous Battlemage // Improvised Act,FRA,A,98.2,3.0,9.48
+5,Obliterating Bolt,FDN,B+,95.6,0.0,9.45
+5,Jennika's Technique,TMT,C,76.4,0.0,9.31
+5,Burnout Bashtronaut,DFT,A,98.6,0.1,9.19
+5,Draconautics Engineer,DFT,C,85.9,0.0,9.19
+5,Masked Meower,SPM,C,76.2,0.5,9.17
+5,The Last Agni Kai,TLA,C,87.0,0.0,9.06
+5,Pyre Rhymer // Molten Tide,FRA,B+,95.2,0.1,8.71
+5,Ball Lightning,FDN,C,84.2,0.0,8.69
+5,Soulbright Seeker,ECL,C,83.2,0.0,8.41
+5,Choreographed Sparks,SOS,C,78.7,0.0,8.31
+5,Encounter the Unknown,TRK,B+,97.5,0.0,8.24
+5,"Hazoret, Godseeker",DFT,A,99.3,0.0,7.94
+5,Artistic Process,SOS,C,82.7,0.0,7.85
+5,Fleeting Effigy,TDM,C,80.6,0.0,7.81
+5,Marauding Mako,DFT,C,76.6,1.9,7.77
+5,Overwhelming Surge,TDM,C,80.6,0.0,7.75
+5,Fulminous Forte,FRA,B+,97.6,0.1,7.66
+5,Prompto Argentum,FIN,C,89.9,0.0,7.59
+5,Brazen Bluff,TRK,B,93.5,0.0,7.53
+5,Thrill of Possibility,FDN,C,82.5,0.0,7.49
+5,Scorching Dragonfire,FDN,C,88.2,0.0,7.42
+5,Magmablood Archaic,SOS,C,78.2,0.0,7.35
+5,Essence Burn,FRA,B+,96.7,0.6,7.35
+5,Gastal Thrillroller,DFT,C,88.1,0.0,7.23
+5,Spinneret and Spiderling,SPM,B+,95.0,0.0,6.75
+5,Emeritus of Conflict // Lightning Bolt,SOS,B+,96.8,0.0,6.67
+5,"Kellan, Planar Trailblazer",FDN,C,87.4,0.0,6.41
+5,Giantfall,ECL,B,93.8,0.0,6.41
+5,Reckless Impulse,TRK,C,76.3,0.0,6.3
+5,"Quicksilver, Brash Blur",MSH,B+,95.3,0.0,6.05
+5,Steal the Show,SOS,C,84.0,0.0,5.72
+5,Molten-Core Maestro,SOS,C,87.6,0.2,5.61
+5,Maelstrom Artisan // Rocket Volley,SOS,C,89.2,0.0,5.52
+5,Magmatic Hellkite,TDM,C,88.8,2.4,5.34
+5,"Samut, Hazoret's Champion",FRA,C,78.9,0.3,5.3
+5,Greasewrench Goblin,DFT,C,83.1,0.0,5.06
+5,Stadium Headliner,TDM,B,94.0,3.1,4.93
+5,Champion of the Path,ECL,C,78.3,0.0,4.91
+5,Kickoff Celebrations,DFT,B,92.3,0.0,4.83
+5,"Hobgoblin, Mantled Marauder",SPM,C,76.6,0.0,4.77
+5,Firebending Student,TLA,B,94.4,0.0,4.7
+5,Seifer Almasy,FIN,C,81.4,0.0,4.7
+5,Captain James T. Kirk,TRK,B,90.9,1.3,4.61
+5,Ruinous Rampage,EOE,B,93.2,0.2,4.47
+5,Test of Identity,TRK,C,75.3,0.0,4.4
+5,Howlsquad Heavy,DFT,B,94.2,0.8,4.31
+5,Gwen Stacy // Ghost-Spider,SPM,B,93.5,0.0,4.29
+5,"Sarkhan, Dragon Ascendant",TDM,C,89.6,2.3,4.21
+5,Hexing Squelcher,ECL,A,98.6,0.5,4.18
+5,"Zhao, the Moon Slayer",TLA,B+,96.6,0.1,4.16
+5,Ajani's Anguish,FRA,C,82.5,0.3,4.06
+5,Nibelheim Aflame,FIN,C,80.5,0.0,4.03
+5,Stromkirk Noble,FDN,C,88.6,0.0,3.98
+5,"Chandra, Torch of Defiance",FRA,B,94.3,0.8,3.9
+5,"Tannuk, Steadfast Second",EOE,C,77.5,0.0,3.72
+5,Starfleet Security,TRK,C,82.4,0.0,3.64
+5,Remnant Elemental,EOE,C,75.9,0.0,3.63
+5,Spider-Punk,SPM,A,98.3,0.0,3.61
+5,"Tasha Yar, Out of Time",TRK,B,93.9,0.0,3.45
+5,Fuel the Flames,DFT,B,94.7,0.0,3.36
+5,"Hawkeye, Master Marksman",MSH,B+,95.4,0.1,3.34
+5,Pinecone Strike,HOB,B,92.3,0.2,2.91
+5,Stingerquill Charm,FRA,B,91.4,1.1,2.91
+5,Explosive Prodigy,ECL,B,94.3,0.0,2.9
+5,Outpace Oblivion,DFT,C,79.6,0.0,2.81
+5,Desolation of Smaug,HOB,C,81.7,0.4,2.68
+5,The Naked Time,TRK,D,71.6,2.0,2.66
+5,The Legend of Roku // Avatar Roku,TLA,B,93.3,0.9,2.58
+5,Cool but Rude,TMT,B,91.2,2.1,2.46
+5,Possibility Technician,EOE,C,84.6,0.0,1.89
+5,Firebender Ascension,TLA,C,80.4,0.0,1.77
+5,Summon: G.F. Cerberus,FIN,C,76.9,0.0,1.73
+5,Giant Cindermaw,FDN,F,31.4,2.1,1.72
+5,"Worf, Intelligence Contractor",TRK,C,89.9,0.0,1.39
+5,"Casey Jones, Jury-Rig Justiciar",TMT,B,91.9,0.0,1.38
+5,Flamewake Phoenix,FDN,B,94.6,0.0,1.35
+5,Solstice Revelations,TLA,C,79.1,0.0,1.26
+5,Shadow of the Goblin,SPM,B,93.0,0.0,1.21
+5,"Lorehold, the Historian",SOS,C,89.6,0.4,1.13
+5,The Wrath of Khan,TRK,B,94.6,0.0,1.07
+5,Frostbite Pyromental,FRA,C,76.8,0.0,0.88
+5,Identity Echo,FRA,C,83.3,0.0,0.81
+5,Meek Attack,ECL,C,76.7,0.0,0.8
+5,Hardened Academic,SOS,C,88.5,1.6,0.67
+5,Stinging Vitriol,FRA,B+,97.4,0.5,0.6
+5,"Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",FIN,B,92.0,0.0,0.57
+5,Summon: Brynhildr,FIN,C,89.1,0.1,0.55
+5,Terrapact Intimidator,EOE,C,88.3,0.0,0.37
+5,Ingris Stingerquill,FRA,C,89.2,1.0,0.36
+5,Sozin's Comet,TLA,C,85.5,0.0,0.31
+5,"Casey Jones, Vigilante",TMT,B,94.7,0.1,0.28
+5,Dragonmaster Outcast,FDN,B+,95.3,0.0,0.27
+5,Fearless Swashbuckler,DFT,C,82.2,0.0,0.27
+5,Catharsis,ECL,B,92.2,0.0,0.25
+6,Soul-Guide Lantern,FDN,C,86.9,7.0,17.11
+6,Synthesizer Labship,EOE,C,80.8,0.0,13.17
+6,"Dawnsire, Sunstar Dreadnought",EOE,C,84.9,0.0,12.81
+6,"U.S.S. Enterprise-D, Galaxy-Class",TRK,C,78.0,0.0,11.58
+6,"U.S.S. Reliant, From Hell's Heart",TRK,C,80.9,0.0,11.53
+6,Engineered Explosives,TRK,B,91.3,2.8,10.58
+6,S.H.I.E.L.D. Flying Car,MSH,C,88.3,0.0,10.42
+6,Extinguisher Battleship,EOE,C,85.3,0.2,10.2
+6,Thopter Fabricator,DFT,C,85.0,0.0,9.95
+6,"U.S.S. Enterprise-A, Free Spirit",TRK,B+,95.7,0.0,9.23
+6,Tony Stark // The Invincible Iron Man,MSH,C,80.9,0.1,9.22
+6,The Echoverse Fulcrum,FRA,B+,95.8,0.1,9.1
+6,Lumen-Class Frigate,EOE,C,88.5,0.0,8.91
+6,Super-Adaptoid,MSH,C,78.3,0.0,8.18
+6,The Last Ride,DFT,B,94.6,0.0,7.84
+6,Romulan Bird-of-Prey,TRK,C,86.8,0.0,7.82
+6,Warmaker Gunship,EOE,C,80.8,0.2,7.72
+6,Boommobile,DFT,B,92.3,0.0,7.51
+6,The Fire Nation Drill,TLA,C,87.8,0.0,7.38
+6,"Lady Octopus, Inspired Inventor",SPM,C,79.9,0.4,7.13
+6,Thunderous Velocipede,DFT,C,82.3,0.0,7.01
+6,Nutrient Block,EOE,C,76.9,0.0,6.93
+6,Entropic Battlecruiser,EOE,C,75.0,0.0,6.88
+6,Skyseer's Chariot,DFT,B,94.2,0.0,6.86
+6,"U.S.S. Discovery, at Black Alert",TRK,C,86.5,0.1,6.73
+6,Abyssal Lotus,NAU,B,93.4,0.0,6.67
+6,Technodrome,TMT,C,76.1,0.0,6.65
+6,Crystalline Entity,TRK,C,86.3,0.0,6.65
+6,Pinnacle Starcage,EOE,C,86.3,5.6,6.62
+6,Voyager Glidecar,DFT,B,93.6,0.0,6.22
+6,Deep Space 9,TRK,C,78.1,0.0,6.08
+6,Cryogen Relic,EOE,F,23.6,2.7,6.06
+6,Sorcerous Spyglass,FDN,C,82.1,0.2,5.99
+6,Ring of Unity,NAU,F,31.5,0.0,5.94
+6,D-7 Battle Cruiser,TRK,B,93.2,0.0,5.87
+6,"Winter, Cursed Rider",DFT,B,90.2,0.0,5.8
+6,Valor's Flagship,DFT,B+,95.5,0.0,5.66
+6,Collation Trimatrix,TRK,C,80.5,0.0,5.51
+6,Replicator,TRK,C,77.9,0.0,5.4
+6,Springleaf Drum,ECL,F,37.6,6.0,5.39
+6,Weapons Manufacturing,EOE,C,84.2,1.1,5.32
+6,Marketback Walker,DFT,C,80.6,0.0,4.88
+6,The Mind Stone,MSH,B,90.2,2.3,4.53
+6,Weather Maker,TMT,C,83.3,0.0,4.49
+6,Hellish Sideswipe,DFT,C,82.0,0.0,4.39
+6,Does Machines,TMT,B,90.8,0.1,4.36
+6,"Tezzeret, Cruel Captain",EOE,C,82.9,1.4,4.24
+6,Perilous Snare,DFT,B,93.5,1.6,4.16
+6,"Chandra, Spark Hunter",DFT,B,93.6,0.6,3.96
+6,Rust Harvester,EOE,C,80.3,0.4,3.93
+6,Mox Jasper,TDM,B,93.4,0.0,3.79
+6,Thundering Broodwagon,DFT,C,80.1,0.0,3.56
+6,The Seriema,EOE,C,81.1,0.0,3.49
+6,Omni-Cheese Pizza,TMT,C,82.6,0.0,3.44
+6,"The Mechanist, Aerial Artisan",TLA,C,76.6,0.0,2.75
+6,"Emrakul, the Exigent Doom",FRA,C,84.3,0.1,2.66
+6,"Seven of Nine, Unassimilated",TRK,C,81.9,0.0,2.38
+6,Assembly Specialist,TRK,C,77.4,0.0,2.36
+6,Everything Pizza,TMT,C,85.3,0.0,2.34
+6,Heritage Reclamation,TDM,A,98.1,1.8,2.32
+6,Instant Ramen,FIN,C,84.8,0.0,2.25
+6,Anticausal Vestige,EOE,B,94.9,0.0,2.16
+6,"Mu Yanling, Wind Rider",DFT,C,89.7,0.0,1.91
+6,Sundering Archaic,SOS,C,79.4,0.0,1.82
+6,"Salinae, the Ocean Mother",NAU,D,62.4,0.0,1.75
+6,Sire of Seven Deaths,FDN,B,93.5,0.0,1.64
+6,Solitary Cell,FRA,A,98.5,0.3,1.55
+6,The Dawning Archaic,SOS,C,86.9,0.0,1.5
+6,Skycrash,DFT,A,99.4,0.0,1.48
+6,Party Dude,TMT,B,94.8,0.0,1.43
+6,Mazemind Tome,FDN,D,70.4,2.2,1.37
+6,Beorn the Fierce,HOB,C,82.2,0.0,1.31
+6,Aerid Konstrari,FRA,C,89.4,0.1,1.26
+6,Cloudspire Coordinator,DFT,C,80.3,0.0,1.03
+6,J. Jonah Jameson,SPM,C,77.7,0.0,1.02
+6,Genesis Device,TRK,C,77.5,0.0,0.82
+6,Glorious Decay,SOS,B+,95.1,0.5,0.81
+6,Riptide Gearhulk,DFT,C,81.2,0.0,0.54
+6,"Kolodin, Triumph Caster",DFT,C,75.4,0.0,0.43
+6,Airship Crash,FIN,C,75.9,0.0,0.37
+6,Vicious Rivalry,SOS,B,93.0,3.4,0.3
+6,Dragonbroods' Relic,TDM,C,82.2,0.0,0.28
+6,Eclipsed Flamekin,ECL,C,77.5,0.0,0.27
+7,Leyline Axe,FDN,F,28.4,2.6,6.0
+7,"Thorin, Mountain-king",HOB,C,78.4,2.6,5.73
+7,Dragonfire Blade,TDM,D,61.6,2.6,5.65
+7,Skateboard,TMT,F,33.6,3.3,5.55
+7,Basilisk Collar,FDN,D,59.6,2.1,5.07
+7,"Dwalin, Weaponmaster",HOB,D,61.6,2.6,5.06
+7,"Cloud, Midgar Mercenary",FIN,C,88.6,0.0,4.67
+7,"Raubahn, Bull of Ala Mhigo",FIN,C,82.8,0.4,4.42
+7,Dwarven Mauler,HOB,C,78.8,2.6,4.15
+7,Celestial Armor,FDN,C,82.7,0.0,4.02
+7,Buster Sword,FIN,C,76.9,0.0,3.47
+7,"Gwyndala, the Progeny",TRK,C,75.1,0.0,3.37
+7,Kíli the Resourceful,HOB,C,84.7,2.6,3.27
+7,"Sulu, Space Swashbuckler",TRK,C,81.0,0.0,2.48
+7,Dáin's Company,HOB,C,88.9,2.6,1.68
+7,"Mjölnir, Hammer of Thor",MSH,C,87.0,0.0,1.26
+7,"Bofur, Reliable Guardian // Concerted Care",HOB,B+,95.7,0.8,1.01
+7,Lightwheel Enhancements,DFT,C,77.0,0.0,0.87
+7,Freya Crescent,FIN,C,89.8,0.0,0.87
+7,Hardlight Containment,EOE,B+,97.9,0.0,0.69
+7,"Abigale, Eloquent First-Year",ECL,B,90.0,0.0,0.3
+8,Silvergill Mentor,ECL,C,76.3,0.0,3.01
+8,Harbinger of the Tides,FDN,C,87.6,0.0,2.68
+8,Deepway Navigator,ECL,C,88.5,0.0,1.88
+8,Eclipsed Merrow,ECL,C,76.1,0.0,1.7
+8,Namor the Sub-Mariner,MSH,C,85.9,0.0,1.64
+8,"Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield",ECL,C,86.8,0.0,1.58
+8,Sygg's Command,ECL,C,78.7,0.0,1.47
+8,Harmonized Trio // Brainstorm,SOS,B,92.1,0.0,1.24
+8,Disruptor of Currents,ECL,C,86.6,0.0,0.86

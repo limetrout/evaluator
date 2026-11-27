@@ -1,322 +1,287 @@
 archetype,card,play_rate_in_archetype,avg_copies,legal_after_rotation
-Boros (Chainsaw),Leyline Axe,1.0,4.0,True
-Boros (Chainsaw),Kíli the Resourceful,1.0,4.0,True
-Boros (Chainsaw),Dwarven Mauler,1.0,4.0,True
-Boros (Chainsaw),"Dwalin, Weaponmaster",1.0,2.9,True
-Boros (Chainsaw),Dragonfire Blade,1.0,4.0,True
-Boros (Chainsaw),"Thorin, Mountain-king",1.0,3.7,True
-Boros (Chainsaw),Dáin's Company,1.0,4.0,True
-Boros (Chainsaw),Lavaspur Boots,0.91,4.0,False
-Boros (Chainsaw),Chainsaw,0.82,2.3,False
-Boros (Chainsaw),Basilisk Collar,0.82,1.9,True
-Boros (Chainsaw),Skateboard,0.73,1.9,True
-Jund (Lively Dirge),Gene Pollinator,1.0,4.0,True
-Jund (Lively Dirge),Umbral Collar Zealot,1.0,2.8,True
-Jund (Lively Dirge),Obsessive Pursuit,1.0,4.0,True
-Jund (Lively Dirge),Biotech Specialist,1.0,4.0,True
-Jund (Lively Dirge),The Sackville-Bagginses,1.0,4.0,True
-Jund (Lively Dirge),Greedy Freebooter,1.0,4.0,False
-Jund (Lively Dirge),Lively Dirge,0.95,3.8,False
-Jund (Lively Dirge),Smaug the Magnificent,0.76,1.1,True
-Jund (Lively Dirge),The Misty Mountains Cold,0.67,2.4,True
-Jund (Lively Dirge),Requiting Hex,0.67,1.7,True
-Jund (Lively Dirge),Torch the Tower,0.62,2.7,False
-Jund (Lively Dirge),"Magda, the Hoardmaster",0.48,1.9,False
-Jund (Lively Dirge),"Wolverine, Fierce Fighter",0.48,1.0,True
-Jund (Lively Dirge),Stir Up Trouble,0.48,1.4,True
-Jund (Lively Dirge),Rottenmouth Viper,0.43,2.9,False
-Jund (Lively Dirge),Callous Inspector,0.38,2.2,True
-Jund (Lively Dirge),"Mutagen Man, Living Ooze",0.29,1.5,True
+Boros (Leyline Axe),Leyline Axe,1.0,4.0,True
+Boros (Leyline Axe),Kíli the Resourceful,1.0,4.0,True
+Boros (Leyline Axe),Dwarven Mauler,1.0,4.0,True
+Boros (Leyline Axe),"Dwalin, Weaponmaster",1.0,2.6,True
+Boros (Leyline Axe),Dragonfire Blade,1.0,4.0,True
+Boros (Leyline Axe),"Thorin, Mountain-king",1.0,3.9,True
+Boros (Leyline Axe),Dáin's Company,1.0,4.0,True
+Boros (Leyline Axe),Lavaspur Boots,0.98,3.9,False
+Boros (Leyline Axe),Basilisk Collar,0.95,2.0,True
+Boros (Leyline Axe),Skateboard,0.88,1.8,True
+Boros (Leyline Axe),Chainsaw,0.86,2.1,False
+Jund (Biotech Specialist),Obsessive Pursuit,1.0,4.0,True
+Jund (Biotech Specialist),The Sackville-Bagginses,1.0,4.0,True
+Jund (Biotech Specialist),Biotech Specialist,1.0,4.0,True
+Jund (Biotech Specialist),Greedy Freebooter,1.0,4.0,False
+Jund (Biotech Specialist),Gene Pollinator,0.99,4.0,True
+Jund (Biotech Specialist),Lively Dirge,0.99,4.0,False
+Jund (Biotech Specialist),Umbral Collar Zealot,0.99,2.9,True
+Jund (Biotech Specialist),Smaug the Magnificent,0.9,1.1,True
+Jund (Biotech Specialist),Torch the Tower,0.85,2.9,False
+Jund (Biotech Specialist),Requiting Hex,0.63,1.7,True
+Jund (Biotech Specialist),The Misty Mountains Cold,0.61,2.6,True
+Jund (Biotech Specialist),"Magda, the Hoardmaster",0.58,1.9,False
+Jund (Biotech Specialist),"Wolverine, Fierce Fighter",0.49,1.0,True
+Jund (Biotech Specialist),Witherbloom Charm,0.33,1.5,True
+Jund (Biotech Specialist),Deadly Precision,0.27,1.3,True
+Jund (Biotech Specialist),Callous Inspector,0.26,2.0,True
+Jund (Biotech Specialist),Stir Up Trouble,0.25,1.3,True
+Azorius (Repurposing Bay),Cryogen Relic,1.0,3.8,True
+Azorius (Repurposing Bay),Pinnacle Starcage,1.0,2.9,True
+Azorius (Repurposing Bay),Repurposing Bay,1.0,3.2,True
+Azorius (Repurposing Bay),United Battlefront,1.0,4.0,True
+Azorius (Repurposing Bay),Simulacrum Synthesizer,1.0,4.0,False
+Azorius (Repurposing Bay),The Fire Crystal,0.98,1.0,True
+Azorius (Repurposing Bay),Perilous Snare,0.98,4.0,True
+Azorius (Repurposing Bay),The Mind Stone,0.98,3.1,True
+Azorius (Repurposing Bay),Braided Net // Braided Quipu,0.88,1.7,False
+Azorius (Repurposing Bay),White Auracite,0.81,1.0,True
+Azorius (Repurposing Bay),Candy Trail,0.72,2.0,False
+Azorius (Repurposing Bay),Clay-Fired Bricks // Cosmium Kiln,0.67,1.6,False
+Azorius (Repurposing Bay),Spring-Loaded Sawblades // Bladewheel Chariot,0.63,1.8,False
+Azorius (Repurposing Bay),The Irencrag,0.6,1.5,False
+Azorius (Repurposing Bay),Seam Rip,0.6,2.0,True
+Azorius (Repurposing Bay),Torpor Orb,0.4,1.1,False
+Azorius (Repurposing Bay),Erode,0.35,1.1,True
+Azorius (Repurposing Bay),Day of Judgment,0.33,1.4,True
 "Boros (Sarkhan, Dragon Ascendant)",Magmatic Hellkite,1.0,4.0,True
-"Boros (Sarkhan, Dragon Ascendant)","Sarkhan, Dragon Ascendant",1.0,4.0,True
-"Boros (Sarkhan, Dragon Ascendant)",Voice of Victory,1.0,3.6,True
-"Boros (Sarkhan, Dragon Ascendant)",Nova Hellkite,1.0,4.0,True
-"Boros (Sarkhan, Dragon Ascendant)","Momo, Friendly Flier",1.0,4.0,True
-"Boros (Sarkhan, Dragon Ascendant)",Burst Lightning,1.0,4.0,True
-"Boros (Sarkhan, Dragon Ascendant)",Clarion Conqueror,1.0,4.0,True
-"Boros (Sarkhan, Dragon Ascendant)",Smaug the Magnificent,1.0,3.9,True
-"Boros (Sarkhan, Dragon Ascendant)",Twinmaw Stormbrood // Charring Bite,1.0,1.7,True
-"Boros (Sarkhan, Dragon Ascendant)",Erode,0.82,2.4,True
-Mono-Red (The Last Ronin's Technique),Hired Claw,0.69,4.0,False
-Mono-Red (The Last Ronin's Technique),Burst Lightning,0.69,3.6,True
-Mono-Red (The Last Ronin's Technique),Warleader's Call,0.44,4.0,False
-Mono-Red (The Last Ronin's Technique),Voice of Victory,0.44,3.4,True
-Mono-Red (The Last Ronin's Technique),The Last Ronin's Technique,0.44,3.1,True
-Mono-Red (The Last Ronin's Technique),Stadium Headliner,0.44,4.0,True
-Mono-Red (The Last Ronin's Technique),Vibrant Outburst,0.38,3.3,True
-Mono-Red (The Last Ronin's Technique),Hop to It,0.31,2.8,False
-Mono-Red (The Last Ronin's Technique),Political Triumph,0.31,4.0,True
-Mono-Red (The Last Ronin's Technique),Stingcaster Mage,0.31,4.0,True
-Mono-Red (The Last Ronin's Technique),Belladonna Took,0.31,4.0,True
-Mono-Red (The Last Ronin's Technique),Erode,0.31,1.4,True
-Mono-Red (The Last Ronin's Technique),Frontline Rush,0.31,4.0,True
-Mono-Red (The Last Ronin's Technique),Song of Totentanz,0.31,4.0,False
-Mono-Red (The Last Ronin's Technique),Torch the Tower,0.25,3.0,False
-Mono-Red (The Last Ronin's Technique),Nova Hellkite,0.25,4.0,True
-Mono-Red (The Last Ronin's Technique),Pompous Battlemage // Improvised Act,0.25,4.0,True
-Mono-Red (The Last Ronin's Technique),Slickshot Show-Off,0.25,4.0,False
-Mono-Red (The Last Ronin's Technique),Ghitu Lavarunner,0.25,1.0,True
-Mono-Red (The Last Ronin's Technique),Plasma Bolt,0.25,2.0,True
-Mono-Red (The Last Ronin's Technique),Howlsquad Heavy,0.25,3.2,True
-Mono-Red (The Last Ronin's Technique),"Gandalf, Goblins' Bane // Flameshape",0.25,4.0,True
-Orzhov (Liliana the Faultless),Case of the Uneaten Feast,1.0,3.9,False
-Orzhov (Liliana the Faultless),"Haliya, Guided by Light",1.0,3.4,True
-Orzhov (Liliana the Faultless),Amalia Benavides Aguirre,0.94,3.9,False
-Orzhov (Liliana the Faultless),Hinterland Sanctifier,0.94,4.0,True
-Orzhov (Liliana the Faultless),"Moseo, Vein's New Dean",0.89,3.1,True
-Orzhov (Liliana the Faultless),Starscape Cleric,0.89,2.2,False
-Orzhov (Liliana the Faultless),Lunar Convocation,0.89,3.6,False
-Orzhov (Liliana the Faultless),Erode,0.83,2.9,True
-Orzhov (Liliana the Faultless),Liliana the Faultless,0.61,2.5,True
-Orzhov (Liliana the Faultless),Aunt May,0.61,1.4,True
-Orzhov (Liliana the Faultless),Deep-Cavern Bat,0.56,2.3,False
-Orzhov (Liliana the Faultless),Enlightened Confidant,0.5,3.9,True
-Orzhov (Liliana the Faultless),Voice of Victory,0.5,2.2,True
-Orzhov (Liliana the Faultless),"Zoraline, Cosmos Caller",0.44,1.2,False
-Orzhov (Liliana the Faultless),Ajani Resolute,0.39,2.7,True
-Orzhov (Liliana the Faultless),Essence Channeler,0.39,2.3,False
-Orzhov (Liliana the Faultless),Emptiness,0.39,1.9,True
-Mono-White (Daydream),Quantum Riddler,0.76,3.6,True
-Mono-White (Daydream),Practiced Offense,0.66,2.6,True
-Mono-White (Daydream),Springleaf Drum,0.62,3.9,True
-Mono-White (Daydream),"Momo, Friendly Flier",0.62,4.0,True
-Mono-White (Daydream),Sage of the Skies,0.62,3.8,True
-Mono-White (Daydream),Starfield Shepherd,0.59,3.9,True
-Mono-White (Daydream),Seam Rip,0.55,1.8,True
-Mono-White (Daydream),Daydream,0.55,3.9,True
-Mono-White (Daydream),Nurturing Pixie,0.52,1.7,False
-Mono-White (Daydream),Erode,0.45,2.1,True
-Mono-White (Daydream),"Aang, Swift Savior // Aang and La, Ocean's Fury",0.41,2.2,True
-Mono-White (Daydream),Steamcore Scholar,0.31,3.6,False
-Mono-White (Daydream),"Haliya, Guided by Light",0.31,2.6,True
-Dimir (We Say Thee Nay!),"Kaito, Bane of Nightmares",1.0,4.0,False
-Dimir (We Say Thee Nay!),Bitter Triumph,1.0,2.0,False
-Dimir (We Say Thee Nay!),Requiting Hex,1.0,3.5,True
-Dimir (We Say Thee Nay!),Floodpits Drowner,0.96,3.9,False
-Dimir (We Say Thee Nay!),Shoot the Sheriff,0.96,2.0,False
-Dimir (We Say Thee Nay!),The Wondrous Wasp,0.96,1.8,True
-Dimir (We Say Thee Nay!),Dream Beavers,0.96,4.0,True
-Dimir (We Say Thee Nay!),Spyglass Siren,0.96,3.8,False
-Dimir (We Say Thee Nay!),Enduring Curiosity,0.96,3.9,False
-Dimir (We Say Thee Nay!),We Say Thee Nay!,0.93,2.1,True
-Dimir (We Say Thee Nay!),Tishana's Tidebinder,0.93,1.5,False
-Dimir (We Say Thee Nay!),Spell Snare,0.79,1.4,True
-Dimir (We Say Thee Nay!),"Wan Shi Tong, Librarian",0.75,1.5,True
-Dimir (We Say Thee Nay!),Strategic Betrayal,0.39,1.6,True
-Izzet (Sunderflock),Sleight of Hand,1.0,4.0,False
-Izzet (Sunderflock),Traumatic Critique,1.0,2.8,True
-Izzet (Sunderflock),Eddymurk Crab,1.0,4.0,False
-Izzet (Sunderflock),Opt,1.0,4.0,True
-Izzet (Sunderflock),Burst Lightning,1.0,3.0,True
-Izzet (Sunderflock),Get Out,1.0,2.2,False
-Izzet (Sunderflock),Prismari Charm,1.0,3.9,True
-Izzet (Sunderflock),Sunderflock,1.0,3.9,True
-Izzet (Sunderflock),Hearth Elemental // Stoke Genius,1.0,4.0,False
-Izzet (Sunderflock),Spell Snare,0.95,1.8,True
-Izzet (Sunderflock),Impractical Joke,0.82,2.1,True
-Izzet (Sunderflock),Spell Pierce,0.79,1.5,True
-Izzet (Sunderflock),Winternight Stories,0.56,2.3,True
-Izzet (Sunderflock),Flow State,0.49,2.7,True
-Dimir (Doomsday Excruciator),Winternight Stories,0.95,2.2,True
-Dimir (Doomsday Excruciator),Deceit,0.9,4.0,True
-Dimir (Doomsday Excruciator),Requiting Hex,0.9,3.7,True
-Dimir (Doomsday Excruciator),Bitter Triumph,0.9,3.0,False
-Dimir (Doomsday Excruciator),Superior Spider-Man,0.88,4.0,True
-Dimir (Doomsday Excruciator),Duress,0.85,3.4,True
-Dimir (Doomsday Excruciator),Emeritus of Ideation // Ancestral Recall,0.82,2.0,True
-Dimir (Doomsday Excruciator),Deadly Cover-Up,0.78,1.3,False
-Dimir (Doomsday Excruciator),Strategic Betrayal,0.72,1.3,True
-Dimir (Doomsday Excruciator),Stock Up,0.72,2.9,True
-Dimir (Doomsday Excruciator),Doomsday Excruciator,0.65,2.9,False
-Dimir (Doomsday Excruciator),Day of Black Sun,0.62,2.5,True
-Dimir (Doomsday Excruciator),M.O.D.O.K.,0.33,1.0,True
-Sultai (Bringer of the Last Gift),Town Greeter,0.89,3.2,True
-Sultai (Bringer of the Last Gift),Overlord of the Balemurk,0.89,3.9,False
-Sultai (Bringer of the Last Gift),Formidable Speaker,0.78,3.9,True
-Sultai (Bringer of the Last Gift),"Ardyn, the Usurper",0.78,2.1,True
-Sultai (Bringer of the Last Gift),Bringer of the Last Gift,0.78,4.0,False
-Sultai (Bringer of the Last Gift),Oblivious Bookworm,0.78,4.0,False
-Sultai (Bringer of the Last Gift),Rapid Rescue,0.78,4.0,True
-Sultai (Bringer of the Last Gift),Superior Spider-Man,0.78,4.0,True
-Sultai (Bringer of the Last Gift),Ouroboroid,0.67,2.0,True
-Sultai (Bringer of the Last Gift),"Kiora, the Rising Tide",0.67,1.0,True
-Sultai (Bringer of the Last Gift),"Jadzi, Steward of Fate // Oracle's Gift",0.67,3.0,True
-Sultai (Bringer of the Last Gift),Commune with Beavers,0.67,2.0,True
-Sultai (Bringer of the Last Gift),Wistfulness,0.44,1.2,True
-Sultai (Bringer of the Last Gift),Dredger's Insight,0.33,1.0,True
-Mono-Green (Mossborn Hydra),Llanowar Elves,1.0,4.0,True
-Mono-Green (Mossborn Hydra),Mightform Harmonizer,1.0,3.7,True
-Mono-Green (Mossborn Hydra),Earthbender Ascension,1.0,4.0,True
-Mono-Green (Mossborn Hydra),Sazh's Chocobo,1.0,4.0,True
-Mono-Green (Mossborn Hydra),Icetill Explorer,0.98,4.0,True
-Mono-Green (Mossborn Hydra),Esper Origins // Summon: Esper Maduin,0.8,3.3,True
-Mono-Green (Mossborn Hydra),Mossborn Hydra,0.64,3.1,True
-Mono-Green (Mossborn Hydra),Sapling Nursery,0.62,3.0,True
-Mono-Green (Mossborn Hydra),Meltstrider's Resolve,0.59,1.8,True
-Mono-Green (Mossborn Hydra),Lumbering Worldwagon,0.43,1.4,True
-Mono-Green (Mossborn Hydra),Keen-Eyed Curator,0.41,1.6,False
-Mono-Green (Mossborn Hydra),"Surrak, Elusive Hunter",0.36,1.4,True
-Mono-Green (Mossborn Hydra),Badgermole Cub,0.34,4.0,False
-Mono-Green (Mossborn Hydra),Shared Roots,0.29,2.8,True
-Izzet (Roaring Furnace // Steaming Sauna),Sleight of Hand,1.0,4.0,False
-Izzet (Roaring Furnace // Steaming Sauna),Burst Lightning,1.0,3.9,True
-Izzet (Roaring Furnace // Steaming Sauna),Opt,1.0,4.0,True
-Izzet (Roaring Furnace // Steaming Sauna),Stormchaser's Talent,0.98,4.0,False
-Izzet (Roaring Furnace // Steaming Sauna),Boomerang Basics,0.98,4.0,True
-Izzet (Roaring Furnace // Steaming Sauna),Flow State,0.98,3.9,True
-Izzet (Roaring Furnace // Steaming Sauna),Slickshot Show-Off,0.93,3.9,False
-Izzet (Roaring Furnace // Steaming Sauna),Eddymurk Crab,0.86,3.4,False
-Izzet (Roaring Furnace // Steaming Sauna),Vibrant Outburst,0.83,1.3,True
-Izzet (Roaring Furnace // Steaming Sauna),Spell Pierce,0.71,1.5,True
-Izzet (Roaring Furnace // Steaming Sauna),Roaring Furnace // Steaming Sauna,0.6,1.4,False
-Izzet (Roaring Furnace // Steaming Sauna),Colorstorm Stallion,0.57,2.5,True
-Izzet (Roaring Furnace // Steaming Sauna),Impractical Joke,0.47,1.1,True
-Izzet (Roaring Furnace // Steaming Sauna),Get Out,0.43,1.4,False
-Izzet (Roaring Furnace // Steaming Sauna),Secret Identity,0.41,1.7,True
-Izzet (Roaring Furnace // Steaming Sauna),Prismari Charm,0.29,1.5,True
-Izzet (Roaring Furnace // Steaming Sauna),Stock Up,0.28,1.1,True
-Izzet (Pompous Battlemage // Improvised Act),Sleight of Hand,1.0,4.0,False
-Izzet (Pompous Battlemage // Improvised Act),Pompous Battlemage // Improvised Act,1.0,4.0,True
-Izzet (Pompous Battlemage // Improvised Act),Wild Ride,1.0,1.1,True
-Izzet (Pompous Battlemage // Improvised Act),Elusive Otter // Grove's Bounty,1.0,3.8,False
-Izzet (Pompous Battlemage // Improvised Act),Vibrant Outburst,1.0,1.0,True
-Izzet (Pompous Battlemage // Improvised Act),Slickshot Show-Off,1.0,4.0,False
-Izzet (Pompous Battlemage // Improvised Act),Opt,1.0,4.0,True
-Izzet (Pompous Battlemage // Improvised Act),Impractical Joke,1.0,1.9,True
-Izzet (Pompous Battlemage // Improvised Act),Bounce Off,1.0,2.0,True
-Izzet (Pompous Battlemage // Improvised Act),Secret Identity,1.0,1.9,True
-Izzet (Pompous Battlemage // Improvised Act),Burst Lightning,1.0,4.0,True
-Izzet (Pompous Battlemage // Improvised Act),Flow State,1.0,4.0,True
-Izzet (Pompous Battlemage // Improvised Act),Spell Snare,0.89,1.0,True
-Izzet (Pompous Battlemage // Improvised Act),Stock Up,0.89,1.0,True
-Izzet (Pompous Battlemage // Improvised Act),Eddymurk Crab,0.89,2.0,False
-Izzet (Accumulate Wisdom),Abandon Attachments,1.0,3.6,True
-Izzet (Accumulate Wisdom),It'll Quench Ya!,1.0,2.3,True
-Izzet (Accumulate Wisdom),Accumulate Wisdom,1.0,4.0,True
-Izzet (Accumulate Wisdom),Firebending Lesson,1.0,4.0,True
-Izzet (Accumulate Wisdom),Combustion Technique,1.0,4.0,True
-Izzet (Accumulate Wisdom),Iroh's Demonstration,0.91,1.8,True
-Izzet (Accumulate Wisdom),Gran-Gran,0.88,4.0,False
-Izzet (Accumulate Wisdom),Tablet of Discovery,0.85,4.0,True
-Izzet (Accumulate Wisdom),Jeskai Revelation,0.79,4.0,True
-Izzet (Accumulate Wisdom),Stock Up,0.79,2.7,True
-Izzet (Accumulate Wisdom),Three Steps Ahead,0.59,1.4,False
-Izzet (Accumulate Wisdom),Flashback,0.38,1.0,True
-Izzet (Accumulate Wisdom),"Thor, God of Thunder",0.35,1.8,True
-Izzet (Accumulate Wisdom),Improvisation Capstone,0.29,1.0,True
-Azorius (Jace's Machinations),Consult the Star Charts,1.0,3.9,True
-Azorius (Jace's Machinations),Three Steps Ahead,0.86,2.4,False
-Azorius (Jace's Machinations),Get Lost,0.71,3.5,False
-Azorius (Jace's Machinations),Day of Judgment,0.71,2.6,True
-Azorius (Jace's Machinations),Erode,0.71,2.4,True
-Azorius (Jace's Machinations),Spell Snare,0.64,2.3,True
-Azorius (Jace's Machinations),Seam Rip,0.64,3.2,True
-Azorius (Jace's Machinations),No More Lies,0.64,3.6,False
-Azorius (Jace's Machinations),"The Theorist, Jace Beleren",0.64,4.0,True
-Azorius (Jace's Machinations),Countersculpt,0.64,4.0,True
-Azorius (Jace's Machinations),Jace's Machinations,0.57,2.4,True
-Azorius (Jace's Machinations),Pinnacle Starcage,0.36,1.6,True
-Azorius (Jace's Machinations),Deadly Cover-Up,0.29,4.0,False
-Azorius (Jace's Machinations),Emeritus of Ideation // Ancestral Recall,0.29,2.5,True
-Azorius (Jace's Machinations),Shoot the Sheriff,0.29,1.0,False
-Azorius (Jace's Machinations),Break Under Pressure,0.29,1.0,True
-Azorius (Jace's Machinations),"Captain Marvel, Earth's Protector",0.29,1.2,True
-Azorius (Jace's Machinations),Bitter Triumph,0.29,1.0,False
-Azorius (Jace's Machinations),Sphinx of False Conclusions,0.29,1.2,True
-Azorius (Jace's Machinations),Feed the Cycle,0.29,1.0,False
-Azorius (Jace's Machinations),Nowhere to Run,0.29,1.0,False
-Azorius (Jace's Machinations),Requiting Hex,0.29,4.0,True
-Mono-Black (Firdoch Core),Deadly Cover-Up,1.0,3.1,False
-Mono-Black (Firdoch Core),Shoot the Sheriff,1.0,2.4,False
-Mono-Black (Firdoch Core),Together as One,1.0,3.1,True
-Mono-Black (Firdoch Core),Requiting Hex,1.0,3.1,True
-Mono-Black (Firdoch Core),Firdoch Core,0.93,3.9,True
-Mono-Black (Firdoch Core),Unholy Annex // Ritual Chamber,0.93,3.6,False
-Mono-Black (Firdoch Core),Nowhere to Run,0.93,1.5,False
-Mono-Black (Firdoch Core),Professor Dellian Fel,0.6,1.7,True
-Mono-Black (Firdoch Core),Bitter Triumph,0.6,1.0,False
-Mono-Black (Firdoch Core),Deceit,0.53,4.0,True
-Mono-Black (Firdoch Core),Duress,0.53,3.1,True
-Mono-Black (Firdoch Core),The Soul Stone,0.47,1.0,True
-Mono-Black (Firdoch Core),Maelstrom Pulse,0.47,1.0,True
-Mono-Black (Firdoch Core),Stock Up,0.47,3.6,True
-Mono-Black (Firdoch Core),Flashback,0.4,1.3,True
-Mono-Black (Firdoch Core),Tablet of Discovery,0.4,2.3,True
-Mono-Black (Firdoch Core),Jeskai Revelation,0.4,2.8,True
-Mono-Black (Firdoch Core),Mazemind Tome,0.4,1.0,True
-Mono-Black (Firdoch Core),Inside Information,0.4,1.0,True
-Mono-Black (Firdoch Core),Inevitable Defeat,0.4,3.3,True
-Mono-Black (Firdoch Core),Dispelling Exhale,0.27,3.0,True
-Selesnya (Spider Manifestation),Brightglass Gearhulk,1.0,4.0,True
-Selesnya (Spider Manifestation),Badgermole Cub,1.0,4.0,False
-Selesnya (Spider Manifestation),Pawpatch Recruit,1.0,4.0,False
-Selesnya (Spider Manifestation),Ouroboroid,1.0,2.0,True
+"Boros (Sarkhan, Dragon Ascendant)",Smaug the Magnificent,1.0,4.0,True
+"Boros (Sarkhan, Dragon Ascendant)",Burst Lightning,0.98,4.0,True
+"Boros (Sarkhan, Dragon Ascendant)","Sarkhan, Dragon Ascendant",0.98,4.0,True
+"Boros (Sarkhan, Dragon Ascendant)",Nova Hellkite,0.98,4.0,True
+"Boros (Sarkhan, Dragon Ascendant)","Momo, Friendly Flier",0.97,4.0,True
+"Boros (Sarkhan, Dragon Ascendant)",Clarion Conqueror,0.97,4.0,True
+"Boros (Sarkhan, Dragon Ascendant)",Twinmaw Stormbrood // Charring Bite,0.95,1.7,True
+"Boros (Sarkhan, Dragon Ascendant)",Voice of Victory,0.9,3.6,True
+"Boros (Sarkhan, Dragon Ascendant)",Erode,0.84,2.2,True
 Selesnya (Spider Manifestation),Llanowar Elves,1.0,4.0,True
-Selesnya (Spider Manifestation),Meltstrider's Resolve,1.0,1.0,True
-Selesnya (Spider Manifestation),"Surrak, Elusive Hunter",1.0,3.0,True
-Selesnya (Spider Manifestation),Spider Manifestation,1.0,2.9,True
-Selesnya (Spider Manifestation),Practiced Offense,1.0,4.0,True
-Selesnya (Spider Manifestation),"Leatherhead, Swamp Stalker",1.0,4.0,True
-Selesnya (Spider Manifestation),Seam Rip,1.0,2.0,True
-Selesnya (Spider Manifestation),Jennifer Walters // The Sensational She-Hulk,0.97,1.7,True
-Selesnya (Spider Manifestation),Bushwhack,0.6,1.0,True
-WUBR (Together as One),Deadly Cover-Up,1.0,2.2,False
-WUBR (Together as One),Tablet of Discovery,1.0,4.0,True
-WUBR (Together as One),Stock Up,1.0,3.9,True
-WUBR (Together as One),Inevitable Defeat,1.0,2.9,True
-WUBR (Together as One),Firebending Lesson,1.0,2.8,True
-WUBR (Together as One),Jeskai Revelation,1.0,4.0,True
-WUBR (Together as One),Duress,1.0,1.4,True
-WUBR (Together as One),Sear,1.0,1.8,True
-WUBR (Together as One),Together as One,0.92,1.7,True
-WUBR (Together as One),Consult the Star Charts,0.83,2.2,True
-WUBR (Together as One),Flashback,0.83,2.0,True
-WUBR (Together as One),Nowhere to Run,0.75,2.3,False
-WUBR (Together as One),Shoot the Sheriff,0.67,2.0,False
-WUBR (Together as One),Strategic Betrayal,0.58,1.9,True
-WUBR (Together as One),Pest Control,0.33,1.0,False
-WUBR (Together as One),Fire Magic,0.33,1.0,True
-Jeskai (Lightning Helix),Flashback,1.0,1.9,True
-Jeskai (Lightning Helix),Tablet of Discovery,1.0,4.0,True
-Jeskai (Lightning Helix),Stock Up,1.0,4.0,True
-Jeskai (Lightning Helix),Jeskai Revelation,1.0,4.0,True
-Jeskai (Lightning Helix),Inevitable Defeat,0.96,3.5,True
-Jeskai (Lightning Helix),Day of Judgment,0.93,1.9,True
-Jeskai (Lightning Helix),Consult the Star Charts,0.93,3.0,True
-Jeskai (Lightning Helix),No More Lies,0.85,2.0,False
-Jeskai (Lightning Helix),Sear,0.85,2.0,True
-Jeskai (Lightning Helix),Lightning Helix,0.81,1.7,False
-Jeskai (Lightning Helix),North Wind Avatar,0.56,1.0,True
-Jeskai (Lightning Helix),Three Steps Ahead,0.56,1.4,False
-Jeskai (Lightning Helix),Firebending Lesson,0.52,1.9,True
-Jeskai (Lightning Helix),Abrade,0.41,1.7,True
-Jeskai (Lightning Helix),Negate,0.37,1.0,True
-Jeskai (Lightning Helix),Thunder Magic,0.3,1.2,True
-Jeskai (Lightning Helix),"Thor, God of Thunder",0.26,1.1,True
-Selesnya (Bushwhack),Gene Pollinator,1.0,3.1,True
-Selesnya (Bushwhack),Brightglass Gearhulk,1.0,4.0,True
-Selesnya (Bushwhack),Badgermole Cub,1.0,4.0,False
-Selesnya (Bushwhack),Keen-Eyed Curator,1.0,1.9,False
-Selesnya (Bushwhack),Pawpatch Recruit,1.0,4.0,False
-Selesnya (Bushwhack),Ouroboroid,1.0,1.9,True
-Selesnya (Bushwhack),Llanowar Elves,1.0,4.0,True
-Selesnya (Bushwhack),Meltstrider's Resolve,1.0,1.2,True
-Selesnya (Bushwhack),"Surrak, Elusive Hunter",1.0,3.8,True
-Selesnya (Bushwhack),Nurturing Pixie,1.0,1.0,False
-Selesnya (Bushwhack),Practiced Offense,1.0,4.0,True
-Selesnya (Bushwhack),Seam Rip,1.0,1.9,True
-Selesnya (Bushwhack),"Leatherhead, Swamp Stalker",1.0,2.0,True
-Selesnya (Bushwhack),Bushwhack,0.92,1.0,True
-Selesnya (Shardmage's Rescue),Gene Pollinator,1.0,3.0,True
-Selesnya (Shardmage's Rescue),Brightglass Gearhulk,1.0,4.0,True
-Selesnya (Shardmage's Rescue),Badgermole Cub,1.0,4.0,False
-Selesnya (Shardmage's Rescue),Shardmage's Rescue,1.0,1.0,False
-Selesnya (Shardmage's Rescue),Keen-Eyed Curator,1.0,2.0,False
-Selesnya (Shardmage's Rescue),Pawpatch Recruit,1.0,4.0,False
-Selesnya (Shardmage's Rescue),Llanowar Elves,1.0,4.0,True
-Selesnya (Shardmage's Rescue),Meltstrider's Resolve,1.0,2.0,True
-Selesnya (Shardmage's Rescue),"Surrak, Elusive Hunter",1.0,3.0,True
-Selesnya (Shardmage's Rescue),Nurturing Pixie,1.0,1.0,False
-Selesnya (Shardmage's Rescue),Practiced Offense,1.0,4.0,True
-Selesnya (Shardmage's Rescue),Seam Rip,1.0,2.0,True
-Selesnya (Shardmage's Rescue),"Leatherhead, Swamp Stalker",1.0,3.0,True
+Selesnya (Spider Manifestation),"Surrak, Elusive Hunter",0.97,3.2,True
+Selesnya (Spider Manifestation),Practiced Offense,0.96,4.0,True
+Selesnya (Spider Manifestation),Pawpatch Recruit,0.94,3.9,False
+Selesnya (Spider Manifestation),"Leatherhead, Swamp Stalker",0.93,3.3,True
+Selesnya (Spider Manifestation),Seam Rip,0.91,2.0,True
+Selesnya (Spider Manifestation),Badgermole Cub,0.9,4.0,False
+Selesnya (Spider Manifestation),Brightglass Gearhulk,0.88,4.0,True
+Selesnya (Spider Manifestation),Meltstrider's Resolve,0.88,1.3,True
+Selesnya (Spider Manifestation),Ouroboroid,0.85,2.3,True
+Selesnya (Spider Manifestation),Spider Manifestation,0.56,3.0,True
+Selesnya (Spider Manifestation),Keen-Eyed Curator,0.51,1.9,False
+Selesnya (Spider Manifestation),Bushwhack,0.49,1.0,True
+Selesnya (Spider Manifestation),Jennifer Walters // The Sensational She-Hulk,0.49,1.7,True
+Selesnya (Spider Manifestation),Gene Pollinator,0.41,3.1,True
+Selesnya (Spider Manifestation),Nurturing Pixie,0.35,1.0,False
+"Selesnya (Michelangelo, Weirdness to 11)","Michelangelo, Weirdness to 11",1.0,3.8,True
+"Selesnya (Michelangelo, Weirdness to 11)",Practiced Offense,1.0,4.0,True
+"Selesnya (Michelangelo, Weirdness to 11)",Llanowar Elves,1.0,4.0,True
+"Selesnya (Michelangelo, Weirdness to 11)",Ouroboroid,1.0,3.8,True
+"Selesnya (Michelangelo, Weirdness to 11)",Pawpatch Recruit,1.0,4.0,False
+"Selesnya (Michelangelo, Weirdness to 11)","Surrak, Elusive Hunter",0.96,2.3,True
+"Selesnya (Michelangelo, Weirdness to 11)",Bejeweled Warg,0.96,4.0,True
+"Selesnya (Michelangelo, Weirdness to 11)",Seam Rip,0.9,2.0,True
+"Selesnya (Michelangelo, Weirdness to 11)",Meltstrider's Resolve,0.9,1.9,True
+"Selesnya (Michelangelo, Weirdness to 11)",Brightglass Gearhulk,0.87,2.2,True
+"Selesnya (Michelangelo, Weirdness to 11)",Gene Pollinator,0.81,3.9,True
+"Selesnya (Michelangelo, Weirdness to 11)",Guiding Hydra,0.79,1.1,True
+"Selesnya (Michelangelo, Weirdness to 11)","Leatherhead, Swamp Stalker",0.33,1.9,True
+Mono-Green (Carnivorous Cultivator // Enroot),Llanowar Elves,1.0,4.0,True
+Mono-Green (Carnivorous Cultivator // Enroot),Earthbender Ascension,1.0,4.0,True
+Mono-Green (Carnivorous Cultivator // Enroot),Sazh's Chocobo,0.98,4.0,True
+Mono-Green (Carnivorous Cultivator // Enroot),Icetill Explorer,0.98,4.0,True
+Mono-Green (Carnivorous Cultivator // Enroot),Mightform Harmonizer,0.97,3.6,True
+Mono-Green (Carnivorous Cultivator // Enroot),Mossborn Hydra,0.86,3.4,True
+Mono-Green (Carnivorous Cultivator // Enroot),Sapling Nursery,0.75,2.8,True
+Mono-Green (Carnivorous Cultivator // Enroot),Esper Origins // Summon: Esper Maduin,0.71,3.1,True
+Mono-Green (Carnivorous Cultivator // Enroot),Carnivorous Cultivator // Enroot,0.68,3.7,True
+Mono-Green (Carnivorous Cultivator // Enroot),Meltstrider's Resolve,0.39,1.6,True
+Mono-Green (Carnivorous Cultivator // Enroot),Keen-Eyed Curator,0.36,1.7,False
+Mono-Green (Carnivorous Cultivator // Enroot),Lumbering Worldwagon,0.27,1.2,True
+Selesnya (Doorkeeper Thrull),Doorkeeper Thrull,1.0,3.9,False
+Selesnya (Doorkeeper Thrull),Icetill Explorer,1.0,4.0,True
+Selesnya (Doorkeeper Thrull),Llanowar Elves,1.0,4.0,True
+Selesnya (Doorkeeper Thrull),Mossborn Hydra,1.0,4.0,True
+Selesnya (Doorkeeper Thrull),Sazh's Chocobo,1.0,4.0,True
+Selesnya (Doorkeeper Thrull),Mightform Harmonizer,1.0,3.2,True
+Selesnya (Doorkeeper Thrull),Earthbender Ascension,1.0,4.0,True
+Selesnya (Doorkeeper Thrull),Esper Origins // Summon: Esper Maduin,0.95,3.4,True
+Selesnya (Doorkeeper Thrull),Erode,0.57,2.6,True
+Selesnya (Doorkeeper Thrull),Sapling Nursery,0.43,3.7,True
+Orzhov (Starscape Cleric),Case of the Uneaten Feast,0.99,4.0,False
+Orzhov (Starscape Cleric),"Haliya, Guided by Light",0.99,3.8,True
+Orzhov (Starscape Cleric),Amalia Benavides Aguirre,0.99,4.0,False
+Orzhov (Starscape Cleric),Hinterland Sanctifier,0.99,4.0,True
+Orzhov (Starscape Cleric),"Moseo, Vein's New Dean",0.98,3.2,True
+Orzhov (Starscape Cleric),Lunar Convocation,0.97,3.4,False
+Orzhov (Starscape Cleric),Starscape Cleric,0.97,2.7,False
+Orzhov (Starscape Cleric),Erode,0.96,2.7,True
+Orzhov (Starscape Cleric),Liliana the Faultless,0.95,2.1,True
+Orzhov (Starscape Cleric),Enlightened Confidant,0.92,3.8,True
+Orzhov (Starscape Cleric),Aunt May,0.58,1.4,True
+Orzhov (Starscape Cleric),Deep-Cavern Bat,0.34,1.9,False
+Orzhov (Starscape Cleric),Ajani Resolute,0.3,2.0,True
+Izzet (Combustion Technique),Abandon Attachments,1.0,3.7,True
+Izzet (Combustion Technique),Combustion Technique,1.0,4.0,True
+Izzet (Combustion Technique),Firebending Lesson,1.0,4.0,True
+Izzet (Combustion Technique),Accumulate Wisdom,0.97,4.0,True
+Izzet (Combustion Technique),It'll Quench Ya!,0.97,2.3,True
+Izzet (Combustion Technique),Tablet of Discovery,0.85,4.0,True
+Izzet (Combustion Technique),Iroh's Demonstration,0.79,1.8,True
+Izzet (Combustion Technique),Gran-Gran,0.77,4.0,False
+Izzet (Combustion Technique),Jeskai Revelation,0.77,4.0,True
+Izzet (Combustion Technique),Stock Up,0.77,2.7,True
+Izzet (Combustion Technique),Three Steps Ahead,0.56,1.5,False
+Izzet (Combustion Technique),Flashback,0.38,1.0,True
+Izzet (Combustion Technique),"Thor, God of Thunder",0.33,1.8,True
+Izzet (Combustion Technique),Improvisation Capstone,0.28,1.2,True
+Mono-Black (Moonshadow),Moonshadow,0.76,3.9,True
+Mono-Black (Moonshadow),Dark Matter Manipulator,0.56,4.0,True
+Mono-Black (Moonshadow),Cool but Rude,0.44,4.0,True
+Mono-Black (Moonshadow),Iron-Shield Elf,0.44,3.4,True
+Mono-Black (Moonshadow),Practiced Offense,0.43,3.6,True
+Mono-Black (Moonshadow),Requiting Hex,0.43,2.2,True
+Mono-Black (Moonshadow),"Carnage, Crimson Chaos",0.43,2.5,True
+Mono-Black (Moonshadow),Marauding Mako,0.36,4.0,True
+Mono-Black (Moonshadow),Bloodghast,0.34,4.0,True
+Mono-Black (Moonshadow),"Inti, Seneschal of the Sun",0.31,1.7,False
+Mono-Black (Moonshadow),Overlord of the Balemurk,0.31,3.5,False
+Mono-Black (Moonshadow),Bitter Triumph,0.3,2.7,False
+Mono-Black (Moonshadow),Erode,0.26,1.9,True
+Mono-Black (Moonshadow),Hardened Academic,0.26,4.0,True
+Dimir (We Say Thee Nay!),"Kaito, Bane of Nightmares",1.0,4.0,False
+Dimir (We Say Thee Nay!),Requiting Hex,1.0,3.2,True
+Dimir (We Say Thee Nay!),Shoot the Sheriff,0.99,1.8,False
+Dimir (We Say Thee Nay!),Spyglass Siren,0.99,3.5,False
+Dimir (We Say Thee Nay!),Enduring Curiosity,0.99,4.0,False
+Dimir (We Say Thee Nay!),Bitter Triumph,0.99,2.1,False
+Dimir (We Say Thee Nay!),Floodpits Drowner,0.99,3.9,False
+Dimir (We Say Thee Nay!),We Say Thee Nay!,0.99,2.1,True
+Dimir (We Say Thee Nay!),Dream Beavers,0.99,4.0,True
+Dimir (We Say Thee Nay!),The Wondrous Wasp,0.99,1.7,True
+Dimir (We Say Thee Nay!),Tishana's Tidebinder,0.89,1.8,False
+Dimir (We Say Thee Nay!),"Wan Shi Tong, Librarian",0.8,1.2,True
+Dimir (We Say Thee Nay!),Spell Snare,0.8,1.2,True
+Dimir (We Say Thee Nay!),Strategic Betrayal,0.75,1.5,True
+Dimir (We Say Thee Nay!),"Yuriko, Hope from the Shadows",0.33,1.0,True
+Dimir (We Say Thee Nay!),Theorix Charm,0.28,1.0,True
+Izzet (Sunderflock),Sleight of Hand,1.0,4.0,False
+Izzet (Sunderflock),Opt,1.0,4.0,True
+Izzet (Sunderflock),Eddymurk Crab,1.0,4.0,False
+Izzet (Sunderflock),Prismari Charm,1.0,3.9,True
+Izzet (Sunderflock),Hearth Elemental // Stoke Genius,1.0,4.0,False
+Izzet (Sunderflock),Sunderflock,1.0,3.9,True
+Izzet (Sunderflock),Traumatic Critique,0.99,2.8,True
+Izzet (Sunderflock),Get Out,0.99,2.1,False
+Izzet (Sunderflock),Spell Snare,0.96,2.0,True
+Izzet (Sunderflock),Burst Lightning,0.96,3.1,True
+Izzet (Sunderflock),Impractical Joke,0.79,2.1,True
+Izzet (Sunderflock),Spell Pierce,0.72,1.4,True
+Izzet (Sunderflock),Winternight Stories,0.45,2.4,True
+Izzet (Sunderflock),Flow State,0.42,2.9,True
+Izzet (Sunderflock),Sear,0.26,1.3,True
+Azorius (Daydream),"Momo, Friendly Flier",0.9,4.0,True
+Azorius (Daydream),Sage of the Skies,0.89,3.9,True
+Azorius (Daydream),Starfield Shepherd,0.89,3.9,True
+Azorius (Daydream),Practiced Offense,0.86,3.1,True
+Azorius (Daydream),Springleaf Drum,0.86,3.7,True
+Azorius (Daydream),Nurturing Pixie,0.82,2.0,False
+Azorius (Daydream),Erode,0.8,1.9,True
+Azorius (Daydream),Guiding Hydra,0.78,1.0,True
+Azorius (Daydream),Quantum Riddler,0.7,4.0,True
+Azorius (Daydream),Daydream,0.69,3.8,True
+Azorius (Daydream),Seam Rip,0.62,1.7,True
+Azorius (Daydream),Steamcore Scholar,0.58,3.9,False
+Azorius (Daydream),Curious Farm Animals,0.29,1.0,True
+Dimir (Break Under Pressure),Spell Snare,1.0,2.8,True
+Dimir (Break Under Pressure),"The Theorist, Jace Beleren",1.0,4.0,True
+Dimir (Break Under Pressure),Requiting Hex,1.0,3.9,True
+Dimir (Break Under Pressure),Countersculpt,1.0,4.0,True
+Dimir (Break Under Pressure),Consult the Star Charts,1.0,4.0,True
+Dimir (Break Under Pressure),Deadly Cover-Up,0.96,3.5,False
+Dimir (Break Under Pressure),Three Steps Ahead,0.93,2.0,False
+Dimir (Break Under Pressure),Bitter Triumph,0.93,1.2,False
+Dimir (Break Under Pressure),Jace's Machinations,0.85,2.3,True
+Dimir (Break Under Pressure),Break Under Pressure,0.85,1.2,True
+Dimir (Break Under Pressure),Shoot the Sheriff,0.83,1.0,False
+Dimir (Break Under Pressure),Nowhere to Run,0.79,1.0,False
+Dimir (Break Under Pressure),Feed the Cycle,0.72,1.2,False
+Dimir (Break Under Pressure),Sphinx of False Conclusions,0.56,1.3,True
+Dimir (Break Under Pressure),Emeritus of Ideation // Ancestral Recall,0.4,1.1,True
+Dimir (Superior Spider-Man),Superior Spider-Man,0.99,4.0,True
+Dimir (Superior Spider-Man),Deceit,0.92,3.9,True
+Dimir (Superior Spider-Man),Bitter Triumph,0.91,2.8,False
+Dimir (Superior Spider-Man),Requiting Hex,0.91,3.4,True
+Dimir (Superior Spider-Man),Winternight Stories,0.78,2.0,True
+Dimir (Superior Spider-Man),Duress,0.78,2.6,True
+Dimir (Superior Spider-Man),Seasoned Cryomancer,0.76,3.5,True
+Dimir (Superior Spider-Man),Deadly Cover-Up,0.75,1.2,False
+Dimir (Superior Spider-Man),Overlord of the Balemurk,0.73,2.4,False
+Dimir (Superior Spider-Man),Uldaros Theorix,0.68,2.4,True
+Dimir (Superior Spider-Man),Strategic Betrayal,0.66,1.2,True
+Dimir (Superior Spider-Man),"The Theorist, Jace Beleren",0.6,2.5,True
+Dimir (Superior Spider-Man),Theorix Charm,0.57,2.5,True
+Dimir (Superior Spider-Man),Emeritus of Ideation // Ancestral Recall,0.53,1.6,True
+Izzet (Vibrant Outburst),Sleight of Hand,1.0,4.0,False
+Izzet (Vibrant Outburst),Opt,1.0,4.0,True
+Izzet (Vibrant Outburst),Burst Lightning,0.99,4.0,True
+Izzet (Vibrant Outburst),Flow State,0.99,3.9,True
+Izzet (Vibrant Outburst),Slickshot Show-Off,0.94,3.9,False
+Izzet (Vibrant Outburst),Eddymurk Crab,0.85,2.9,False
+Izzet (Vibrant Outburst),Vibrant Outburst,0.8,1.3,True
+Izzet (Vibrant Outburst),Stormchaser's Talent,0.66,4.0,False
+Izzet (Vibrant Outburst),Boomerang Basics,0.66,4.0,True
+Izzet (Vibrant Outburst),Secret Identity,0.61,1.9,True
+Izzet (Vibrant Outburst),Impractical Joke,0.59,1.3,True
+Izzet (Vibrant Outburst),Spell Pierce,0.47,1.5,True
+Izzet (Vibrant Outburst),Wild Ride,0.42,1.4,True
+Izzet (Vibrant Outburst),Roaring Furnace // Steaming Sauna,0.4,1.4,False
+Izzet (Vibrant Outburst),Elusive Otter // Grove's Bounty,0.4,3.8,False
+Izzet (Vibrant Outburst),Colorstorm Stallion,0.39,2.4,True
+Izzet (Vibrant Outburst),Stock Up,0.35,1.1,True
+Izzet (Vibrant Outburst),Bounce Off,0.35,1.8,True
+Izzet (Vibrant Outburst),Pompous Battlemage // Improvised Act,0.33,4.0,True
+Izzet (Vibrant Outburst),Get Out,0.28,1.4,False
+Izzet (Vibrant Outburst),Prismari Charm,0.25,1.5,True
+Izzet (Turn Inside Out),Ancestral Anger,1.0,4.0,True
+Izzet (Turn Inside Out),Slickshot Show-Off,1.0,4.0,False
+Izzet (Turn Inside Out),Callous Sell-Sword // Burn Together,0.97,3.9,False
+Izzet (Turn Inside Out),Wild Ride,0.93,4.0,True
+Izzet (Turn Inside Out),Elusive Otter // Grove's Bounty,0.93,4.0,False
+Izzet (Turn Inside Out),Full Bore,0.9,2.4,True
+Izzet (Turn Inside Out),Secret Identity,0.9,2.2,True
+Izzet (Turn Inside Out),Drake Hatcher,0.82,2.1,True
+Izzet (Turn Inside Out),Pompous Battlemage // Improvised Act,0.8,3.9,True
+Izzet (Turn Inside Out),Sleight of Hand,0.8,4.0,False
+Izzet (Turn Inside Out),Turn Inside Out,0.8,2.1,False
+Izzet (Turn Inside Out),Opt,0.8,2.9,True
+Izzet (Turn Inside Out),"Balmor, Battlemage Captain",0.75,1.1,True
+Izzet (Turn Inside Out),Shore Up,0.6,1.4,False
+Jeskai (Inevitable Defeat),Tablet of Discovery,1.0,4.0,True
+Jeskai (Inevitable Defeat),Jeskai Revelation,1.0,4.0,True
+Jeskai (Inevitable Defeat),Stock Up,1.0,3.8,True
+Jeskai (Inevitable Defeat),Inevitable Defeat,0.98,3.7,True
+Jeskai (Inevitable Defeat),Flashback,0.96,1.9,True
+Jeskai (Inevitable Defeat),Consult the Star Charts,0.92,2.7,True
+Jeskai (Inevitable Defeat),Sear,0.74,1.9,True
+Jeskai (Inevitable Defeat),No More Lies,0.72,2.6,False
+Jeskai (Inevitable Defeat),Day of Judgment,0.69,2.0,True
+Jeskai (Inevitable Defeat),Together as One,0.67,1.4,True
+Jeskai (Inevitable Defeat),Firebending Lesson,0.6,2.1,True
+Jeskai (Inevitable Defeat),Lightning Helix,0.47,2.2,False
+Jeskai (Inevitable Defeat),Fire Magic,0.4,1.6,True
+Jeskai (Inevitable Defeat),North Wind Avatar,0.38,1.1,True
+Jeskai (Inevitable Defeat),Deadly Cover-Up,0.35,1.9,False
+Jeskai (Inevitable Defeat),Three Steps Ahead,0.27,1.6,False
+Jeskai (Inevitable Defeat),Plunder the Trollshaws,0.26,1.9,True
+"Azorius (Captain Marvel, Earth's Protector)",Get Lost,0.98,3.8,False
+"Azorius (Captain Marvel, Earth's Protector)",Day of Judgment,0.98,2.6,True
+"Azorius (Captain Marvel, Earth's Protector)",No More Lies,0.96,3.1,False
+"Azorius (Captain Marvel, Earth's Protector)",Seam Rip,0.95,3.4,True
+"Azorius (Captain Marvel, Earth's Protector)",Consult the Star Charts,0.95,3.9,True
+"Azorius (Captain Marvel, Earth's Protector)","The Theorist, Jace Beleren",0.9,3.9,True
+"Azorius (Captain Marvel, Earth's Protector)",Countersculpt,0.85,4.0,True
+"Azorius (Captain Marvel, Earth's Protector)",Jace's Machinations,0.81,2.9,True
+"Azorius (Captain Marvel, Earth's Protector)",Pinnacle Starcage,0.71,1.9,True
+"Azorius (Captain Marvel, Earth's Protector)","Captain Marvel, Earth's Protector",0.67,1.0,True
+"Azorius (Captain Marvel, Earth's Protector)",Spell Snare,0.66,1.8,True
+"Azorius (Captain Marvel, Earth's Protector)",Erode,0.59,1.9,True
+"Azorius (Captain Marvel, Earth's Protector)",Three Steps Ahead,0.57,2.2,False

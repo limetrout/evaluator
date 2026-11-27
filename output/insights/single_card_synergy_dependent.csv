@@ -1,12 +1,8 @@
 name,pool_set,tier,percentile,current_std_play_pct
-Duress,FDN,D (top half: ~20% / ~9%),58.0,25.1
-Spell Pierce,DFT,D (top half: ~20% / ~9%),70.5,17.7
-Flashfreeze,FDN,D (top half: ~20% / ~9%),65.6,16.4
-Stock Up,DFT,D (top half: ~20% / ~9%),71.3,16.2
-Opt,FDN,D (top half: ~20% / ~9%),69.9,14.6
-Earthbender Ascension,TLA,D (top half: ~20% / ~9%),74.4,13.2
-Sazh's Chocobo,FIN,D (top half: ~20% / ~9%),71.3,13.2
-Icetill Explorer,EOE,D (top half: ~20% / ~9%),64.6,13.2
-Traumatic Critique,SOS,D (top half: ~20% / ~9%),74.4,10.8
-Sunderflock,ECL,D (top half: ~20% / ~9%),58.7,10.4
-Annul,EOE,F (bottom half: ~3% / ~1%),45.3,9.3
+Strategic Betrayal,TDM,D (top half: ~20% / ~9%),71.6,26.4
+Llanowar Elves,FDN,D (top half: ~20% / ~9%),71.0,17.6
+Stock Up,DFT,D (top half: ~20% / ~9%),71.4,14.4
+Practiced Offense,SOS,D (top half: ~20% / ~9%),72.9,9.7
+Annul,EOE,D (top half: ~20% / ~9%),72.7,9.5
+Sunderflock,ECL,D (top half: ~20% / ~9%),52.9,8.3
+Gene Pollinator,EOE,F (bottom half: ~3% / ~1%),46.2,8.1
