@@ -35,6 +35,13 @@ pool["model_score"] = np.expm1(pred).clip(min=0).round(2)    # ~ predicted % of 
 pool["text_score"] = np.expm1(text_pred).clip(min=0).round(2)
 pool["pool_set"] = pool.oracle_id.map(set_of)
 pool["percentile"] = (pool.model_score.rank(pct=True) * 100).round(1)
+# ENSEMBLE (if the fine-tuned language model has been trained, see 24_card_nn.py final): rating = average of the two
+# models' percentile ranks. Adopted because trees + fine-tuned model beat trees alone in the forward tests.
+FT = OUT / "nn/ft_pool.parquet"
+if FT.exists():
+    ft = pd.read_parquet(FT).set_index("oracle_id").ft_pred
+    pool["ft_score"] = pool.oracle_id.map(ft)
+    pool["percentile"] = ((pool.model_score.rank(pct=True) + pool.ft_score.rank(pct=True).fillna(pool.model_score.rank(pct=True))) / 2 * 100).rank(pct=True).mul(100).round(1)
 
 # observed play in current Standard (last 3 months with data)
 mr = pd.read_parquet(PROC / "monthly_rates.parquet"); st = mr[mr.format == "standard"]

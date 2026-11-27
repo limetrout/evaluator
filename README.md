@@ -40,6 +40,22 @@ half.
 3. **All formats at once**: Standard, Pioneer, Modern, Legacy, Pauper and Vintage all feed the training, with
    format as an input. That gives far more examples of what makes a card strong. Standard rows count double.
 
+4. **Neural partner (fine-tuned language model)**: a small language model (MiniLM-L6) reads each card as
+   "cost | type | P/T | rules text" and is fine-tuned on the play-rate target, alongside the numeric features.
+   It learns which wordings matter from the data itself, not from hand-written detectors.
+   Its percentile rank is averaged with the trees' rank to give the final score (`src/24_card_nn.py`).
+5. **Keyword reminder text**: keywords are expanded to their reminder text (`src/03a_reminders.py`, 276
+   keywords), so a new mechanic such as earthbend is read by what it does, not by its unfamiliar name.
+
+Rolling forward test, 2019-2024 (6,515 cards never seen in training; `src/25_ensemble_eval.py`):
+
+| model | ranking | rares/mythics | top 2% became staples | top 5% became staples | staples caught in top 10% |
+|---|---|---|---|---|---|
+| trees only | 0.600 | 0.415 | 48% | 38% | 40% |
+| fine-tuned language model only | 0.571 | 0.411 | 56% | 37% | 38% |
+| neural net on frozen embeddings (rejected) | 0.517 | 0.378 | 46% | 33% | 35% |
+| **trees + fine-tuned (used)** | **0.610** | **0.444** | **50%** | **40%** | **41%** |
+
 **Excluded on purpose**, because they leak whether a card turned out good: reprint count, EDHREC rank, price,
 and ban status.
 
@@ -99,9 +115,12 @@ synergy cards (Lord Skitter, Subterranean Schooner).
 pip install scikit-learn pandas numpy lightgbm requests pyarrow scipy
 python src/01_scrape_mtgo.py 2      # download decklists (slow: hours; resumable)
 python src/02_cards.py              # card table from Scryfall (download bulk files to data/raw first)
+python src/03a_reminders.py         # keyword -> reminder text dictionary
 python src/03_features.py           # card -> features
+python src/03b_embed.py             # sentence embeddings of card text
 python src/04_targets.py            # decklists -> play-rate targets
 python src/05_train.py              # train on pre-2024, test on 2024+, print report
+python src/24_card_nn.py final      # fine-tune the language model (~1-2 h on CPU; needs torch, transformers)
 python src/06_score_pool.py         # score the post-rotation Standard pool (+ Nauctis spoilers)
 ```
 

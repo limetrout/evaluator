@@ -83,7 +83,7 @@ def run_ft(train_rows, test_ids, epochs=int(os.environ.get("FT_EPOCHS", "3"))):
             enc, xn = batch(list(test_ids[s0:s0 + 128])); out.append(net(enc, xn).numpy())
     return np.vstack(out)
 
-if __name__ == "__main__":
+if __name__ == "__main__" and sys.argv[1] in ("mlp", "ft"):
     kind = sys.argv[1]; years = [int(y) for y in sys.argv[2].split(",")]
     for Y in years:
         lo, hi = f"{Y}-01", f"{Y + 1}-01"
@@ -96,3 +96,11 @@ if __name__ == "__main__":
         te[["oracle_id", "name", "format", "rarity", "target", "y", "pred"]].to_parquet(NO / f"{kind}_{Y}.parquet")
         r = T.report(kind, te, te.pred.values)
         print(f"{kind} {Y}: " + str({k: v for k, v in r.items() if k.startswith("standard")}) + f"  ({(time.time() - t0) / 60:.1f} min)", flush=True)
+
+# ------------------------------------------------------------------ final: train on everything, score the post-rotation pool
+if __name__ == "__main__" and sys.argv[1:2] == ["final"]:
+    pool = [o for o in pd.read_csv(PROC / "future_pool.csv").oracle_id if o in feat.index and o in cards.index]
+    # blind, like 06_score_pool.py: the pool cards' own results are never in training
+    P = run_ft(df[~df.oracle_id.isin(set(pool))].reset_index(drop=True), np.array(pool))
+    out = pd.DataFrame(P, index=pool, columns=FMTS)[["standard"]].rename(columns={"standard": "ft_pred"})
+    out.index.name = "oracle_id"; out.reset_index().to_parquet(NO / "ft_pool.parquet"); print("scored", len(out), "pool cards")
