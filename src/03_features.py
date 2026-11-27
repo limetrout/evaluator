@@ -21,9 +21,21 @@ cards = cards[cards.first_release.notna() & ~cards.type_line.str.contains("Token
 NUM = {"a": 1, "an": 1, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "x": 3}
 SELF = r"this (?:creature|artifact|enchantment|land|spell|permanent|card|planeswalker|vehicle|equipment|aura|saga|battle|class|token|siege|room|case|spacecraft|planet)"
 
+import json as _json
+REMINDERS = _json.loads((PROC / "reminders.json").read_text()) if (PROC / "reminders.json").exists() else {}
+
 def clean_text(row):
+    """Rules text with reminder text KEPT, plus explanations inserted for keywords whose reminder isn't printed
+    (so text models see what e.g. 'earthbend' does instead of an unknown word)."""
     t = row.oracle_text or ""
-    t = re.sub(r"\([^)]*\)", "", t)                       # strip reminder text
+    for k in (row.keywords if row.keywords is not None else []):
+        r = REMINDERS.get(k.lower())
+        if not r: continue
+        m = re.search(rf"(?i)\b{re.escape(k)}\b[^\n(.]{{0,25}}", t)
+        if m and "(" not in t[m.end():m.end() + 3]:
+            num = re.search(r"\b(\d+)\b", m.group(0))
+            if num: r = re.sub(r"\bN\b", num.group(1), r)          # "Crew 4 (... total power N ...)" -> power 4
+            t = t[:m.end()].rstrip() + f" ({r})" + t[m.end():]
     for n in {row["name"], *row["name"].split(" // ")}:
         t = t.replace(n, "~")
         if "," in n: t = t.replace(n.split(",")[0], "~")     # "Sheoldred" for "Sheoldred, the Apocalypse"

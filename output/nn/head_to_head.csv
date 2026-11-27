@@ -1,0 +1,7 @@
+model,spearman,spearman_rares,top2%_staple,top5%_staple,staples_in_top10%
+trees (gbdt),0.596,0.428,0.364,0.291,0.391
+mlp,0.521,0.366,0.273,0.2,0.297
+trees + mlp,0.602,0.44,0.409,0.218,0.328
+ft,0.552,0.427,0.273,0.255,0.438
+trees + ft,0.608,0.461,0.455,0.273,0.438
+trees + mlp + ft,0.607,0.456,0.318,0.255,0.359
